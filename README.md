@@ -1,1 +1,3 @@
-# 476_573_msaidzengin
+# Bil 476 Projesi
+
+### Named Entity Recognition
