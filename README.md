@@ -12,7 +12,7 @@ Bu projenin amacı, Türkçe için geliştirilmiş varlık türü tanıma araçl
 - Ön işlenen veriyle istediği algoritmaları kullanarak model üretir.
 - İstediği modelleri kullanarak yeni gelen veri için tahminleme yapar.
 
-
+![Screenshot](https://github.com/msaidzengin/476_573/blob/master/images/exampleGui.png?raw=true)
 Görsel 1: Örnek Grafik Kullanıcı Arayüz Tasarımı
 
 ###### Proje Planı:
