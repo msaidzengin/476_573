@@ -25,16 +25,16 @@ def write():
 tabControl = ttk.Notebook(root)
 
 root.tab1 = ttk.Frame(tabControl)
-tabControl.add(root.tab1, text = "Eğitim Verisi Gir")
+tabControl.add(root.tab1, text = "Load Data")
  
 root.tab2 = ttk.Frame(tabControl)
-tabControl.add(root.tab2, text = "Eğitim Verisi Temizleme Algoritması Seç")
+tabControl.add(root.tab2, text = "Preprocess")
 
 root.tab3 = ttk.Frame(tabControl)
-tabControl.add(root.tab3, text = "Örnek Eğitim Verisi Ekle")
+tabControl.add(root.tab3, text = "Train")
 
 root.tab4 = ttk.Frame(tabControl)
-tabControl.add(root.tab4, text = "Transform Algorithms")
+tabControl.add(root.tab4, text = "Predict")
 
 tabControl.pack(expand = 1, fill = "both")
 
