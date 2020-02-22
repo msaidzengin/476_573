@@ -5,8 +5,8 @@ import time
 
 
 root = Tk()
-root.minsize(300,200);
-root.title("Turkish NER with GUI")
+root.minsize(600,400);
+root.title("NER GUI FOR TR")
 root.iconbitmap('icon.ico')
 
 input_training_data = [0,0]
