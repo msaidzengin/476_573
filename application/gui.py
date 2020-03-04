@@ -5,10 +5,9 @@ import time
 
 
 root = Tk()
-root.minsize(600,400);
+root.minsize(600,400)
 root.title("NER GUI FOR TR")
 root.iconbitmap('icon.ico')
-
 
 root.input_training_data = {"1": BooleanVar(), "2": BooleanVar()}
 root.input_training_data["1"].set(False)
@@ -26,13 +25,10 @@ root.classifier_methods = {"1": BooleanVar(), "2": BooleanVar()}
 root.classifier_methods["1"].set(False)
 root.classifier_methods["2"].set(False)
 
-
 def choose_file():
     file_name = filedialog.askopenfilename(initialdir = "/" , title = "Choose a file", filetype = (("json", "*.json"),))
     label = Label(root, text = "").pack()
     return file_name
-    
-
     
     
 tabControl = ttk.Notebook(root)
@@ -66,9 +62,4 @@ output = Button(root.tab4, text = "Sonuçlar").pack(side=RIGHT)
 tabControl.pack(expand = 1, fill = "both")
 
 
-
-
 root.mainloop()
-
-
-
