@@ -37,5 +37,9 @@ train = {
     "data" : train_data
 }
 
-with open("train.json", 'w', encoding='utf-8') as f:
-    json.dump(train, f, ensure_ascii=False, indent=4)
+with open("train.txt", "w", encoding='utf8') as text_file:
+    for d in train_data:
+        text_file.write(d + "\n")
+text_file.close()
+
+print('finished')
