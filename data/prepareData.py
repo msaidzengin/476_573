@@ -30,6 +30,12 @@ for i in data['data']:
         if word != '':
             train_data.append(word + " 0")
 
-    for a in train_data:
-        print(a)
-    
+    train_data.append("")
+    print(idd)
+
+train = {
+    "data" : train_data
+}
+
+with open("train.json", 'w', encoding='utf-8') as f:
+    json.dump(train, f, ensure_ascii=False, indent=4)
