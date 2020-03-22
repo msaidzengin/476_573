@@ -21,14 +21,25 @@ for i in data['data']:
             outs.append(j)
 
     for out in outs:
-        train_data.append(out['text'] + " " + out['category'])
+        outWords = out['text'].split(' ')
+        if len(outWords) == 1:
+            train_data.append(outWords[0] + " S-" + out['category'])
+        else:
+            for i in range(len(outWords)):
+                if i == 0:
+                    train_data.append(outWords[i] + " B-" + out['category'])
+                elif i == len(outWords) - 1:
+                    train_data.append(outWords[i] + " E-" + out['category'])
+                else:
+                    train_data.append(outWords[i] + " I-" + out['category'])
+
         text = text.replace(out['text'], '')
         
     text = text.translate(str.maketrans('', '', string.punctuation)).lower()
     text = text.split(' ')
     for word in text:
         if word != '':
-            train_data.append(word + " 0")
+            train_data.append(word + " O")
 
     train_data.append("")
     print(idd)
