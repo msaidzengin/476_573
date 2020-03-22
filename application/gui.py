@@ -2,9 +2,14 @@ from tkinter import *
 from tkinter import ttk
 from ttkthemes import ThemedTk
 from tkinter import filedialog
+import string
 import time
 import json
 import os
+import json
+import multiprocessing
+from gensim.models import Word2Vec
+from gensim.models.word2vec import LineSentence
 
 
 def dataFormat(chosen):
@@ -21,8 +26,87 @@ def dataFormat(chosen):
     except:
         pass
 
+def wordEmbedding(chosenFile):
+
+    with open(chosenFile + '/data.json', encoding='utf-8') as fh:
+        data = json.load(fh)
+
+    with open(chosenFile + '/sentences.txt', "w", encoding='utf8') as text_file:
+        for d in data['data']:
+            text_file.write(d['text'] + "\n")
+    text_file.close()
+
+    model = Word2Vec(LineSentence(chosenFile + "/sentences.txt"), size=400, window=5, min_count=1, workers=multiprocessing.cpu_count())
+    model.wv.save_word2vec_format(chosenFile + "/wordEmbeddings.txt")
+
 def prepareData(chosenFile):
-    print("a")
+
+    with open(chosenFile + '/data.json', encoding='utf-8') as fh:
+        data = json.load(fh)
+
+    with open(chosenFile + '/out.json', encoding='utf-8') as fh:
+        output = json.load(fh)
+
+    train_data = []
+
+    for i in data['data']:
+        idd = i['id']
+        text = i['text']
+
+        outs = []
+
+        for j in output['data']:
+            if j['id'] == idd:
+                outs.append(j)
+
+        for out in outs:
+            outWords = out['text'].split(' ')
+            if len(outWords) == 1:
+                train_data.append(outWords[0] + " S-" + out['category'])
+            else:
+                for i in range(len(outWords)):
+                    if i == 0:
+                        train_data.append(outWords[i] + " B-" + out['category'])
+                    elif i == len(outWords) - 1:
+                        train_data.append(outWords[i] + " E-" + out['category'])
+                    else:
+                        train_data.append(outWords[i] + " I-" + out['category'])
+
+            text = text.replace(out['text'], '')
+            
+        text = text.translate(str.maketrans('', '', string.punctuation)).lower()
+        text = text.split(' ')
+        for word in text:
+            if word != '':
+                train_data.append(word + " O")
+
+        train_data.append("")
+
+    
+    total = len(train_data)
+    train = int(total * 0.7)
+    test = int(total * 0.15)
+    dev = int(total * 0.15)
+
+    with open(chosenFile + "/train.bmes", "w", encoding='utf8') as fl:
+        for line in train_data[ : train]:
+            fl.write(line + "\n")
+    fl.close()
+
+    with open(chosenFile + "/test.bmes", "w", encoding='utf8') as fl:
+        for line in train_data[ train : train + test ]:
+            fl.write(line + "\n")
+    fl.close()
+
+    with open(chosenFile + "/dev.bmes", "w", encoding='utf8') as fl:
+        for line in train_data[ train + test : ]:
+            fl.write(line + "\n")
+    fl.close()
+
+    with open(chosenFile + "/raw.bmes", "w", encoding='utf8') as fl:
+        for line in train_data[ train + test : ]:
+            fl.write(line + "\n")
+    fl.close()
 
 
 root = ThemedTk(theme = "black")
@@ -41,9 +125,11 @@ root.classifier_methods["1"].set(False)
 root.classifier_methods["2"].set(False)
 
 loadedDir = ""
+counter = 1
+cwd = os.getcwd()
 
 def choose_file_out():
-    cwd = os.getcwd()
+
     filepath = filedialog.askopenfilename(initialdir = cwd , title = "Choose a file", filetype = (("json", "*.json"),))
     
     if filepath == '':
@@ -66,14 +152,17 @@ def choose_file_out():
         errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (10,0))
         return
 
-    print(loadedDir)
     with open(loadedDir + "/out.json", 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=4)
 
     filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (10,0))
 
+    Lb1.insert(counter, loadedDir)
+    subdirs[counter - 1] = loadedDir
+
+
 def choose_file():
-    cwd = os.getcwd()
+
     filepath = filedialog.askopenfilename(initialdir = cwd , title = "Choose a file", filetype = (("json", "*.json"),))
     
     if filepath == '':
@@ -83,8 +172,6 @@ def choose_file():
     dirname = fname.split('.')
     global loadedDir 
     loadedDir = dirname[0]
-
-    print(loadedDir)
 
     if dirname[-1] != 'json':
         errorr = ttk.Label(root.tab1, text = "wrong format", style = "S.TLabel").pack(pady = (10,0))
@@ -118,8 +205,10 @@ def preprocess():
 
     chosenFile = subdirs[selection[0]]
     
-    dataFormat(chosenFile)
+    wordEmbedding(chosenFile)
     prepareData(chosenFile)
+
+    filename = ttk.Label(root.tab2, text = "Done ✓", style = "S.TLabel").pack(pady = (10,0))
     
     
 tabControl = ttk.Notebook(root)
@@ -138,15 +227,6 @@ file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_fil
 root.tab2 = ttk.Frame(tabControl)
 tabControl.add(root.tab2, text = "Preprocess")
 
-cwd = os.getcwd()
-"""
-for dataName in next(os.walk('.'))[1]:
-    root.training_algorithm[subcounter] = BooleanVar()
-    root.training_algorithm[subcounter].set(False)
-    root.transform_1 = ttk.Checkbutton(root.tab2, text=dataName, style = "S.TCheckbutton", var=root.training_algorithm[subcounter]).pack(pady = (55,0))
-    subcounter += 1
-"""
-counter = 1
 Lb1 = Listbox(root.tab2)
 for dirName in next(os.walk('.'))[1]:
     Lb1.insert(counter, dirName)
