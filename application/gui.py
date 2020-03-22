@@ -6,6 +6,25 @@ import time
 import json
 import os
 
+
+def dataFormat(chosen):
+    """
+    This method reads data.json and record them with turkish char letters. (utf-8)
+    """
+    try:
+        with open('data.json', encoding='utf-8') as fh:
+            data = json.load(fh)
+
+        with open("data.json", 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+    except:
+        pass
+
+def prepareData(chosenFile):
+    print("a")
+
+
 root = ThemedTk(theme = "black")
 root.minsize(500,300)
 root.title("NER GUI FOR TR")
@@ -21,6 +40,38 @@ root.classifier_methods = {"1": BooleanVar(), "2": BooleanVar()}
 root.classifier_methods["1"].set(False)
 root.classifier_methods["2"].set(False)
 
+loadedDir = ""
+
+def choose_file_out():
+    cwd = os.getcwd()
+    filepath = filedialog.askopenfilename(initialdir = cwd , title = "Choose a file", filetype = (("json", "*.json"),))
+    
+    if filepath == '':
+        return
+
+    fname = filepath.split('/')[-1]
+    dirn = fname.split('.')
+
+    if dirn[-1] != 'json':
+        errorr = ttk.Label(root.tab1, text = "wrong format", style = "S.TLabel").pack(pady = (10,0))
+        return
+
+    with open(filepath, encoding='utf-8') as fh:
+        out = json.load(fh)
+
+    try:
+        temp = out['data'][0]['text']
+        idd = out['data'][0]['id']
+    except:
+        errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (10,0))
+        return
+
+    print(loadedDir)
+    with open(loadedDir + "/out.json", 'w', encoding='utf-8') as f:
+        json.dump(out, f, ensure_ascii=False, indent=4)
+
+    filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (10,0))
+
 def choose_file():
     cwd = os.getcwd()
     filepath = filedialog.askopenfilename(initialdir = cwd , title = "Choose a file", filetype = (("json", "*.json"),))
@@ -30,9 +81,13 @@ def choose_file():
 
     fname = filepath.split('/')[-1]
     dirname = fname.split('.')
+    global loadedDir 
+    loadedDir = dirname[0]
+
+    print(loadedDir)
 
     if dirname[-1] != 'json':
-        errorr = ttk.Label(root.tab1, text = "wrong format", style = "S.TLabel").pack(pady = (40,0))
+        errorr = ttk.Label(root.tab1, text = "wrong format", style = "S.TLabel").pack(pady = (10,0))
         return
 
     with open(filepath, encoding='utf-8') as fh:
@@ -41,7 +96,7 @@ def choose_file():
     try:
         temp = data['data'][0]['text']
     except:
-        errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (40,0))
+        errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (10,0))
         return
 
     if not os.path.exists(dirname[0]):
@@ -50,15 +105,21 @@ def choose_file():
     with open(dirname[0] + "/data.json", 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
-    filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (40,0))
+    filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (10,0))
+    enter_file = ttk.Label(root.tab1, text = "Choose the output file (json)", style = "S.TLabel").pack(pady = (15,0))
+    file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_file_out, style = "S.TButton").pack(pady = (15,0))
+
+
 
 def preprocess():
     selection = list(Lb1.curselection())
     if len(selection) == 0:
         return
 
-    choosenData = subdirs[selection[0]]
+    chosenFile = subdirs[selection[0]]
     
+    dataFormat(chosenFile)
+    prepareData(chosenFile)
     
     
 tabControl = ttk.Notebook(root)
@@ -71,8 +132,8 @@ style.configure("S.TLabel", padding=(6,6), relief="flat", font = ('Verdana', 20)
 style.configure("S.TCheckbutton", padding=(6,6), relief="flat", font = ('Verdana', 20), foreground = '#121926')
 style.configure("S.TButton", padding=(6,6), relief="flat", font = ('Verdana', 20), background = '#121926')
 
-enter_file = ttk.Label(root.tab1, text = "Choose a file to process (json) :", style = "S.TLabel").pack(pady = (40,0))
-file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_file, style = "S.TButton").pack(pady = (20,0))
+enter_file = ttk.Label(root.tab1, text = "Choose the norm file (json)", style = "S.TLabel").pack(pady = (15,0))
+file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_file, style = "S.TButton").pack(pady = (15,0))
 
 root.tab2 = ttk.Frame(tabControl)
 tabControl.add(root.tab2, text = "Preprocess")
