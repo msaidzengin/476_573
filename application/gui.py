@@ -213,25 +213,29 @@ def train():
     if os.getcwd().split('\\')[-1] != "NCRFpp":
         os.chdir("NCRFpp")
 
+    newconfig = ""
+    lineCounter = 0
     trainConfig = open("demo.train.config", "r")
-    newconfig = open(chosenFile + ".config", "w")
     for line in trainConfig:
         if "train_dir" in line:
-            newconfig.write("train_dir=data/" + chosenFile + "/train.bmes\n")
+            newconfig += "train_dir=data/" + chosenFile + "/train.bmes\n"
         elif "dev_dir" in line:
-            newconfig.write("dev_dir=data/" + chosenFile + "/dev.bmes\n")
+            newconfig += "dev_dir=data/" + chosenFile + "/dev.bmes\n"
         elif "test_dir" in line:
-            newconfig.write("test_dir=data/" + chosenFile + "/test.bmes\n")
-        elif "model_dir" in line:
-            newconfig.write("model_dir=data/" + chosenFile + "/lstmcrf\n")
+            newconfig += "test_dir=data/" + chosenFile + "/test.bmes\n"
+        elif "model_dir" in line and lineCounter < 8:
+            newconfig += "model_dir=data/" + chosenFile + "/lstmcrf\n"
         elif "word_emb_dir" in line:
-            newconfig.write("word_emb_dir=data/" + chosenFile + "/sample.word.emb\n")
+            newconfig += "word_emb_dir=data/" + chosenFile + "/sample.word.emb\n"
         else:
-            newconfig.write(line)
+            newconfig += line
+        lineCounter += 1
     trainConfig.close()
-    newconfig.close
-
-    os.system('python main.py --config ' + chosenFile + '.config')
+    newConf = open("demo.train.config", "w")
+    newConf.write(newconfig)
+    newConf.close
+    time.sleep(1)
+    os.system('python main.py --config demo.train.config')
     
     
 tabControl = ttk.Notebook(root)
