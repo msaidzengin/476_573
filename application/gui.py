@@ -10,41 +10,27 @@ import json
 import multiprocessing
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
-
-
-def dataFormat(chosen):
-    """
-    This method reads data.json and record them with turkish char letters. (utf-8)
-    """
-    try:
-        with open('data.json', encoding='utf-8') as fh:
-            data = json.load(fh)
-
-        with open("data.json", 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-
-    except:
-        pass
+from NCRFpp import deneme
 
 def wordEmbedding(chosenFile):
 
-    with open(chosenFile + '/data.json', encoding='utf-8') as fh:
+    with open('data/' + chosenFile + '/data.json', encoding='utf-8') as fh:
         data = json.load(fh)
 
-    with open(chosenFile + '/sentences.txt', "w", encoding='utf8') as text_file:
+    with open('data/' + chosenFile + '/sentences.txt', "w", encoding='utf8') as text_file:
         for d in data['data']:
             text_file.write(d['text'] + "\n")
     text_file.close()
 
-    model = Word2Vec(LineSentence(chosenFile + "/sentences.txt"), size=400, window=5, min_count=1, workers=multiprocessing.cpu_count())
-    model.wv.save_word2vec_format(chosenFile + "/wordEmbeddings.txt")
+    model = Word2Vec(LineSentence('data/' + chosenFile + "/sentences.txt"), size=400, window=5, min_count=1, workers=multiprocessing.cpu_count())
+    model.wv.save_word2vec_format('data/' + chosenFile + "/wordEmbeddings.txt")
 
 def prepareData(chosenFile):
 
-    with open(chosenFile + '/data.json', encoding='utf-8') as fh:
+    with open('data/' + chosenFile + '/data.json', encoding='utf-8') as fh:
         data = json.load(fh)
 
-    with open(chosenFile + '/out.json', encoding='utf-8') as fh:
+    with open('data/' + chosenFile + '/out.json', encoding='utf-8') as fh:
         output = json.load(fh)
 
     train_data = []
@@ -88,22 +74,22 @@ def prepareData(chosenFile):
     test = int(total * 0.15)
     dev = int(total * 0.15)
 
-    with open(chosenFile + "/train.bmes", "w", encoding='utf8') as fl:
+    with open('data/' + chosenFile + "/train.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ : train]:
             fl.write(line + "\n")
     fl.close()
 
-    with open(chosenFile + "/test.bmes", "w", encoding='utf8') as fl:
+    with open('data/' + chosenFile + "/test.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ train : train + test ]:
             fl.write(line + "\n")
     fl.close()
 
-    with open(chosenFile + "/dev.bmes", "w", encoding='utf8') as fl:
+    with open('data/' + chosenFile + "/dev.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ train + test : ]:
             fl.write(line + "\n")
     fl.close()
 
-    with open(chosenFile + "/raw.bmes", "w", encoding='utf8') as fl:
+    with open('data/' + chosenFile + "/raw.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ train + test : ]:
             fl.write(line + "\n")
     fl.close()
@@ -154,13 +140,15 @@ def choose_file_out():
         errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (10,0))
         return
 
-    with open(loadedDir + "/out.json", 'w', encoding='utf-8') as f:
+    with open('data/' + loadedDir + "/out.json", 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=4)
 
     filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (10,0))
 
-    Lb1.insert(counter, loadedDir)
-    subdirs[counter - 1] = loadedDir
+    dirs = list(subdirs.values())
+    if loadedDir not in dirs:
+        Lb1.insert(counter, loadedDir)
+        subdirs[counter - 1] = loadedDir
 
 
 def choose_file():
@@ -188,10 +176,10 @@ def choose_file():
         errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (10,0))
         return
 
-    if not os.path.exists(dirname[0]):
-        os.makedirs(dirname[0])
+    if not os.path.exists('data/' + dirname[0]):
+        os.makedirs('data/' + dirname[0])
 
-    with open(dirname[0] + "/data.json", 'w', encoding='utf-8') as f:
+    with open('data/' + dirname[0] + "/data.json", 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
     filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (10,0))
@@ -211,8 +199,11 @@ def preprocess():
     prepareData(chosenFile)
 
     filename = ttk.Label(root.tab2, text = "Done ✓", style = "S.TLabel").pack(pady = (10,0))
-    Lb2.insert(counter2, chosenFile)
-    subdirs[counter2 - 1] = chosenFile
+    
+    dirs = list(subdirs2.values())
+    if chosenFile not in dirs:
+        Lb2.insert(counter2, chosenFile)
+        subdirs2[counter2 - 1] = chosenFile
 
 def train():
     selection = list(Lb2.curselection())
@@ -220,7 +211,8 @@ def train():
         return
     
     chosenFile = subdirs[selection[0]]
-    print(chosenFile)
+
+    deneme.b()
     
 tabControl = ttk.Notebook(root)
 
@@ -246,7 +238,12 @@ file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_fil
 
 Lb1 = Listbox(root.tab2)
 Lb2 = Listbox(root.tab3)
-for dirName in next(os.walk('.'))[1]:
+
+if not os.path.exists('data'):
+        os.makedirs('data')
+
+for dirName in next(os.walk(cwd + '/data'))[1]:
+
     Lb1.insert(counter, dirName)
     subdirs[counter - 1] = dirName
 
