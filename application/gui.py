@@ -115,6 +115,7 @@ root.title("NER GUI FOR TR")
 root.iconbitmap('icon.ico')
 
 subdirs = {}
+subdirs2 = {}
 
 root.include_training_data = {"1": BooleanVar(), "2": BooleanVar()}
 root.include_training_data["1"].set(False)
@@ -126,6 +127,7 @@ root.classifier_methods["2"].set(False)
 
 loadedDir = ""
 counter = 1
+counter2 = 1
 cwd = os.getcwd()
 
 def choose_file_out():
@@ -209,12 +211,30 @@ def preprocess():
     prepareData(chosenFile)
 
     filename = ttk.Label(root.tab2, text = "Done ✓", style = "S.TLabel").pack(pady = (10,0))
+    Lb2.insert(counter2, chosenFile)
+    subdirs[counter2 - 1] = chosenFile
+
+def train():
+    selection = list(Lb2.curselection())
+    if len(selection) == 0:
+        return
     
+    chosenFile = subdirs[selection[0]]
+    print(chosenFile)
     
 tabControl = ttk.Notebook(root)
 
 root.tab1 = ttk.Frame(tabControl)
 tabControl.add(root.tab1, text = "Load Data")
+
+root.tab2 = ttk.Frame(tabControl)
+tabControl.add(root.tab2, text = "Preprocess")
+
+root.tab3 = ttk.Frame(tabControl)
+tabControl.add(root.tab3, text = "Train")
+
+root.tab4 = ttk.Frame(tabControl)
+tabControl.add(root.tab4, text = "Predict")
 
 style = ttk.Style()
 style.configure("S.TLabel", padding=(6,6), relief="flat", font = ('Verdana', 20))
@@ -224,25 +244,22 @@ style.configure("S.TButton", padding=(6,6), relief="flat", font = ('Verdana', 20
 enter_file = ttk.Label(root.tab1, text = "Choose the norm file (json)", style = "S.TLabel").pack(pady = (15,0))
 file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_file, style = "S.TButton").pack(pady = (15,0))
 
-root.tab2 = ttk.Frame(tabControl)
-tabControl.add(root.tab2, text = "Preprocess")
-
 Lb1 = Listbox(root.tab2)
+Lb2 = Listbox(root.tab3)
 for dirName in next(os.walk('.'))[1]:
     Lb1.insert(counter, dirName)
     subdirs[counter - 1] = dirName
+
+    Lb2.insert(counter2, dirName)
+    subdirs2[counter2 - 1] = dirName
+
     counter += 1
+    counter2 += 1
+
 Lb1.pack()
+Lb2.pack()
 preprocessButton = ttk.Button(root.tab2, text = "Tamam", style = "S.TButton", command = preprocess).pack(pady = (35, 10))
-
-root.tab3 = ttk.Frame(tabControl)
-tabControl.add(root.tab3, text = "Train")
-
-root.training_1 = ttk.Checkbutton(root.tab3, text = "Training Data 1", style = "S.TCheckbutton", var=root.include_training_data["1"],).pack(pady = (55,0))
-root.training_2 = ttk.Checkbutton(root.tab3, text = "Training Data 2", style = "S.TCheckbutton", var=root.include_training_data["2"]).pack(pady = (10,0))
-
-root.tab4 = ttk.Frame(tabControl)
-tabControl.add(root.tab4, text = "Predict")
+preprocessButton = ttk.Button(root.tab3, text = "Tamam", style = "S.TButton", command = train).pack(pady = (35, 10))
 
 root.method_1 = ttk.Checkbutton(root.tab4, text = "Method 1", style = "S.TCheckbutton", var=root.classifier_methods["1"]).pack(pady = (30,0))
 root.method_2 = ttk.Checkbutton(root.tab4, text = "Method 2", style = "S.TCheckbutton", var=root.classifier_methods["2"]).pack(pady = (10,0))
