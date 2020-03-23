@@ -10,27 +10,26 @@ import json
 import multiprocessing
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
-#import NCRFpp
 
 def wordEmbedding(chosenFile):
 
-    with open('data/' + chosenFile + '/data.json', encoding='utf-8') as fh:
+    with open('NCRFpp/data/' + chosenFile + '/data.json', encoding='utf-8') as fh:
         data = json.load(fh)
 
-    with open('data/' + chosenFile + '/sentences.txt', "w", encoding='utf8') as text_file:
+    with open('NCRFpp/data/' + chosenFile + '/sentences.txt', "w", encoding='utf8') as text_file:
         for d in data['data']:
             text_file.write(d['text'] + "\n")
     text_file.close()
 
-    model = Word2Vec(LineSentence('data/' + chosenFile + "/sentences.txt"), size=400, window=5, min_count=1, workers=multiprocessing.cpu_count())
-    model.wv.save_word2vec_format('data/' + chosenFile + "/wordEmbeddings.txt")
+    model = Word2Vec(LineSentence('NCRFpp/data/' + chosenFile + "/sentences.txt"), size=400, window=5, min_count=1, workers=multiprocessing.cpu_count())
+    model.wv.save_word2vec_format('NCRFpp/data/' + chosenFile + "/sample.word.emb")
 
 def prepareData(chosenFile):
 
-    with open('data/' + chosenFile + '/data.json', encoding='utf-8') as fh:
+    with open('NCRFpp/data/' + chosenFile + '/data.json', encoding='utf-8') as fh:
         data = json.load(fh)
 
-    with open('data/' + chosenFile + '/out.json', encoding='utf-8') as fh:
+    with open('NCRFpp/data/' + chosenFile + '/out.json', encoding='utf-8') as fh:
         output = json.load(fh)
 
     train_data = []
@@ -74,22 +73,22 @@ def prepareData(chosenFile):
     test = int(total * 0.15)
     dev = int(total * 0.15)
 
-    with open('data/' + chosenFile + "/train.bmes", "w", encoding='utf8') as fl:
+    with open('NCRFpp/data/' + chosenFile + "/train.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ : train]:
             fl.write(line + "\n")
     fl.close()
 
-    with open('data/' + chosenFile + "/test.bmes", "w", encoding='utf8') as fl:
+    with open('NCRFpp/data/' + chosenFile + "/test.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ train : train + test ]:
             fl.write(line + "\n")
     fl.close()
 
-    with open('data/' + chosenFile + "/dev.bmes", "w", encoding='utf8') as fl:
+    with open('NCRFpp/data/' + chosenFile + "/dev.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ train + test : ]:
             fl.write(line + "\n")
     fl.close()
 
-    with open('data/' + chosenFile + "/raw.bmes", "w", encoding='utf8') as fl:
+    with open('NCRFpp/data/' + chosenFile + "/raw.bmes", "w", encoding='utf8') as fl:
         for line in train_data[ train + test : ]:
             fl.write(line + "\n")
     fl.close()
@@ -140,7 +139,7 @@ def choose_file_out():
         errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (10,0))
         return
 
-    with open('data/' + loadedDir + "/out.json", 'w', encoding='utf-8') as f:
+    with open('NCRFpp/data/' + loadedDir + "/out.json", 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=4)
 
     filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (10,0))
@@ -176,10 +175,10 @@ def choose_file():
         errorr = ttk.Label(root.tab1, text = "wrong json format", style = "S.TLabel").pack(pady = (10,0))
         return
 
-    if not os.path.exists('data/' + dirname[0]):
-        os.makedirs('data/' + dirname[0])
+    if not os.path.exists('NCRFpp/data/' + dirname[0]):
+        os.makedirs('NCRFpp/data/' + dirname[0])
 
-    with open('data/' + dirname[0] + "/data.json", 'w', encoding='utf-8') as f:
+    with open('NCRFpp/data/' + dirname[0] + "/data.json", 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
     filename = ttk.Label(root.tab1, text = fname + " ✓", style = "S.TLabel").pack(pady = (10,0))
@@ -211,8 +210,28 @@ def train():
         return
     
     chosenFile = subdirs[selection[0]]
+    if os.getcwd().split('\\')[-1] != "NCRFpp":
+        os.chdir("NCRFpp")
 
-    #NCRFpp.main()
+    trainConfig = open("demo.train.config", "r")
+    newconfig = open(chosenFile + ".config", "w")
+    for line in trainConfig:
+        if "train_dir" in line:
+            newconfig.write("train_dir=data/" + chosenFile + "/train.bmes\n")
+        elif "dev_dir" in line:
+            newconfig.write("dev_dir=data/" + chosenFile + "/dev.bmes\n")
+        elif "test_dir" in line:
+            newconfig.write("test_dir=data/" + chosenFile + "/test.bmes\n")
+        elif "model_dir" in line:
+            newconfig.write("model_dir=data/" + chosenFile + "/lstmcrf\n")
+        elif "word_emb_dir" in line:
+            newconfig.write("word_emb_dir=data/" + chosenFile + "/sample.word.emb\n")
+        else:
+            newconfig.write(line)
+    trainConfig.close()
+    newconfig.close
+
+    os.system('python main.py --config ' + chosenFile + '.config')
     
     
 tabControl = ttk.Notebook(root)
@@ -240,10 +259,10 @@ file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_fil
 Lb1 = Listbox(root.tab2)
 Lb2 = Listbox(root.tab3)
 
-if not os.path.exists('data'):
-        os.makedirs('data')
+if not os.path.exists('NCRFpp/data'):
+        os.makedirs('NCRFpp/data')
 
-for dirName in next(os.walk(cwd + '/data'))[1]:
+for dirName in next(os.walk(cwd + '/NCRFpp/data'))[1]:
 
     Lb1.insert(counter, dirName)
     subdirs[counter - 1] = dirName
