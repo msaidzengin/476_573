@@ -10,7 +10,7 @@ import json
 import multiprocessing
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
-from NCRFpp import deneme
+#import NCRFpp
 
 def wordEmbedding(chosenFile):
 
@@ -212,7 +212,8 @@ def train():
     
     chosenFile = subdirs[selection[0]]
 
-    deneme.b()
+    #NCRFpp.main()
+    
     
 tabControl = ttk.Notebook(root)
 
