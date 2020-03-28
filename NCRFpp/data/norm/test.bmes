@@ -1,0 +1,2671 @@
+temposal O
+bölgede O
+bu O
+
+ht S-Past-Diagnosis
+anne O
+baba O
+ikh O
+
+kilo O
+55 O
+
+550 O
+2550 O
+boy O
+155 O
+
+5 O
+1025 O
+
+karaciğerde B-Semptom
+santral I-Semptom
+yerleşimli I-Semptom
+kitle E-Semptom
+karaciğerde S-loc
+hiç S-Pre-Diagnosis
+
+saptanan O
+hasta O
+ileri O
+tetkik O
+için O
+başvurdu O
+
+kalp B-Past-Diagnosis
+hast E-Past-Diagnosis
+kalp S-loc
+
+akrabalarda O
+yaygın O
+
+ht S-Past-Diagnosis
+dm S-Past-Diagnosis
+oğlu B-Status
+; I-Status
+ikh E-Status
+
+vit O
+d O
+almış O
+
+ilaç O
+ile O
+nispeten O
+rahatlıyor O
+
+hala B-Status
+b27 I-Status
+neğ E-Status
+geldi O
+
+ana S-Past-Diagnosis
+neğ S-Past-Diagnosis
+
+aş S-Pre-Diagnosis
+hala S-Pre-Diagnosis
+
+osteonekrozosteonekroz O
+
+5 O
+
+3 O
+
+alt B-Past-Diagnosis
+solunum I-Past-Diagnosis
+yolu I-Past-Diagnosis
+enfeksiyonu E-Past-Diagnosis
+alt B-loc
+solunum I-loc
+yolu E-loc
+2019 O
+da O
+poliklinik O
+muayenesinde O
+tanısı O
+ile O
+augmentin O
+klacid O
+tedavisi O
+verilen O
+hasta O
+antibiyoterapiyi O
+tamamlamış O
+
+iştahsızlık S-Semptom
+çabuk B-Semptom
+yorulma E-Semptom
+yakınmalarının O
+devam O
+etmesi O
+nedeniyle O
+ileri O
+tetkik O
+ve O
+tedavi O
+amacıyla O
+yatırıldı O
+
+hipotiroidi S-Past-Diagnosis
+anne B-Status
+hipotiroid E-Status
+
+ht S-Past-Diagnosis
+stent S-Status
+darlık S-Semptom
+d1 S-loc
+tanısı O
+olan O
+hastaya O
+mı O
+sonrası O
+rc O
+ya O
+2015 O
+de O
+implant O
+edildi O
+de O
+90 O
+olan O
+hasta O
+kontrole O
+geldi O
+
+baba B-Status
+: I-Status
+mide I-Status
+ca E-Status
+dede B-Status
+: I-Status
+beyin I-Status
+tm E-Status
+x O
+
+öyöyöyöyöyöyöyöyöyöyöyöyöyöyöyöy O
+
+çağ S-Past-Diagnosis
+10 B-Duration
+sene E-Duration
+
+kkh S-Past-Diagnosis
+dm S-Past-Diagnosis
+
+1 B-Duration
+ay E-Duration
+önce O
+başlamış O
+
+aktivite O
+ile O
+işkili O
+
+kalçadan O
+başlayıp O
+dize O
+yayılım O
+gösteriyormuş O
+
+amerikan O
+hastanesinde O
+muayene O
+ve O
+takip O
+edilmiş O
+pro O
+dr O
+onur O
+tetik O
+
+4 B-Duration
+gün E-Duration
+2 B-Status
+el I-Status
+bileğinin I-Status
+üzerine I-Status
+düşen E-Status
+sağ B-Semptom
+el I-Semptom
+bileği I-Semptom
+ağrısı E-Semptom
+sağ B-loc
+el I-loc
+bileği E-loc
+önce O
+yolda O
+her O
+hasta O
+nedeniyle O
+başvurdu O
+
+ht S-Past-Diagnosis
+dm S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+füzyon S-Past-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz S-Past-Diagnosis
+sol B-loc
+diz E-loc
+mr O
+lombar O
+mr O
+artrozlomber O
+mr O
+lombar O
+spondiloz O
+disklerde O
+dejenerasyon O
+l3 O
+4 O
+seviyesinde O
+sağ O
+farlateral O
+bulging O
+l4 O
+5 O
+seviyesinde O
+diskte O
+diffüz O
+bulging O
+l5 O
+s1 O
+seviyesinde O
+sol O
+posterolateral O
+framene O
+uzanım O
+gösteren O
+minimal O
+bulging O
+
+ht S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+dm S-Past-Diagnosis
+füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz B-Pre-Diagnosis
+lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
+lombar B-Pre-Diagnosis
+spondiloz E-Pre-Diagnosis
+disklerde B-Semptom
+dejenerasyon E-Semptom
+disklerde S-loc
+l3 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+4 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+sağ I-Pre-Diagnosis
+farlateral I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
+l4 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+5 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+diskte I-Pre-Diagnosis
+diffüz I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
+minimal B-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
+mr O
+mr O
+artrozlomber O
+mr O
+uzanım O
+gösteren O
+
+ht S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+dm S-Past-Diagnosis
+füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz B-Pre-Diagnosis
+lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
+lombar B-Pre-Diagnosis
+spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
+disklerde B-Semptom
+dejenerasyon E-Semptom
+disklerde S-loc
+l3 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+4 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+sağ I-Pre-Diagnosis
+farlateral I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
+l4 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+5 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+diskte I-Pre-Diagnosis
+diffüz I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
+minimal B-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
+mr O
+mr O
+mr O
+uzanım O
+gösteren O
+
+ht S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+dm S-Past-Diagnosis
+füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz B-Pre-Diagnosis
+lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
+lombar B-Pre-Diagnosis
+spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
+disklerde B-Semptom
+dejenerasyon E-Semptom
+disklerde S-loc
+l3 B-Semptom
+/ I-Semptom
+4 I-Semptom
+seviyesinde I-Semptom
+sağ I-Semptom
+farlateral I-Semptom
+bulging E-Semptom
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
+l4 B-Semptom
+/ I-Semptom
+5 I-Semptom
+seviyesinde I-Semptom
+diskte I-Semptom
+diffüz I-Semptom
+bulging E-Semptom
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
+minimal B-Semptom
+bulging E-Semptom
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
+mr O
+mr O
+mr O
+uzanım O
+gösteren O
+
+ht S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz B-Pre-Diagnosis
+lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
+lombar B-Pre-Diagnosis
+spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
+disklerde B-Semptom
+dejenerasyon E-Semptom
+disklerde S-loc
+l3 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+4 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+sağ I-Pre-Diagnosis
+farlateral I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
+l4 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+5 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+diskte I-Pre-Diagnosis
+diffüz I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
+minimal B-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
+dm O
+mr O
+mr O
+mr O
+uzanım O
+gösteren O
+
+ht S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+dm S-Past-Diagnosis
+füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz B-Pre-Diagnosis
+lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
+lombar B-Pre-Diagnosis
+spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
+disklerde B-Semptom
+dejenerasyon E-Semptom
+disklerde S-loc
+l3 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+4 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+sağ I-Pre-Diagnosis
+farlateral I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
+l4 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+5 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+diskte I-Pre-Diagnosis
+diffüz I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
+minimal B-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
+mr O
+mr O
+mr O
+uzanım O
+gösteren O
+
+ht S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+dm S-Past-Diagnosis
+füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz B-Pre-Diagnosis
+lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
+lombar B-Pre-Diagnosis
+spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
+disklerde B-Semptom
+dejenerasyon E-Semptom
+disklerde S-loc
+l3 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+4 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+sağ I-Pre-Diagnosis
+farlateral I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
+l4 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+5 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+diskte I-Pre-Diagnosis
+diffüz I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
+minimal B-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
+mr O
+mr O
+mr O
+uzanım O
+gösteren O
+
+ht S-Past-Diagnosis
+opere B-Status
+kutusu E-Status
+dm S-Past-Diagnosis
+füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
+gonartroz B-Pre-Diagnosis
+lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
+lombar B-Pre-Diagnosis
+spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
+disklerde B-Semptom
+dejenerasyon E-Semptom
+disklerde S-loc
+l3 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+4 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+sağ I-Pre-Diagnosis
+farlateral I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
+l4 B-Pre-Diagnosis
+/ I-Pre-Diagnosis
+5 I-Pre-Diagnosis
+seviyesinde I-Pre-Diagnosis
+diskte I-Pre-Diagnosis
+diffüz I-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
+minimal B-Pre-Diagnosis
+bulging E-Pre-Diagnosis
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
+mr O
+mr O
+mr O
+uzanım O
+gösteren O
+
+ailesinde B-Status
+genetik I-Status
+bir I-Status
+rahatsızlık E-Status
+hasta O
+olmadığını O
+belirtti O
+
+guatr S-Pre-Diagnosis
+
+kronik B-Pre-Diagnosis
+böbrek I-Pre-Diagnosis
+hastalığı E-Pre-Diagnosis
+böbrek S-loc
+2 O
+
+5 B-Duration
+yıldan E-Duration
+beri O
+var O
+
+hipertansiyona S-Past-Diagnosis
+bu O
+durum O
+bağlanmış O
+
+20 O
+
+03 O
+
+sol B-Status
+tdp E-Status
+2012 O
+dr O
+
+tuğyan O
+bey06 O
+
+06 O
+
+sağ B-Status
+tdp E-Status
+2014 O
+dr O
+
+tuğyan O
+bey20 O
+
+11 O
+
+2018 O
+dr O
+
+gastrit B-Status
+baypas E-Status
+erkan O
+bey O
+
+ht S-Past-Diagnosis
+
+diz B-Status
+kapağı I-Status
+operasyon E-Status
+dayısında B-Status
+kas I-Status
+erimesi E-Status
+2 O
+kez O
+var O
+
+teyze B-Status
+oğullarında I-Status
+2 I-Status
+sinde I-Status
+de I-Status
+kas I-Status
+erimesi E-Status
+tanıları O
+mevcut O
+
+hasta O
+daha O
+önce O
+önemli O
+bir O
+sorun O
+yaşamadığını O
+belirtti O
+
+hasta O
+ailesel O
+herhangi O
+bir O
+tıbbi O
+sorun O
+yaşamadığını O
+belirtiyor O
+
+o O
+
+y O
+ö O
+
+y O
+
+1 B-Duration
+aydır E-Duration
+süren O
+
+ıch S-Past-Diagnosis
+10 B-Duration
+gün E-Duration
+sol B-Semptom
+kasık I-Semptom
+ağrısı E-Semptom
+sol B-loc
+kasık E-loc
+sol B-Semptom
+kasık I-Semptom
+ağrısı E-Semptom
+kalçaya S-loc
+sol B-Semptom
+kasık I-Semptom
+ağrısı E-Semptom
+bacağa S-loc
+ara B-Period
+ara E-Period
+daha O
+önce O
+geçirmiş O
+önce O
+başlamış O
+sonar O
+yayılmış O
+yayılıyor O
+
+ta S-Past-Diagnosis
+dm S-Past-Diagnosis
+gut S-Past-Diagnosis
+hap O
+ve O
+insülin O
+kulanıyor O
+
+has O
+
+guatr S-Past-Diagnosis
+
+annede B-Status
+cdh I-Status
++ I-Status
+ldh E-Status
+evde O
+
+hasta O
+daha O
+önce O
+önemli O
+bir O
+tıbbi O
+problem O
+olmadığını O
+ifade O
+etti O
+
+ailesel O
+bir O
+tıbbi O
+problem O
+yaşanmadığını O
+belirtiyor O
+
+ldh B-Status
+op E-Status
+annesi B-Status
+svh I-Status
+ex E-Status
+htguatr O
+op O
+2 O
+kez O
+
+n O
+n O
+
+hasta O
+daha O
+önce O
+önemli O
+bir O
+tıbbi O
+problem O
+olmadığını O
+ifade O
+etti O
+
+ailesel O
+bir O
+tıbbi O
+problem O
+yaşanmadığını O
+belirtiyor O
+
+oy S-Past-Diagnosis
+oy S-Past-Diagnosis
+
+1 B-Duration
+yıl E-Duration
+sol B-Semptom
+ağırlıklı I-Semptom
+kol I-Semptom
+ağrıları E-Semptom
+sol B-loc
+ağırlıklı I-loc
+kol E-loc
+önce O
+başlayan O
+gece O
+ile O
+uyanıyor O
+ve O
+hastanelik O
+oluyormuş O
+
+boyundan O
+parmak O
+uçlarına O
+kadar O
+yayılıyormuş O
+analjezik O
+ile O
+rahatlıyormuş O
+
+sıcak O
+daha O
+iyi O
+geliyor O
+soğuk O
+artırıyormuş O
+
+1 B-Duration
+haftadır E-Duration
+dikenler B-Semptom
+batıyormuş I-Semptom
+hissi E-Semptom
+koluna S-loc
+dikenler B-Semptom
+batıyormuş I-Semptom
+hissi E-Semptom
+eline S-loc
+son O
+da O
+değişen O
+lokalizasyonlarda O
+ve O
+oluyormuş O
+
+uyuşukluk S-Semptom
+hafifçe O
+da O
+tanımlıyor O
+
+skolyoz S-Past-Diagnosis
+önceden O
+başlangıcı O
+denmiş O
+
+spor O
+önerilmiş O
+
+masa O
+başı O
+bir O
+işi O
+var O
+
+2-3 B-Period
+ayda I-Period
+bir E-Period
+sıklığında O
+olabiliyormuş O
+
+travma S-Status
+tanımlanmıyor O
+
+ht S-Past-Diagnosis
+n O
+
+hodgkin B-Past-Diagnosis
+hastalığı E-Past-Diagnosis
+o O
+
+y O
+
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+var O
+
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+var O
+
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+var O
+
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+var O
+
+kaç S-Past-Diagnosis
+bronşit S-Past-Diagnosis
+toz B-Status
+koku I-Status
+duman I-Status
+hass E-Status
+ailede B-Status
+astım E-Status
+annede B-Status
+, I-Status
+bahar I-Status
+alerjisi E-Status
+anne B-Status
+astımlı E-Status
+geç O
+h O
+göre O
+
+hipertansiyon S-Past-Diagnosis
+ailede O
+bildiği O
+önemli O
+bir O
+hastalık O
+olmadığını O
+belirtti O
+
+annede B-Status
+romatizma E-Status
+
+dm S-Past-Diagnosis
+ht S-Past-Diagnosis
+kah S-Past-Diagnosis
+
+endometrium B-Past-Diagnosis
+ca E-Past-Diagnosis
+endometrium S-loc
+dm S-Past-Diagnosis
+ht S-Past-Diagnosis
+ikh S-Past-Diagnosis
+ıkby S-Past-Diagnosis
+
+hastanın O
+kronik O
+hastalığı O
+bilinmiyor O
+
+akciğer B-Past-Diagnosis
+ca E-Past-Diagnosis
+akciğer S-loc
+pankreasça O
+
+parkinson S-Past-Diagnosis
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+hsththt O
+hstht O
+
+anne O
+migrenbaba O
+siroz O
+
+ht S-Past-Diagnosis
+ailede O
+kronik O
+bir O
+hastalık O
+bilinmiyor O
+
+opere B-Status
+seğmneter I-Status
+kolon I-Status
+rezeksiyonu E-Status
+hartman B-Status
+kolostomi E-Status
+8 B-Status
+kür I-Status
+kt E-Status
+5 O
+temmuz O
+2018 O
+almış O
+
+dm S-Past-Diagnosis
+özellik O
+tanımlamıyor O
+
+safra B-Past-Diagnosis
+çamuru E-Past-Diagnosis
+safra S-loc
+baba B-Status
+dm E-Status
+
+kolesistektomi S-Status
+safra B-Semptom
+kanallarının I-Semptom
+tıkanık E-Semptom
+safra B-loc
+kanallarının E-loc
+12 O
+yaşında O
+sonrası O
+şikayetleri O
+başlamış O
+tetkiklerde O
+olduğunu O
+söylemişler O
+
+stent S-Status
+2014 O
+te O
+ilk O
+erci O
+yapılmış O
+ve O
+konulmuş O
+
+sonra O
+her O
+3 O
+ayda O
+1 O
+değiştirmişler O
+en O
+son O
+15 O
+yıl O
+önce O
+takılamayacak O
+kadar O
+darlık O
+olmuş O
+
+kolanjit S-Past-Diagnosis
+en O
+son O
+1 O
+ay O
+önce O
+olmuş O
+
+bunun O
+üzerine O
+karaciğer O
+nakli O
+önerilen O
+hastanın O
+hastanemize O
+başvurusu O
+sonucu O
+canlı O
+vericiden O
+karaciğer O
+nakli O
+planlandı O
+ve O
+nakil O
+öncesi O
+hazırlıkları O
+yapılarak O
+yatırıldı O
+
+koah B-Semptom
+atak E-Semptom
+solunum B-Semptom
+sıkıntısı E-Semptom
+akciğerde B-Pre-Diagnosis
+pnömoni E-Pre-Diagnosis
+akciğerde S-loc
+hasta O
+nedeniyle O
+yatırıldı O
+
+ht S-Past-Diagnosis
+koah S-Past-Diagnosis
+
+oy S-Past-Diagnosis
+
+prostat B-Past-Diagnosis
+kanseri E-Past-Diagnosis
+prostat S-loc
+kız B-Status
+kardeş I-Status
+meme I-Status
+ca E-Status
+erkek B-Status
+kardeş I-Status
+kaç I-Status
+ca I-Status
+( I-Status
+ex I-Status
+) E-Status
+3 O
+yıl O
+öncekoah O
+
+ht S-Past-Diagnosis
+
+vardiyalı O
+çalışıyor O
+
+anne B-Status
+: I-Status
+migren E-Status
+
+kardiyak B-Status
+bypass E-Status
+5 O
+yıl O
+önce O
+
+dm S-Past-Diagnosis
+ht S-Past-Diagnosis
+kah S-Past-Diagnosis
+hipoksik B-Semptom
+solunum I-Semptom
+yetmezliği E-Semptom
+solunum-dolaşım B-Pre-Diagnosis
+Aires'ti E-Pre-Diagnosis
+solunum-dolaşım S-loc
+önceden O
+bilinen O
+hastalıkları O
+olan O
+acil O
+servise O
+nedeniyle O
+başvuran O
+hasta O
+tomografi O
+ünitesinde O
+olması O
+üzerine O
+cpr O
+uygulanmış O
+
+yaklaşık O
+78 O
+dk O
+cpr O
+uygulanan O
+hasta O
+yanıt O
+alınması O
+üzerine O
+ybü O
+ne O
+alındı O
+
+ht S-Past-Diagnosis
+böbrek B-Status
+op E-Status
+
+tek B-Status
+böbrekli E-Status
+
+anne B-Status
+: I-Status
+ht E-Status
+ht S-Past-Diagnosis
+
+ht S-Past-Diagnosis
+
+ht S-Past-Diagnosis
+dm S-Past-Diagnosis
+ıch S-Past-Diagnosis
+svh S-Past-Diagnosis
+geçirilmiş O
+
+ıkby S-Past-Diagnosis
+hiperlipidemidmtek O
+böbrek O
+
+kolesistektomi S-Status
+hata O
+boş O
+2000 O
+1996 O
+
+
+afsı S-Past-Diagnosis
+konuşamama S-Semptom
+kuvvet B-Semptom
+kaybı E-Semptom
+sağ B-loc
+kol E-loc
+kuvvet B-Semptom
+kaybı E-Semptom
+bacakta S-loc
+bilinen O
+olan O
+ve O
+gece O
+0000da O
+sağlam O
+görülen O
+hasta O
+sabah O
+ve O
+ile O
+yatakta O
+bulunması O
+üzerine O
+acil O
+servise O
+getirildi O
+
+kanama S-Semptom
+sol B-Semptom
+mca I-Semptom
+m1 I-Semptom
+oklüzyonu E-Semptom
+sol B-loc
+mca I-loc
+m1 E-loc
+çekilen O
+btde O
+saptanmayan O
+bt O
+anjioda O
+olan O
+hasta O
+önce O
+anjio O
+ünitesine O
+oradan O
+da O
+kvc O
+yoğun O
+bakım O
+ünitesine O
+alındı O
+
+migren S-Past-Diagnosis
+baş B-Semptom
+ağrısı E-Semptom
+baş S-loc
+20 O
+yıldır O
+var O
+
+4-5 B-Duration
+aydır E-Duration
+ağrılar S-Semptom
+sırt S-loc
+ağrılar S-Semptom
+boyun S-loc
+ağrılar S-Semptom
+ense S-loc
+parmaklarda B-Semptom
+uyuşma E-Semptom
+parmaklarda S-loc
+migren S-Past-Diagnosis
+haftada B-Period
+1-2 E-Period
+bazen S-Period
+ayrıca O
+var O
+ba O
+
+htde S-Past-Diagnosis
+dm S-Past-Diagnosis
+
+4 B-Status
+aylık I-Status
+lohusa E-Status
+
+kalp B-Past-Diagnosis
+yet E-Past-Diagnosis
+kalp S-loc
+koah S-Past-Diagnosis
+
+8 B-Duration
+yıldır E-Duration
+bel B-Semptom
+ağrıları E-Semptom
+bel S-loc
+ldh S-Past-Diagnosis
+olan O
+hasta O
+tanısıyla O
+her O
+yıl O
+feet O
+almış O
+
+sol B-Semptom
+bacağını I-Semptom
+topallayarak I-Semptom
+yürümeye E-Semptom
+sol B-loc
+bacağını E-loc
+düşmeleri S-Semptom
+sık S-Period
+haziran O
+2016 O
+da O
+başlamış O
+olmuş O
+
+les S-Past-Diagnosis
+trakya O
+üni O
+tanısıyla O
+nrş O
+de O
+operasyon O
+önerilmiş O
+aii O
+riskli O
+olduğu O
+için O
+onay O
+vermemiş O
+
+güçsüzlüğü S-Semptom
+yürüyemez S-Semptom
+sonrasında O
+iki O
+taraflı O
+artmış O
+olmuş O
+
+belediye O
+ambulansı O
+ile O
+mazhar O
+osman O
+nöroloji O
+bölümüne O
+götürülmüş O
+
+gbs S-Pre-Diagnosis
+nörolojide O
+ön O
+tanısıyla O
+ıvır O
+başlanmış O
+yanıt O
+alınmamış O
+
+20 O
+temmuz O
+da O
+nrş O
+de O
+opere O
+olmuş O
+
+iki B-Semptom
+ayak I-Semptom
+parmaklarında I-Semptom
+düşme E-Semptom
+iki B-loc
+ayak I-loc
+parmaklarında E-loc
+op O
+sonrasında O
+her O
+gelişmiş O
+
+2 O
+gün O
+nrş O
+de O
+interne O
+edilmiş O
+
+pansitopeni S-Pre-Diagnosis
+ağustosta O
+hastanemize O
+interne O
+edilmiş O
+nedeniyle O
+hasekiye O
+sevk O
+edilmiş O
+
+malignite S-Pre-Diagnosis
+tetkiklerde O
+saptanmamış O
+
+hasta O
+sedye O
+seviyesinde O
+ocak O
+ayında O
+rehabilitasyon O
+amacıyla O
+servisimize O
+interne O
+edilmiş O
+
+düşme S-Status
+
+akciğer B-Pre-Diagnosis
+ca E-Pre-Diagnosis
+akciğer S-loc
+
+y O
+
+gör S-Pre-Diagnosis
+kds B-Status
+op E-Status
+
+
+hodgkin B-Past-Diagnosis
+lenfoma E-Past-Diagnosis
+tedavisi O
+devam O
+etmekte O
+
+premenapoz S-Status
+tiroit B-Status
+Papi'mler I-Status
+ca I-Status
+opere E-Status
+7 O
+yaşında O
+bir O
+çocuk O
+2009 O
+atom O
+tedavisi O
+almış O
+
+implanteli S-Status
+hipertansiyonkpm O
+oy O
+
+yy O
+
+ht S-Past-Diagnosis
+y O
+
+epidermoid B-Pre-Diagnosis
+ca E-Pre-Diagnosis
+epidermoid S-loc
+bx O
+karadeniz O
+patoloji O
+12602 O
+
+iki B-Status
+ağabey I-Status
+akciğer I-Status
+ca E-Status
+neoadjuvan B-Status
+kemoradyoterapi E-Status
+hipertermi S-Past-Diagnosis
+her O
+biri O
+exitüs O
+1109 O
+2017 O
+1110 O
+2017 O
+4140 O
+çgy O
+5 O
+x O
+çarboplatın O
+paçlıtaxel O
+5 O
+x O
+
+sol B-Status
+kulaktan I-Status
+opere E-Status
+3 O
+yıl O
+önce O
+
+adenokarsinom S-Pre-Diagnosis
+boş O
+0103 O
+2019 O
+omü O
+b O
+4353 O
+19 O
+
+adenokarsinom S-Pre-Diagnosis
+sol B-Semptom
+hiler I-Semptom
+kitle E-Semptom
+sol B-loc
+hiler E-loc
+bx O
+medicine O
+hastanesi O
+0207 O
+2018 O
+b29358 O
+18 O
+az O
+dif O
+küçük O
+hücreli O
+dışı O
+
+adenokarsinom S-Pre-Diagnosis
+konfirmasyon O
+omü O
+b12615 O
+18 O
+
+rcc S-Past-Diagnosis
+2010da O
+nedeniyle O
+sol O
+böbrekten O
+bx O
+yapılmış O
+
+t12 O
+l2 O
+1907 O
+2018 O
+0608 O
+2018 O
+3250 O
+çgy O
+
+lombar B-Status
+füzyon I-Status
+operasyonu E-Status
+2 O
+yıl O
+önce O
+
+fibromiyalji S-Past-Diagnosis
+denmiş O
+
+hipotiroidizm S-Past-Diagnosis
+y O
+
+anne B-Status
+ve I-Status
+babaanne I-Status
+iltihaplı I-Status
+romatizma E-Status
+
+k O
+
+eklemlerde B-Semptom
+effüzyonlar E-Semptom
+eklemlerde S-loc
+çeşitli O
+olmuş O
+hasta O
+ailesinde O
+genetik O
+hastalık O
+olmadığını O
+belirtti O
+
+kalp B-Status
+pili E-Status
+ht S-Past-Diagnosis
+koahdilate O
+kmp O
+
+ülseratif B-Past-Diagnosis
+kolit E-Past-Diagnosis
+çölyak B-Past-Diagnosis
+hastalığı E-Past-Diagnosis
+astım S-Past-Diagnosis
+annesinde B-Status
+sjögren E-Status
+
+kah S-Past-Diagnosis
+ailede O
+kronik O
+hastalık O
+hikâyesi O
+bilinen O
+kimse O
+bulunmuyor O
+
+ht S-Past-Diagnosis
+dm S-Past-Diagnosis
+
+öyöyöyöy O
+
+normal O
+
+normal O
+
+koroner B-Past-Diagnosis
+arter I-Past-Diagnosis
+hastalığı E-Past-Diagnosis
+koroner B-loc
+arter E-loc
+kolit S-Past-Diagnosis
+böbrek B-Past-Diagnosis
+kisti E-Past-Diagnosis
+böbrek S-loc
+özellik O
+yo O
+
+meme B-Past-Diagnosis
+ca E-Past-Diagnosis
+meme S-loc
+hastanın O
+ailesinde O
+ve O
+yakın O
+akrabalarında O
+hatırladığı O
+kayda O
+değer O
+hastalık O
+olup O
+olmadığı O
+soruldu O
+herhangi O
+önemli O
+bir O
+şey O
+hatırlamadığını O
+ifade O
+etti O
+
+lombar B-Past-Diagnosis
+disk I-Past-Diagnosis
+Mernis'i E-Past-Diagnosis
+lombar B-loc
+disk E-loc
+Mernis'i S-Past-Diagnosis
+servikal S-loc
+masa O
+başı O
+abide O
+ve O
+
+astım S-Past-Diagnosis
+kalp B-Status
+kapağı I-Status
+değişmiş E-Status
+
+ağır B-Past-Diagnosis
+bronşit E-Past-Diagnosis
+halada B-Status
+meme I-Status
+ca E-Status
+çocukken O
+
+paget'ye S-Past-Diagnosis
+patolojik B-Semptom
+kırık E-Semptom
+2013 O
+ve O
+2016 O
+da O
+bağlı O
+nedeniyle O
+opere O
+olan O
+hasta O
+
+hashimato S-Past-Diagnosis
+y O
+
+oy S-Past-Diagnosis
+ustabaşı O
+taşlama O
+kaynak O
+vs O
+
+31 O
+
+07 O
+
+2017 O
+11 O
+
+09 O
+
+2017 O
+tümör O
+yatağına O
+5400 O
+cgy O
+
+dm S-Past-Diagnosis
+mesane B-Past-Diagnosis
+tm E-Past-Diagnosis
+mesane S-loc
+plevra B-Past-Diagnosis
+füzyon E-Past-Diagnosis
+plevra S-loc
+nonopere O
+
+tansiyon B-Semptom
+yüksekliği E-Semptom
+böbrek B-Past-Diagnosis
+yetmezliği E-Past-Diagnosis
+böbrek S-loc
+anne B-Status
+ve I-Status
+babada I-Status
+hts I-Status
++ I-Status
+kalb I-Status
+hastalığı E-Status
+1 O
+yıl O
+önce O
+yapılan O
+tetkiklerde O
+kan O
+yağlarında O
+yükseklik O
+ve O
+saptanan O
+ve O
+ı O
+statik O
+ve O
+tansiyon O
+düşürücü O
+verilen O
+hastanın O
+5 O
+gün O
+önceki O
+tetkiklerinde O
+saptandığı O
+için O
+bize O
+gelmiş O
+düşürücü O
+verilen O
+hastanın O
+5 O
+gün O
+önceki O
+tetkiklerinde O
+böbryetmezligi O
+saptandığı O
+için O
+bize O
+gelmiş O
+varmışın O
+
+kalça B-Status
+artroskopi I-Status
+öp E-Status
+
+fibromiyalji S-Past-Diagnosis
+sağ B-Status
+över I-Status
+de I-Status
+Erato'm I-Status
+op E-Status
+pankreatit S-Past-Diagnosis
+taş B-Status
+nedeniyle I-Status
+kolesistektomi E-Status
+reflü S-Past-Diagnosis
+özefajit S-Past-Diagnosis
+babası B-Status
+koah I-Status
+ex E-Status
+romatoloji O
+2 O
+yıl O
+önce O
+
+annede B-Status
+disk I-Status
+Mernis'i E-Status
+masa O
+başı O
+
+annede B-Status
+disk I-Status
+Mernis'i E-Status
+masa O
+başı O
+
+dm S-Past-Diagnosis
+ıkby S-Past-Diagnosis
+diyaliz B-Status
+hastası E-Status
+
+annede B-Status
+disk I-Status
+Mernis'i E-Status
+masa O
+başı O
+
+ucuz O
+eşi O
+
+reflü-sık S-Past-Diagnosis
+
+normal O
+
+normal O
+
+oy S-Past-Diagnosis
+
+anal B-Status
+fissür I-Status
+öp E-Status
+2 O
+çocuk O
+
+ikh S-Past-Diagnosis
+tastım O
+öz O
+
+yok O
+
+ht S-Past-Diagnosis
+
+adet B-Status
+düzenliği I-Status
+için I-Status
+ilaç E-Status
+kullanıyor O
+n O
+
+o O
+
+y O
+ö O
+
+y O
+
+ht S-Past-Diagnosis
+
+bel B-Semptom
+ağrısı E-Semptom
+bel S-loc
+bel B-Semptom
+ağrısı E-Semptom
+bel S-loc
+
+sağ B-Status
+mrm E-Status
+26072013 O
+ad O
+mikropatkızılay O
+ankara O
+prof O
+dr O
+ömür O
+ataoğlu O
+no O
+iki O
+ayrı O
+oda O
+pt1 O
+2 O
+
+5 O
+cm O
+pt2 O
+0 O
+
+infiltratif B-Past-Diagnosis
+düktal I-Past-Diagnosis
+karsinomu E-Past-Diagnosis
+ekstrakapsüler B-Semptom
+lenf I-Semptom
+kodu I-Semptom
+yayılımı E-Semptom
+lenf S-loc
+7 O
+cm O
+hg O
+ııı O
+adac O
+odakları O
+lvi O
+meme O
+başı O
+ve O
+facia O
+cerrahi O
+sınırlar O
+620 O
+lnm O
+er O
+70 O
+pr O
+çerbb2 O
+3 O
+02082013 O
+patoloji O
+no O
+gğ2631 O
+18 O
+gg O
+patoloji O
+prof O
+
+dr O
+
+Mikat B-Past-Diagnosis
+ınvazıv E-Past-Diagnosis
+düktal S-loc
+Mikat B-Past-Diagnosis
+ınvazıv E-Past-Diagnosis
+pleomorfik B-loc
+lobiler E-loc
+gülnur O
+güler O
+karsinomu O
+er O
+90 O
+pr O
+çeri O
+1 O
+ki67 O
+40 O
+
+ht S-Past-Diagnosis
+işlemi S-Past-Diagnosis
+
+rbc B-Semptom
+düşüklüğü E-Semptom
+rbc B-Semptom
+düşüklüğü E-Semptom
+anne B-Status
+idrar I-Status
+yolu I-Status
+enfeksiyonu E-Status
+13 O
+gün O
+yenidoğan O
+döneminde O
+nedeniyle O
+yenidoğan O
+servisinde O
+kalmış15 O
+günlükken O
+göbeği O
+düşmüşanne O
+sütü O
+alıyordesteksiz O
+oturamıyortutunarak O
+ayakta O
+duramıyor13 O
+gün O
+yenidoğan O
+döneminde O
+nedeniyle O
+yenidoğan O
+servisinde O
+kalmış15 O
+günlükken O
+göbeği O
+düşmüşanne O
+sütü O
+alıyordesteksiz O
+oturamıyortutunarak O
+ayakta O
+duramıyor O
+1520 O
+gün O
+önce O
+geçirmişsek O
+çocukanne O
+baba O
+sağlıklı O
+
+rbc B-Semptom
+düşüklüğü E-Semptom
+rbc B-Semptom
+düşüklüğü E-Semptom
+anne B-Status
+idrar I-Status
+yolu I-Status
+enfeksiyonu E-Status
+13 O
+gün O
+yenidoğan O
+döneminde O
+nedeniyle O
+yenidoğan O
+servisinde O
+kalmış15 O
+günlükken O
+göbeği O
+düşmüşanne O
+sütü O
+alıyordesteksiz O
+oturamıyortutunarak O
+ayakta O
+duramıyor13 O
+gün O
+yenidoğan O
+döneminde O
+nedeniyle O
+yenidoğan O
+servisinde O
+kalmış15 O
+günlükken O
+göbeği O
+düşmüşanne O
+sütü O
+alıyordesteksiz O
+oturamıyortutunarak O
+ayakta O
+duramıyor O
+1520 O
+gün O
+önce O
+geçirmişsek O
+çocukanne O
+baba O
+sağlıklı O
+
+oy S-Past-Diagnosis
+
+hergün S-Period
+15yaş O
+aylık O
+kız O
+küçüklüğünden O
+beri O
+olan O
+hemen O
+olan O
+her O
+iki O
+frontla O
+bö O
+
+otomotiv O
+sektörü O
+
+dm S-Past-Diagnosis
+
+katarakt S-Past-Diagnosis
+8 B-Duration
+yıl E-Duration
+ht S-Past-Diagnosis
+abla B-Status
+meme I-Status
+ca I-Status
+( I-Status
+ex I-Status
+) E-Status
+1 O
+
+varikosel B-Status
+op E-Status
+app O
+ve O
+
+annede B-Status
+alerjik I-Status
+rijit I-Status
+- I-Status
+astım E-Status
+
+ht S-Past-Diagnosis
+ailede B-Status
+inme E-Status
+
+1 O
+yıldan O
+fazla O
+
+ağrı S-Semptom
+topuk S-loc
+ağrı S-Semptom
+parmak S-loc
+sen O
+inen O
+
+arada O
+akşama O
+sama O
+
+dm S-Past-Diagnosis
+özellik O
+tanımlamıyor O
+
+lombar B-Status
+mikrodiskektomi I-Status
+operasyonu E-Status
+geçirmiş O
+
+15 O
+ay O
+önce O
+
+larınks B-Status
+ca I-Status
+op E-Status
+koroner B-Status
+stent E-Status
+ht S-Past-Diagnosis
+ailede B-Status
+inme E-Status
+2009da O
+stent O
+
+boş S-Past-Diagnosis
+tah S-Past-Diagnosis
+3yılumblikl O
+hernipeptik O
+hernılargopen O
+ilaçlara O
+alerjisi O
+mevcutmuş O
+
+hastanın O
+yakınması O
+uzun O
+zamandır O
+mevcut O
+
+hasta O
+medikal O
+tedavilerden O
+fayda O
+görmemiş O
+
+meniskopati S-Past-Diagnosis
+öçb B-Status
+op E-Status
+2013 O
+
+hemivertebra S-Past-Diagnosis
+
+cipralex O
+
+1 O
+yıldan O
+fazla O
+
+şiddetli S-Intensity
+belde B-Semptom
+şiddetli I-Semptom
+batması E-Semptom
+belde S-loc
+batması O
+da O
+oluyor O
+
+insülin B-Status
+direnci E-Status
+
+hodgkin S-Past-Diagnosis
+o O
+
+y O
+
+şaşılık B-Status
+op E-Status
+
+ht S-Past-Diagnosis
+dm S-Past-Diagnosis
+böbrek B-Status
+transplant I-Status
+alıcısı E-Status
+
+larıngoskopi S-Status
+28618 O
+direkt O
+biyopsi O
+gaa O
+lokal O
+saha O
+temizliği O
+ve O
+steril O
+örtünmeyi O
+takiben O
+orta O
+boy O
+blade O
+ile O
+larense O
+girildi O
+
+dil O
+kökü O
+vallekula O
+doğal O
+izlendi O
+
+ülserovejetan B-Semptom
+kitle E-Semptom
+epiglot B-loc
+larengeal I-loc
+yüzü I-loc
+dolduran I-loc
+sağ I-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden E-loc
+ülserovejetan B-Semptom
+kitle E-Semptom
+sol B-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden I-loc
+başlayıp I-loc
+ventrikülü I-loc
+dolduran E-loc
+ülserovejetan B-Semptom
+kitle E-Semptom

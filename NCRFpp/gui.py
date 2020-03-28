@@ -11,6 +11,7 @@ import multiprocessing
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
 
+
 def wordEmbedding(chosenFile):
 
     with open('data/' + chosenFile + '/data.json', encoding='utf-8') as fh:
@@ -23,6 +24,7 @@ def wordEmbedding(chosenFile):
 
     model = Word2Vec(LineSentence('data/' + chosenFile + "/sentences.txt"), size=400, window=5, min_count=1, workers=multiprocessing.cpu_count())
     model.wv.save_word2vec_format('data/' + chosenFile + "/sample.word.emb")
+
 
 def prepareData(chosenFile):
 
@@ -114,27 +116,6 @@ def prepareData(chosenFile):
     fl.close()
 
 
-root = ThemedTk(theme = "black")
-root.minsize(500,300)
-root.title("NER GUI FOR TR")
-root.iconbitmap('icon.ico')
-
-subdirs = {}
-subdirs2 = {}
-
-root.include_training_data = {"1": BooleanVar(), "2": BooleanVar()}
-root.include_training_data["1"].set(False)
-root.include_training_data["2"].set(False)
-
-root.classifier_methods = {"1": BooleanVar(), "2": BooleanVar()}
-root.classifier_methods["1"].set(False)
-root.classifier_methods["2"].set(False)
-
-loadedDir = ""
-counter = 1
-counter2 = 1
-cwd = os.getcwd()
-
 def choose_file_out():
 
     filepath = filedialog.askopenfilename(initialdir = cwd , title = "Choose a file", filetype = (("json", "*.json"),))
@@ -206,7 +187,6 @@ def choose_file():
     file_explorer = ttk.Button(root.tab1, text = "Choose a file", command=choose_file_out, style = "S.TButton").pack(pady = (15,0))
 
 
-
 def preprocess():
     selection = list(Lb1.curselection())
     if len(selection) == 0:
@@ -224,6 +204,7 @@ def preprocess():
         Lb2.insert(counter2, chosenFile)
         subdirs2[counter2 - 1] = chosenFile
 
+
 def train():
     selection = list(Lb2.curselection())
     if len(selection) == 0:
@@ -231,31 +212,38 @@ def train():
     
     chosenFile = subdirs[selection[0]]
 
-    newconfig = ""
-    lineCounter = 0
-    trainConfig = open("demo.train.config", "r")
-    for line in trainConfig:
-        if "train_dir" in line:
-            newconfig += "train_dir=data/" + chosenFile + "/train.bmes\n"
-        elif "dev_dir" in line:
-            newconfig += "dev_dir=data/" + chosenFile + "/dev.bmes\n"
-        elif "test_dir" in line:
-            newconfig += "test_dir=data/" + chosenFile + "/test.bmes\n"
-        elif "model_dir" in line and lineCounter < 8:
-            newconfig += "model_dir=data/" + chosenFile + "/lstmcrf\n"
-        elif "word_emb_dir" in line:
-            newconfig += "word_emb_dir=data/" + chosenFile + "/sample.word.emb\n"
-        else:
-            newconfig += line
-        lineCounter += 1
-    trainConfig.close()
-    newConf = open("demo.train.config", "w")
-    newConf.write(newconfig)
-    newConf.close
-    time.sleep(1)
-    os.system('python main.py --config demo.train.config')
+    os.system("python main.py --config demo.train.config")
+
+    done = ttk.Label(root.tab3, text = "Done ✓", style = "S.TLabel").pack(pady = (10,0))
     
-    
+
+def predict():
+
+    os.system("python main.py --config demo.decode.config")
+    done = ttk.Label(root.tab3, text = "Done ✓", style = "S.TLabel").pack(pady = (10,0))
+
+
+root = ThemedTk(theme = "black")
+root.minsize(500,300)
+root.title("NER GUI FOR TR")
+root.iconbitmap('icon.ico')
+
+subdirs = {}
+subdirs2 = {}
+
+root.include_training_data = {"1": BooleanVar(), "2": BooleanVar()}
+root.include_training_data["1"].set(False)
+root.include_training_data["2"].set(False)
+
+root.classifier_methods = {"1": BooleanVar(), "2": BooleanVar()}
+root.classifier_methods["1"].set(False)
+root.classifier_methods["2"].set(False)
+
+loadedDir = ""
+counter = 1
+counter2 = 1
+cwd = os.getcwd()
+
 tabControl = ttk.Notebook(root)
 
 root.tab1 = ttk.Frame(tabControl)
@@ -303,9 +291,8 @@ preprocessButton = ttk.Button(root.tab3, text = "Tamam", style = "S.TButton", co
 root.method_1 = ttk.Checkbutton(root.tab4, text = "Method 1", style = "S.TCheckbutton", var=root.classifier_methods["1"]).pack(pady = (30,0))
 root.method_2 = ttk.Checkbutton(root.tab4, text = "Method 2", style = "S.TCheckbutton", var=root.classifier_methods["2"]).pack(pady = (10,0))
 
-output = ttk.Button(root.tab4, text = "Sonuçlar", style = "S.TButton").pack(pady = (35,0))
+output = ttk.Button(root.tab4, text = "Predict", style = "S.TButton", command = predict).pack(pady = (35,0))
 
 tabControl.pack(expand = 1, fill = "both")
-
 
 root.mainloop()

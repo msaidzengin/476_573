@@ -1,0 +1,2974 @@
+# 0.6330 0.0667 0.0478 0.0458 0.0417 0.0401 0.0393 0.0331 0.0285 0.0241
+anterior O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+kommissüre O O O O O O O E-Status O E-Semptom
+yaklaşıp O O O O O O O O O O
+başlayan O O O O O O O O O O
+tutan O O O O O O O O O O
+debulke O O O O O O O O O O
+edilerek O O O O O O O O O O
+punch O O O O O O O O O O
+biyopsi O O O O O O O O O O
+alındı O O O O O O O O O O
+
+# 0.6128 0.0728 0.0491 0.0484 0.0467 0.0412 0.0395 0.0335 0.0289 0.0273
+diğer O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+laringeal O O O O O O O E-Status O O
+yapılar O O O O O O O O O O
+doğaldı O O O O O O O O O O
+
+# 0.6255 0.0682 0.0485 0.0472 0.0432 0.0404 0.0396 0.0344 0.0280 0.0250
+kanama O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+kontrolünü O O O O O O O E-Status O E-Semptom
+takiben O O O O O O O O O O
+operasyona O O O O O O O O O O
+komplikasyonsuz O O O O O O O O O O
+son O O O O O O O O O O
+verildi O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+dr O O O O O O O O O O
+
+# 0.5979 0.0771 0.0508 0.0485 0.0476 0.0422 0.0394 0.0386 0.0297 0.0283
+erdem O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+altıparmak O O O O O O O E-Status O O
+doç O O O O O O O O O O
+dr O O O O O O O O O O
+selahattin O O O O O O O O O O
+genç O O O O O O O O O O
+
+# 0.5958 0.0787 0.0516 0.0477 0.0460 0.0429 0.0391 0.0379 0.0318 0.0286
+28618 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+direkt O O O O O O E-Status O O O
+larıngoskopi O O O O O O O O O O
+biyopsi O O O O O O O O O O
+gaa O O O O O O O O O O
+lokal O O O O O O O O O O
+saha O O O O O O O O O O
+temizliği O O O O O O O O O O
+ve O O O O O O O O O O
+steril O O O O O O O O O O
+örtünmeyi O O O O O O O O O O
+takiben O O O O O O O O O O
+orta O O O O O O O O O O
+boy O O O O O O O O O O
+blade O O O O O O O O O O
+ile O O O O O O O O O O
+larense O O O O O O O O O O
+girildi O O O O O O O O O O
+
+# 0.6238 0.0694 0.0476 0.0474 0.0428 0.0409 0.0390 0.0354 0.0283 0.0255
+dil O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kökü O O O O O O O E-Status O O
+vallekula O O O O O O O O O O
+doğal O O O O O O O O O O
+izlendi O O O O O O O O O O
+
+# 0.6131 0.0689 0.0487 0.0486 0.0464 0.0411 0.0406 0.0392 0.0275 0.0260
+ülserovejetan O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kitle O O O O O O O E-Status O O
+epiglot O O O O O O O O O O
+larengeal O O O O O O O O O O
+yüzü O O O O O O O O O O
+dolduran O O O O O O O O O O
+sağ O O O O O O O O O O
+tarafta O O O O O O O O O O
+vokal O O O O O O O O O O
+kod O O O O O O O O O O
+üzerinden O O O O O O O O O O
+ülserovejetan O O O O O O O O O O
+kitle O O O O O O O O O O
+sol O O O O O O O O O O
+tarafta O O O O O O O O O O
+vokal O O O O O O O O O O
+kod O O O O O O O O O O
+üzerinden O O O O O O O O O O
+başlayıp O O O O O O O O O O
+ventrikülü O O O O O O O O O O
+dolduran O O O O O O O O O O
+ülserovejetan O O O O O O O O O O
+kitle O O O O O O O O O O
+anterior O O O O O O O O O O
+kommissüre O O O O O O O O O O
+yaklaşıp O O O O O O O O O O
+başlayan O O O O O O O O O O
+tutan O O O O O O O O O O
+debulke O O O O O O O O O O
+edilerek O O O O O O O O O O
+punch O O O O O O O O O O
+biyopsi O O O O O O O O O O
+alındı O O O O O O O O O O
+
+# 0.6128 0.0728 0.0491 0.0484 0.0467 0.0412 0.0395 0.0335 0.0289 0.0273
+diğer O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+laringeal O O O O O O O E-Status O O
+yapılar O O O O O O O O O O
+doğaldı O O O O O O O O O O
+
+# 0.6255 0.0682 0.0485 0.0472 0.0432 0.0404 0.0396 0.0344 0.0280 0.0250
+kanama O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+kontrolünü O O O O O O O E-Status O E-Semptom
+takiben O O O O O O O O O O
+operasyona O O O O O O O O O O
+komplikasyonsuz O O O O O O O O O O
+son O O O O O O O O O O
+verildi O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+dr O O O O O O O O O O
+
+# 0.5979 0.0771 0.0508 0.0485 0.0476 0.0422 0.0394 0.0386 0.0297 0.0283
+erdem O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+altıparmak O O O O O O O E-Status O O
+doç O O O O O O O O O O
+dr O O O O O O O O O O
+selahattin O O O O O O O O O O
+genç O O O O O O O O O O
+
+# 0.6139 0.0733 0.0505 0.0491 0.0473 0.0420 0.0409 0.0282 0.0282 0.0265
+hasta O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc S-loc B-Duration O
+solak O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+ht O O O O O O O O O O
+
+# 0.6063 0.0737 0.0498 0.0489 0.0469 0.0416 0.0392 0.0370 0.0284 0.0283
+amı O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+insülin O O O O O O O E-Status O O
+direnci O O O O O O O O O O
+yeni O O O O O O O O O O
+geçirilmiş O O O O O O O O O O
+
+# 0.5954 0.0826 0.0529 0.0477 0.0472 0.0437 0.0392 0.0332 0.0299 0.0281
+dm O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Duration O B-Status
+ht O O O O O O O O O E-Status
+
+# 0.5722 0.0846 0.0543 0.0495 0.0479 0.0449 0.0442 0.0386 0.0362 0.0278
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+dm O O O O O E-Status O O O O
+ıch O O O O O O O O O O
+svh O O O O O O O O O O
+geçirilmiş O O O O O O O O O O
+
+# 0.6084 0.0725 0.0492 0.0482 0.0463 0.0418 0.0396 0.0382 0.0287 0.0271
+hastamız O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+15 O O O O O O O E-Status O O
+gündür O O O O O O O O O O
+foley O O O O O O O O O O
+sonda O O O O O O O O O O
+ile O O O O O O O O O O
+takip O O O O O O O O O O
+ediliyormuş O O O O O O O O O O
+dün O O O O O O O O O O
+dr O O O O O O O O O O
+
+# 0.6059 0.0735 0.0498 0.0482 0.0464 0.0419 0.0396 0.0385 0.0283 0.0278
+damla O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+damla O O O O O O O E-Status O O
+idrar O O O O O O O O O O
+yapma O O O O O O O O O O
+yakup O O O O O O O O O O
+kordan O O O O O O O O O O
+sondasını O O O O O O O O O O
+çekmiş O O O O O O O O O O
+sondasız O O O O O O O O O O
+takip O O O O O O O O O O
+edilmesini O O O O O O O O O O
+önermiş O O O O O O O O O O
+dün O O O O O O O O O O
+sondasını O O O O O O O O O O
+çekmiş O O O O O O O O O O
+hasta O O O O O O O O O O
+dünden O O O O O O O O O O
+beri O O O O O O O O O O
+yakınması O O O O O O O O O O
+ile O O O O O O O O O O
+başvurdu O O O O O O O O O O
+
+# 0.5741 0.0831 0.0554 0.0490 0.0479 0.0442 0.0440 0.0376 0.0373 0.0273
+1 O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+aydır O O O O O E-Status O O O O
+sağ O O O O O O O O O O
+dizde O O O O O O O O O O
+ağrı O O O O O O O O O O
+sağ O O O O O O O O O O
+dizde O O O O O O O O O O
+takılma-kilitlenme O O O O O O O O O O
+takılma-kilitlenme O O O O O O O O O O
+boşalma O O O O O O O O O O
+varmış O O O O O O O O O O
+hissi O O O O O O O O O O
+olmuyormuş O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+ht O O O O O O O O O O
+
+# 0.6350 0.0702 0.0489 0.0457 0.0437 0.0410 0.0401 0.0300 0.0233 0.0221
+sinoretik O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration B-Pre-Diagnosis
+ecopirin O O O O O O O O O O
+
+# 0.5913 0.0756 0.0512 0.0500 0.0492 0.0427 0.0410 0.0409 0.0301 0.0281
+hipertansiyon O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+diyabet O O O O O O E-Status O O O
+kalp O O O O O O O O O O
+hastalığı O O O O O O O O O O
+kalp O O O O O O O O O O
+
+# 0.5986 0.0772 0.0520 0.0506 0.0495 0.0434 0.0417 0.0309 0.0282 0.0280
+hipertansiyon O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Duration S-loc O
+diyabet O O O O O O O O O O
+
+# 0.6159 0.0727 0.0499 0.0491 0.0474 0.0419 0.0406 0.0283 0.0279 0.0263
+karaciğer O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc S-loc B-Duration O
+nakli O O O O O O O O O O
+
+# 0.6110 0.0712 0.0488 0.0486 0.0465 0.0413 0.0401 0.0375 0.0283 0.0267
+hastanın O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kronik O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+bilinmiyor O O O O O O O O O O
+
+# 0.6110 0.0712 0.0488 0.0486 0.0465 0.0413 0.0401 0.0375 0.0283 0.0267
+hastanın O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kronik O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+bilinmiyor O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+14 O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+3 O O O O O O O O O O
+
+# 0.6247 0.0721 0.0469 0.0467 0.0419 0.0414 0.0378 0.0341 0.0296 0.0249
+kah O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+2019 O O O O O O O E-Status O O
+da O O O O O O O O O O
+kvc O O O O O O O O O O
+paul O O O O O O O O O O
+gelip O O O O O O O O O O
+kardiyolojiye O O O O O O O O O O
+öncelikli O O O O O O O O O O
+gönderilen O O O O O O O O O O
+işlemi O O O O O O O O O O
+tetkik O O O O O O O O O O
+
+# 0.6146 0.0697 0.0493 0.0482 0.0467 0.0409 0.0405 0.0356 0.0287 0.0258
+açısından O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+değerlendirilmiş O O O O O O O E-Status O O
+hasta O O O O O O O O O O
+
+# 0.6323 0.0717 0.0484 0.0466 0.0435 0.0409 0.0396 0.0298 0.0248 0.0223
+lad O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration B-Pre-Diagnosis
+stentli O O O O O O O O O O
+
+# 0.5929 0.0765 0.0507 0.0497 0.0491 0.0428 0.0404 0.0390 0.0304 0.0286
+belboyun O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+fıtık O O O O O O O E-Status O O
+amca O O O O O O O O O O
+aş O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+ileri O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+imiş O O O O O O O O O O
+
+# 0.5944 0.0777 0.0517 0.0469 0.0460 0.0434 0.0429 0.0390 0.0307 0.0273
+meme O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+ca O O O O O E-Status O O O O
+meme O O O O O O O O O O
+o O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+y O O O O O O O O O O
+
+# 0.6242 0.0693 0.0488 0.0459 0.0451 0.0407 0.0405 0.0325 0.0295 0.0237
+kolesistektomi O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+apendektomi O O O O O O O E-Status O O
+anjio O O O O O O O O O O
+anjio O O O O O O O O O O
+temiz O O O O O O O O O O
+temiz O O O O O O O O O O
+çıkmış O O O O O O O O O O
+
+# 0.5940 0.0762 0.0507 0.0499 0.0494 0.0426 0.0408 0.0383 0.0298 0.0284
+hipertansiyon O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+gut O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+
+# 0.6277 0.0676 0.0479 0.0460 0.0437 0.0407 0.0401 0.0338 0.0288 0.0236
+kolisi O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+çanta O O O O O O O E-Status O E-Semptom
+aldactone O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+hipotiroıdı O O O O O O O O O O
+
+# 0.6257 0.0710 0.0478 0.0461 0.0430 0.0412 0.0392 0.0326 0.0291 0.0244
+crohn O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+hashimoto O O O O O O O E-Status O O
+ht O O O O O O O O O O
+
+# 0.6136 0.0709 0.0492 0.0483 0.0465 0.0410 0.0401 0.0356 0.0287 0.0262
+hastanın O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+yakınması O O O O O O O E-Status O O
+uzun O O O O O O O O O O
+zamandır O O O O O O O O O O
+mevcut O O O O O O O O O O
+
+# 0.6057 0.0725 0.0497 0.0485 0.0470 0.0416 0.0400 0.0394 0.0279 0.0278
+hasta O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+medikal O O O O O O O E-Status O O
+tedavilerden O O O O O O O O O O
+fayda O O O O O O O O O O
+görmemiş O O O O O O O O O O
+
+# 0.5752 0.0843 0.0548 0.0489 0.0477 0.0440 0.0427 0.0376 0.0368 0.0280
+1 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+ay O O O O O O E-Status O O O
+dengesizlik O O O O O O O O O O
+önce O O O O O O O O O O
+başlayan O O O O O O O O O O
+daha O O O O O O O O O O
+çok O O O O O O O O O O
+ve O O O O O O O O O O
+yatarken O O O O O O O O O O
+ani O O O O O O O O O O
+başta O O O O O O O O O O
+boşluk O O O O O O O O O O
+hissi O O O O O O O O O O
+gibi O O O O O O O O O O
+tarif O O O O O O O O O O
+edilen O O O O O O O O O O
+klinik O O O O O O O O O O
+
+# 0.6148 0.0719 0.0487 0.0479 0.0463 0.0413 0.0398 0.0343 0.0293 0.0258
+şüpheli O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+bir O O O O O O O E-Status O O
+Meier'e O O O O O O O O O O
+daha O O O O O O O O O O
+önce O O O O O O O O O O
+tanısı O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.6224 0.0684 0.0477 0.0476 0.0437 0.0413 0.0397 0.0358 0.0286 0.0248
+sol O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+carotis O O O O O O O E-Status O O
+% O O O O O O O O O O
+70 O O O O O O O O O O
+darlık O O O O O O O O O O
+sol O O O O O O O O O O
+carotis O O O O O O O O O O
+söz O O O O O O O O O O
+konusu O O O O O O O O O O
+
+# 0.6145 0.0705 0.0491 0.0481 0.0468 0.0411 0.0403 0.0353 0.0286 0.0258
+yakınmalar O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ona O O O O O O O E-Status O O
+bağlı O O O O O O O O O O
+olabilir O O O O O O O O O O
+mi O O O O O O O O O O
+diye O O O O O O O O O O
+gelmiş O O O O O O O O O O
+
+# 0.6072 0.0715 0.0498 0.0487 0.0468 0.0417 0.0400 0.0386 0.0281 0.0276
+astıma O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+için O O O O O O O E-Status O O
+genkort O O O O O O O O O O
+ecoprin O O O O O O O O O O
+100 O O O O O O O O O O
+karvezid O O O O O O O O O O
+30012 O O O O O O O O O O
+
+# 0.5695 0.0842 0.0554 0.0495 0.0476 0.0469 0.0445 0.0384 0.0370 0.0270
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+dm O O O O O E-Status O O O O
+5 O O O O O O O O O O
+ventolin O O O O O O O O O O
+spiriva O O O O O O O O O O
+singülair O O O O O O O O O O
+janüvia O O O O O O O O O O
+almakta O O O O O O O O O O
+ve O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.5804 0.0790 0.0531 0.0510 0.0484 0.0438 0.0432 0.0403 0.0333 0.0276
+xatral O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+de O O O O O E-Status O O O O
+alıyor O O O O O O O O O O
+
+# 0.5756 0.0841 0.0548 0.0489 0.0478 0.0439 0.0426 0.0376 0.0368 0.0279
+1 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+ay O O O O O O E-Status O O O
+dengesizlik O O O O O O O O O O
+yatarken O O O O O O O O O O
+ani O O O O O O O O O O
+başta O O O O O O O O O O
+boşluk O O O O O O O O O O
+hissi O O O O O O O O O O
+önce O O O O O O O O O O
+başlayan O O O O O O O O O O
+daha O O O O O O O O O O
+çok O O O O O O O O O O
+ve O O O O O O O O O O
+gibi O O O O O O O O O O
+tarif O O O O O O O O O O
+edilen O O O O O O O O O O
+klinik O O O O O O O O O O
+
+# 0.6148 0.0719 0.0487 0.0479 0.0463 0.0413 0.0398 0.0343 0.0293 0.0258
+şüpheli O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+bir O O O O O O O E-Status O O
+Meier'e O O O O O O O O O O
+daha O O O O O O O O O O
+önce O O O O O O O O O O
+tanısı O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.6224 0.0684 0.0477 0.0476 0.0437 0.0413 0.0397 0.0358 0.0286 0.0248
+sol O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+carotis O O O O O O O E-Status O O
+% O O O O O O O O O O
+70 O O O O O O O O O O
+darlık O O O O O O O O O O
+sol O O O O O O O O O O
+carotis O O O O O O O O O O
+söz O O O O O O O O O O
+konusu O O O O O O O O O O
+
+# 0.6145 0.0705 0.0491 0.0481 0.0468 0.0411 0.0403 0.0353 0.0286 0.0258
+yakınmalar O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ona O O O O O O O E-Status O O
+bağlı O O O O O O O O O O
+olabilir O O O O O O O O O O
+mi O O O O O O O O O O
+diye O O O O O O O O O O
+gelmiş O O O O O O O O O O
+
+# 0.6072 0.0715 0.0498 0.0487 0.0468 0.0417 0.0400 0.0386 0.0281 0.0276
+astıma O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+için O O O O O O O E-Status O O
+genkort O O O O O O O O O O
+ecoprin O O O O O O O O O O
+100 O O O O O O O O O O
+karvezid O O O O O O O O O O
+30012 O O O O O O O O O O
+
+# 0.5695 0.0842 0.0554 0.0495 0.0476 0.0469 0.0445 0.0384 0.0370 0.0270
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+dm O O O O O E-Status O O O O
+5 O O O O O O O O O O
+ventolin O O O O O O O O O O
+spiriva O O O O O O O O O O
+singülair O O O O O O O O O O
+janüvia O O O O O O O O O O
+almakta O O O O O O O O O O
+ve O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.5804 0.0790 0.0531 0.0510 0.0484 0.0438 0.0432 0.0403 0.0333 0.0276
+xatral O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+de O O O O O E-Status O O O O
+alıyor O O O O O O O O O O
+
+# 0.6230 0.0701 0.0480 0.0473 0.0433 0.0406 0.0395 0.0347 0.0286 0.0249
+uzun O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+zamandır O O O O O O O E-Status O O
+mevcutmuş O O O O O O O O O O
+
+# 0.6153 0.0701 0.0487 0.0484 0.0462 0.0409 0.0400 0.0361 0.0285 0.0258
+özellikle O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+koku O O O O O O O E-Status O O
+ve O O O O O O O O O O
+toz O O O O O O O O O O
+gibi O O O O O O O O O O
+etkenlerle O O O O O O O O O O
+artıyormuş O O O O O O O O O O
+
+# 0.5841 0.0793 0.0531 0.0499 0.0488 0.0431 0.0407 0.0394 0.0335 0.0281
+1,5 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+yıldır O O O O O O E-Status O O O
+hastanın O O O O O O O O O O
+yakınmaları O O O O O O O O O O
+mevcut O O O O O O O O O O
+
+# 0.5749 0.0839 0.0540 0.0497 0.0481 0.0438 0.0436 0.0386 0.0354 0.0280
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+ara O O O O O O E-Status O O O
+babada O O O O O O O O O O
+kah O O O O O O O O O O
+annede O O O O O O O O O O
+guatr O O O O O O O O O O
+öyküsü O O O O O O O O O O
+
+# 0.6083 0.0726 0.0490 0.0487 0.0471 0.0415 0.0394 0.0370 0.0289 0.0275
+düşürme O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+öyküsü O O O O O O O E-Status O O
+her O O O O O O O O O O
+iki O O O O O O O O O O
+taraf O O O O O O O O O O
+
+# 0.5896 0.0787 0.0528 0.0479 0.0479 0.0429 0.0408 0.0383 0.0331 0.0280
+3-4 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+yıl O O O O O O E-Status O O O
+önce O O O O O O O O O O
+sağ O O O O O O O O O O
+diz O O O O O O O O O O
+artroskopi O O O O O O O O O O
+ameliyatı O O O O O O O O O O
+y O O O O O O O O O O
+
+# 0.6354 0.0675 0.0465 0.0452 0.0401 0.0398 0.0388 0.0350 0.0281 0.0237
+aritmi O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc B-Status S-loc B-Semptom
+retina O O O O O O O E-Status O E-Semptom
+sorunları O O O O O O O O O O
+
+# 0.6262 0.0720 0.0474 0.0462 0.0420 0.0411 0.0383 0.0327 0.0296 0.0245
+kah O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+stent O O O O O O O E-Status O O
+2013 O O O O O O O O O O
+
+# 0.5779 0.0830 0.0537 0.0500 0.0488 0.0438 0.0409 0.0389 0.0350 0.0281
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+hipotiroidi O O O O O O E-Status O O O
+efor O O O O O O O O O O
+testi O O O O O O O O O O
+şüpheli O O O O O O O O O O
+göğüs O O O O O O O O O O
+ağrısı O O O O O O O O O O
+göğüs O O O O O O O O O O
+tanısı O O O O O O O O O O
+olan O O O O O O O O O O
+hastanın O O O O O O O O O O
+pozitif O O O O O O O O O O
+eko O O O O O O O O O O
+normal O O O O O O O O O O
+olan O O O O O O O O O O
+hasta O O O O O O O O O O
+başvurdu O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+hyzaar O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+levıtiron O O O O O O O O O O
+
+# 0.5717 0.0826 0.0553 0.0498 0.0482 0.0464 0.0441 0.0388 0.0363 0.0270
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+safra O O O O O E-Status O O O O
+öp O O O O O O O O O O
+guatr O O O O O O O O O O
+için O O O O O O O O O O
+ilaç O O O O O O O O O O
+kullanır O O O O O O O O O O
+
+# 0.6382 0.0654 0.0474 0.0447 0.0406 0.0398 0.0394 0.0325 0.0286 0.0235
+appendektomi O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+babası O O O O O O O E-Status O E-Semptom
+prostat O O O O O O O O O O
+operasyonu O O O O O O O O O O
+1 O O O O O O O O O O
+çocuklu O O O O O O O O O O
+olmuş O O O O O O O O O O
+
+# 0.6281 0.0686 0.0483 0.0461 0.0436 0.0407 0.0396 0.0314 0.0297 0.0237
+sol O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+omuzda O O O O O O O E-Status O O
+ağrı O O O O O O O O O O
+sol O O O O O O O O O O
+omuzda O O O O O O O O O O
+şişlik O O O O O O O O O O
+hassasiyet O O O O O O O O O O
+hareket O O O O O O O O O O
+kısıtlılığı O O O O O O O O O O
+ve O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+gastrit O O O O O O O O O O
+
+# 0.5927 0.0762 0.0519 0.0495 0.0493 0.0423 0.0400 0.0397 0.0310 0.0274
+burun O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+tıkanıklığı O O O O O O O E-Status O O
+burun O O O O O O O O O O
+burun O O O O O O O O O O
+akıntısı O O O O O O O O O O
+burun O O O O O O O O O O
+hapşırmasana O O O O O O O O O O
+hiç O O O O O O O O O O
+geçmeyen O O O O O O O O O O
+hasta O O O O O O O O O O
+özellikle O O O O O O O O O O
+tozlu O O O O O O O O O O
+ortamda O O O O O O O O O O
+dahada O O O O O O O O O O
+artan O O O O O O O O O O
+akıntısı O O O O O O O O O O
+tarihliyor O O O O O O O O O O
+
+# 0.6303 0.0691 0.0464 0.0460 0.0406 0.0402 0.0385 0.0367 0.0290 0.0233
+ldh O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc B-Status S-loc B-Duration
+opere O O O O O O O E-Status O O
+ikh O O O O O O O O O O
+stentli O O O O O O O O O O
+
+# 0.6210 0.0723 0.0488 0.0470 0.0415 0.0413 0.0372 0.0354 0.0286 0.0270
+1992 O S-Past-Diagnosis B-Status B-Semptom E-Status S-Semptom E-loc B-Status S-loc B-Duration
+sol O O O O O O O E-Status O O
+kulak O O O O O O O O O O
+1998 O O O O O O O O O O
+sağ O O O O O O O O O O
+kulak O O O O O O O O O O
+göztepe O O O O O O O O O O
+eğitsene O O O O O O O O O O
+arat O O O O O O O O O O
+
+# 0.5756 0.0835 0.0546 0.0491 0.0481 0.0439 0.0428 0.0379 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+şikayeti O O O O O O O O O O
+oluyormuş O O O O O O O O O O
+
+# 0.6167 0.0741 0.0495 0.0492 0.0469 0.0420 0.0400 0.0287 0.0280 0.0248
+şeker O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc S-loc B-Duration O
+hastalığı O O O O O O O O O O
+
+# 0.6297 0.0715 0.0482 0.0478 0.0437 0.0412 0.0399 0.0291 0.0253 0.0236
+uzun O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration O
+süredir O O O O O O O O O O
+
+# 0.5756 0.0835 0.0546 0.0491 0.0481 0.0439 0.0428 0.0379 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+şikayeti O O O O O O O O O O
+oluyormuş O O O O O O O O O O
+
+# 0.6257 0.0721 0.0496 0.0474 0.0464 0.0413 0.0409 0.0295 0.0252 0.0219
+çocukluktan O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration O
+gelen O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+16 O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+11 O O O O O O O O O O
+
+# 0.6280 0.0755 0.0480 0.0467 0.0422 0.0413 0.0373 0.0299 0.0272 0.0239
+2018 O S-Past-Diagnosis B-Status B-Semptom E-Status S-Semptom E-loc S-loc B-Duration B-Pre-Diagnosis
+dr O O O O O O O O O O
+
+# 0.6066 0.0735 0.0497 0.0490 0.0483 0.0420 0.0403 0.0340 0.0288 0.0278
+posterior O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+segmental O O O O O O O E-Status O O
+enstrümantasyon O O O O O O O O O O
+7 O O O O O O O O O O
+veya O O O O O O O O O O
+fazla O O O O O O O O O O
+vertebra O O O O O O O O O O
+op O O O O O O O O O O
+çetin O O O O O O O O O O
+bey O O O O O O O O O O
+
+# 0.5772 0.0800 0.0544 0.0502 0.0483 0.0445 0.0441 0.0398 0.0344 0.0271
+opere O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+meme O O O O O E-Status O O O O
+ca O O O O O O O O O O
+intraserebral O O O O O O O O O O
+hematim O O O O O O O O O O
+intraserebral O O O O O O O O O O
+
+# 0.5756 0.0847 0.0546 0.0488 0.0477 0.0440 0.0421 0.0377 0.0368 0.0280
+6 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+kez O O O O O O E-Status O O O
+opere O O O O O O O O O O
+burundan O O O O O O O O O O
+
+# 0.6110 0.0712 0.0488 0.0486 0.0465 0.0413 0.0401 0.0375 0.0283 0.0267
+hastanın O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kronik O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+bilinmiyor O O O O O O O O O O
+
+# 0.6110 0.0712 0.0488 0.0486 0.0465 0.0413 0.0401 0.0375 0.0283 0.0267
+hastanın O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kronik O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+bilinmiyor O O O O O O O O O O
+
+# 0.6132 0.0725 0.0492 0.0481 0.0469 0.0412 0.0399 0.0335 0.0290 0.0265
+hastaya O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+paraneoplastik O O O O O O O E-Status O O
+tarama O O O O O O O O O O
+yapılmış O O O O O O O O O O
+ve O O O O O O O O O O
+patoloji O O O O O O O O O O
+bulunamamış O O O O O O O O O O
+
+# 0.5894 0.0776 0.0527 0.0479 0.0479 0.0430 0.0427 0.0385 0.0323 0.0279
+kc O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+de O O O O O E-Status O O O O
+multiple O O O O O O O O O O
+hemanjiom O O O O O O O O O O
+kc O O O O O O O O O O
+böbrekte O O O O O O O O O O
+kist O O O O O O O O O O
+böbrekte O O O O O O O O O O
+ve O O O O O O O O O O
+saptanmış O O O O O O O O O O
+
+# 0.6043 0.0755 0.0510 0.0475 0.0445 0.0424 0.0385 0.0375 0.0305 0.0283
+10 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+yıl O O O O O O E-Status O O O
+önce O O O O O O O O O O
+moskovada O O O O O O O O O O
+kısırlık O O O O O O O O O O
+tedavi O O O O O O O O O O
+görmüş O O O O O O O O O O
+
+# 0.6112 0.0728 0.0488 0.0488 0.0460 0.0412 0.0400 0.0362 0.0282 0.0269
+ismini O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+bilmediği O O O O O O O E-Status O O
+ilaçlar O O O O O O O O O O
+kullanmış O O O O O O O O O O
+
+# 0.6127 0.0713 0.0491 0.0488 0.0466 0.0408 0.0401 0.0355 0.0283 0.0269
+uyuşma O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+okullandığı O O O O O O O E-Status O O
+ilaçlardan O O O O O O O O O O
+sonra O O O O O O O O O O
+hastada O O O O O O O O O O
+şikayeti O O O O O O O O O O
+başlamış O O O O O O O O O O
+
+# 0.6053 0.0720 0.0501 0.0485 0.0470 0.0415 0.0403 0.0398 0.0280 0.0275
+hasta O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+uygulanan O O O O O O O E-Status O O
+ilaçları O O O O O O O O O O
+bilmiyor O O O O O O O O O O
+
+# 0.5837 0.0807 0.0534 0.0470 0.0467 0.0465 0.0433 0.0383 0.0335 0.0270
+dm O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+ht O O O O O E-Status O O O O
+pankreas O O O O O O O O O O
+ca O O O O O O O O O O
+( O O O O O O O O O O
+akraba O O O O O O O O O O
+) O O O O O O O O O O
+oda O O O O O O O O O O
+oğlu O O O O O O O O O O
+mide O O O O O O O O O O
+çabaya O O O O O O O O O O
+larınks O O O O O O O O O O
+çaresi O O O O O O O O O O
+
+# 0.5911 0.0794 0.0506 0.0501 0.0491 0.0427 0.0405 0.0366 0.0308 0.0291
+ailede O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+dm-ht O O O O O O O E-Status O O
+mevcut O O O O O O O O O O
+
+# 0.6332 0.0678 0.0470 0.0461 0.0406 0.0400 0.0385 0.0345 0.0285 0.0238
+babada O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+bell O O O O O O O E-Status O E-Semptom
+palsısı O O O O O O O O O O
+
+# 0.5911 0.0794 0.0506 0.0501 0.0491 0.0427 0.0405 0.0366 0.0308 0.0291
+ailede O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+dm-ht O O O O O O O E-Status O O
+mevcut O O O O O O O O O O
+
+# 0.6332 0.0678 0.0470 0.0461 0.0406 0.0400 0.0385 0.0345 0.0285 0.0238
+babada O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+bell O O O O O O O E-Status O E-Semptom
+palsısı O O O O O O O O O O
+
+# 0.6088 0.0734 0.0499 0.0471 0.0443 0.0425 0.0394 0.0383 0.0283 0.0281
+tip O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc S-loc B-Duration
+ıı O O O O O O E-Status O O O
+dm O O O O O O O O O O
+40 O O O O O O O O O O
+yıldır O O O O O O O O O O
+ht O O O O O O O O O O
+insülin O O O O O O O O O O
+kullanıyor O O O O O O O O O O
+glokom O O O O O O O O O O
+combigan O O O O O O O O O O
+2x1 O O O O O O O O O O
+
+# 0.5867 0.0759 0.0526 0.0504 0.0489 0.0430 0.0426 0.0409 0.0319 0.0271
+total O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+larenjektomi O O O O O O E-Status O O O
+bilateral O O O O O O O O O O
+fonksiyonel O O O O O O O O O O
+boyun O O O O O O O O O O
+direksiyonu O O O O O O O O O O
+tiroit O O O O O O O O O O
+sağ O O O O O O O O O O
+löbektomi O O O O O O O O O O
+011214 O O O O O O O O O O
+rt O O O O O O O O O O
+aldı O O O O O O O O O O
+med O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+önkol O O O O O O O O O O
+
+# 0.6174 0.0724 0.0487 0.0468 0.0427 0.0414 0.0385 0.0377 0.0280 0.0265
+ek O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tedavi O O O O O O O E-Status O O
+düşünmedi O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+postop O O O O O O O O O O
+
+# 0.6054 0.0767 0.0500 0.0473 0.0442 0.0423 0.0376 0.0374 0.0300 0.0290
+25 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+yıl O O O O O O O E-Status O O
+oldu O O O O O O O O O O
+
+# 0.5867 0.0759 0.0526 0.0504 0.0489 0.0430 0.0426 0.0409 0.0319 0.0271
+total O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+larenjektomi O O O O O O E-Status O O O
+bilateral O O O O O O O O O O
+fonksiyonel O O O O O O O O O O
+boyun O O O O O O O O O O
+direksiyonu O O O O O O O O O O
+tiroit O O O O O O O O O O
+sağ O O O O O O O O O O
+löbektomi O O O O O O O O O O
+011214 O O O O O O O O O O
+rt O O O O O O O O O O
+aldı O O O O O O O O O O
+med O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+önkol O O O O O O O O O O
+
+# 0.6174 0.0724 0.0487 0.0468 0.0427 0.0414 0.0385 0.0377 0.0280 0.0265
+ek O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tedavi O O O O O O O E-Status O O
+düşünmedi O O O O O O O O O O
+
+# 0.5756 0.0835 0.0546 0.0491 0.0481 0.0439 0.0428 0.0379 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+şikayeti O O O O O O O O O O
+oluyormuş O O O O O O O O O O
+
+# 0.5986 0.0727 0.0514 0.0482 0.0470 0.0431 0.0425 0.0401 0.0290 0.0273
+mesane O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+tm O O O O O E-Status O O O O
+mesane O O O O O O O O O O
+yüksek O O O O O O O O O O
+dereceli O O O O O O O O O O
+pta O O O O O O O O O O
+ocak O O O O O O O O O O
+2016da O O O O O O O O O O
+tanısı O O O O O O O O O O
+konularak O O O O O O O O O O
+dış O O O O O O O O O O
+merkezde O O O O O O O O O O
+turt O O O O O O O O O O
+yapılan O O O O O O O O O O
+sol O O O O O O O O O O
+orifıslateralinde O O O O O O O O O O
+arka O O O O O O O O O O
+ve O O O O O O O O O O
+yan O O O O O O O O O O
+duvara O O O O O O O O O O
+uzanan O O O O O O O O O O
+22 O O O O O O O O O O
+
+# 0.6202 0.0709 0.0478 0.0477 0.0437 0.0412 0.0389 0.0358 0.0281 0.0259
+idame O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ıntravezikal O O O O O O O E-Status O O
+bçg O O O O O O O O O O
+indüksiyon O O O O O O O O O O
+5 O O O O O O O O O O
+cm O O O O O O O O O O
+boyutunda O O O O O O O O O O
+hastaya O O O O O O O O O O
+sonrasında O O O O O O O O O O
+ve O O O O O O O O O O
+uygulaması O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6121 0.0703 0.0488 0.0486 0.0463 0.0419 0.0403 0.0373 0.0283 0.0262
+sistoskopisi O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tümör O O O O O O O E-Status O O
+en O O O O O O O O O O
+son O O O O O O O O O O
+6 O O O O O O O O O O
+ay O O O O O O O O O O
+evvel O O O O O O O O O O
+kontrol O O O O O O O O O O
+yapılmış O O O O O O O O O O
+ve O O O O O O O O O O
+izlenilmemiş O O O O O O O O O O
+
+# 0.5715 0.0834 0.0555 0.0490 0.0476 0.0463 0.0441 0.0377 0.0376 0.0271
+3 O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status B-Duration E-loc S-loc
+defa O O O O O E-Status O O O O
+intravezikal O O O O O O O O O O
+bçg O O O O O O O O O O
+ardından O O O O O O O O O O
+de O O O O O O O O O O
+uygulanmış O O O O O O O O O O
+
+# 0.5987 0.0726 0.0514 0.0483 0.0470 0.0431 0.0425 0.0401 0.0290 0.0273
+mesane O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+tm O O O O O E-Status O O O O
+mesane O O O O O O O O O O
+yüksek O O O O O O O O O O
+dereceli O O O O O O O O O O
+pta O O O O O O O O O O
+mesane O O O O O O O O O O
+ocak O O O O O O O O O O
+2016da O O O O O O O O O O
+tanısı O O O O O O O O O O
+konularak O O O O O O O O O O
+dış O O O O O O O O O O
+merkezde O O O O O O O O O O
+turt O O O O O O O O O O
+yapılan O O O O O O O O O O
+sol O O O O O O O O O O
+orifıslateralinde O O O O O O O O O O
+arka O O O O O O O O O O
+ve O O O O O O O O O O
+yan O O O O O O O O O O
+duvara O O O O O O O O O O
+uzanan O O O O O O O O O O
+22 O O O O O O O O O O
+
+# 0.6133 0.0708 0.0491 0.0482 0.0469 0.0414 0.0400 0.0355 0.0284 0.0263
+indüksiyon O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+idame O O O O O O O E-Status O O
+ıntravezikal O O O O O O O O O O
+bçg O O O O O O O O O O
+5 O O O O O O O O O O
+cm O O O O O O O O O O
+boyutunda O O O O O O O O O O
+hastaya O O O O O O O O O O
+sonrasında O O O O O O O O O O
+ve O O O O O O O O O O
+uygulaması O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6121 0.0703 0.0488 0.0486 0.0463 0.0419 0.0403 0.0373 0.0283 0.0262
+sistoskopisi O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tümör O O O O O O O E-Status O O
+en O O O O O O O O O O
+son O O O O O O O O O O
+6 O O O O O O O O O O
+ay O O O O O O O O O O
+evvel O O O O O O O O O O
+kontrol O O O O O O O O O O
+yapılmış O O O O O O O O O O
+ve O O O O O O O O O O
+izlenilmemiş O O O O O O O O O O
+
+# 0.5715 0.0834 0.0555 0.0490 0.0476 0.0463 0.0441 0.0377 0.0376 0.0271
+3 O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status B-Duration E-loc S-loc
+defa O O O O O E-Status O O O O
+intravezikal O O O O O O O O O O
+bçg O O O O O O O O O O
+ardından O O O O O O O O O O
+de O O O O O O O O O O
+uygulanmış O O O O O O O O O O
+
+# 0.5986 0.0727 0.0514 0.0482 0.0470 0.0431 0.0425 0.0401 0.0290 0.0273
+mesane O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+tm O O O O O E-Status O O O O
+mesane O O O O O O O O O O
+yüksek O O O O O O O O O O
+dereceli O O O O O O O O O O
+pta O O O O O O O O O O
+ocak O O O O O O O O O O
+2016da O O O O O O O O O O
+tanısı O O O O O O O O O O
+konularak O O O O O O O O O O
+dış O O O O O O O O O O
+merkezde O O O O O O O O O O
+turt O O O O O O O O O O
+yapılan O O O O O O O O O O
+sol O O O O O O O O O O
+orifıslateralinde O O O O O O O O O O
+arka O O O O O O O O O O
+ve O O O O O O O O O O
+yan O O O O O O O O O O
+duvara O O O O O O O O O O
+uzanan O O O O O O O O O O
+22 O O O O O O O O O O
+
+# 0.6133 0.0708 0.0491 0.0482 0.0469 0.0414 0.0400 0.0355 0.0284 0.0263
+indüksiyon O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+idame O O O O O O O E-Status O O
+ıntravezikal O O O O O O O O O O
+bçg O O O O O O O O O O
+5 O O O O O O O O O O
+cm O O O O O O O O O O
+boyutunda O O O O O O O O O O
+hastaya O O O O O O O O O O
+sonrasında O O O O O O O O O O
+ve O O O O O O O O O O
+uygulaması O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6121 0.0703 0.0488 0.0486 0.0463 0.0419 0.0403 0.0373 0.0283 0.0262
+sistoskopisi O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tümör O O O O O O O E-Status O O
+en O O O O O O O O O O
+son O O O O O O O O O O
+6 O O O O O O O O O O
+ay O O O O O O O O O O
+evvel O O O O O O O O O O
+kontrol O O O O O O O O O O
+yapılmış O O O O O O O O O O
+ve O O O O O O O O O O
+izlenilmemiş O O O O O O O O O O
+
+# 0.5715 0.0834 0.0555 0.0490 0.0476 0.0463 0.0441 0.0377 0.0376 0.0271
+3 O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status B-Duration E-loc S-loc
+defa O O O O O E-Status O O O O
+intravezikal O O O O O O O O O O
+bçg O O O O O O O O O O
+ardından O O O O O O O O O O
+de O O O O O O O O O O
+uygulanmış O O O O O O O O O O
+
+# 0.5986 0.0727 0.0514 0.0482 0.0470 0.0431 0.0425 0.0401 0.0290 0.0273
+mesane O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+tm O O O O O E-Status O O O O
+mesane O O O O O O O O O O
+yüksek O O O O O O O O O O
+dereceli O O O O O O O O O O
+pta O O O O O O O O O O
+ocak O O O O O O O O O O
+2016da O O O O O O O O O O
+tanısı O O O O O O O O O O
+konularak O O O O O O O O O O
+dış O O O O O O O O O O
+merkezde O O O O O O O O O O
+turt O O O O O O O O O O
+yapılan O O O O O O O O O O
+sol O O O O O O O O O O
+orifıslateralinde O O O O O O O O O O
+arka O O O O O O O O O O
+ve O O O O O O O O O O
+yan O O O O O O O O O O
+duvara O O O O O O O O O O
+uzanan O O O O O O O O O O
+22 O O O O O O O O O O
+
+# 0.6133 0.0708 0.0491 0.0482 0.0469 0.0414 0.0400 0.0355 0.0284 0.0263
+indüksiyon O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+idame O O O O O O O E-Status O O
+ıntravezikal O O O O O O O O O O
+bçg O O O O O O O O O O
+5 O O O O O O O O O O
+cm O O O O O O O O O O
+boyutunda O O O O O O O O O O
+hastaya O O O O O O O O O O
+sonrasında O O O O O O O O O O
+ve O O O O O O O O O O
+uygulaması O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6121 0.0703 0.0488 0.0486 0.0463 0.0419 0.0403 0.0373 0.0283 0.0262
+sistoskopisi O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tümör O O O O O O O E-Status O O
+en O O O O O O O O O O
+son O O O O O O O O O O
+6 O O O O O O O O O O
+ay O O O O O O O O O O
+evvel O O O O O O O O O O
+kontrol O O O O O O O O O O
+yapılmış O O O O O O O O O O
+ve O O O O O O O O O O
+izlenilmemiş O O O O O O O O O O
+
+# 0.5715 0.0834 0.0555 0.0490 0.0476 0.0463 0.0441 0.0377 0.0376 0.0271
+3 O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status B-Duration E-loc S-loc
+defa O O O O O E-Status O O O O
+intravezikal O O O O O O O O O O
+bçg O O O O O O O O O O
+ardından O O O O O O O O O O
+de O O O O O O O O O O
+uygulanmış O O O O O O O O O O
+
+# 0.6426 0.0704 0.0464 0.0447 0.0409 0.0395 0.0380 0.0299 0.0245 0.0231
+oy O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc S-loc B-Pre-Diagnosis B-Duration
+oy O O O O O O O O O O
+
+# 0.6376 0.0716 0.0470 0.0461 0.0411 0.0411 0.0382 0.0296 0.0244 0.0233
+bir O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc S-loc B-Duration B-Pre-Diagnosis
+hafta O O O O O O O O O O
+
+# 0.5756 0.0835 0.0546 0.0491 0.0481 0.0439 0.0428 0.0379 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+şikayeti O O O O O O O O O O
+oluyormuş O O O O O O O O O O
+
+# 0.6424 0.0686 0.0475 0.0455 0.0407 0.0405 0.0390 0.0296 0.0232 0.0228
+ldh O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc O B-Semptom
+tanısı O O O O O O O O O E-Semptom
+
+# 0.5756 0.0835 0.0546 0.0491 0.0481 0.0439 0.0428 0.0379 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+şikayeti O O O O O O O O O O
+oluyormuş O O O O O O O O O O
+
+# 0.6157 0.0714 0.0489 0.0465 0.0423 0.0418 0.0411 0.0384 0.0276 0.0264
+kah O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc S-loc B-Duration
+ht O O O O O O E-Status O O O
+hl O O O O O O O O O O
+opere O O O O O O O O O O
+çağ O O O O O O O O O O
+
+# 0.5851 0.0815 0.0525 0.0469 0.0466 0.0451 0.0432 0.0383 0.0330 0.0277
+dm O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+ht O O O O O E-Status O O O O
+ıkby O O O O O O O O O O
+kky O O O O O O O O O O
+cushing O O O O O O O O O O
+seni O O O O O O O O O O
+
+# 0.5922 0.0774 0.0511 0.0504 0.0496 0.0426 0.0407 0.0366 0.0308 0.0285
+ailede O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+kalp O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+
+# 0.5879 0.0803 0.0524 0.0474 0.0467 0.0439 0.0428 0.0386 0.0323 0.0276
+dm O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+opere O O O O O E-Status O O O O
+ldh O O O O O O O O O O
+lazer O O O O O O O O O O
+operasyonu O O O O O O O O O O
+ht20062007 O O O O O O O O O O
+2010 O O O O O O O O O O
+
+# 0.6130 0.0723 0.0487 0.0482 0.0462 0.0410 0.0398 0.0361 0.0287 0.0259
+endometrrium O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kürtaj O O O O O O O E-Status O O
+siroz O O O O O O O O O O
+karsinomu O O O O O O O O O O
+bx O O O O O O O O O O
+analiz O O O O O O O O O O
+patoloji O O O O O O O O O O
+sitoloji O O O O O O O O O O
+lab O O O O O O O O O O
+ordu O O O O O O O O O O
+no O O O O O O O O O O
+2111671176296 O O O O O O O O O O
+
+# 0.6222 0.0698 0.0481 0.0477 0.0434 0.0407 0.0393 0.0353 0.0282 0.0252
+uzun O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+zamandır O O O O O O O E-Status O O
+şikayetleri O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.6130 0.0723 0.0487 0.0482 0.0462 0.0410 0.0398 0.0361 0.0287 0.0259
+endometrrium O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kürtaj O O O O O O O E-Status O O
+siroz O O O O O O O O O O
+karsinomu O O O O O O O O O O
+bx O O O O O O O O O O
+analiz O O O O O O O O O O
+patoloji O O O O O O O O O O
+sitoloji O O O O O O O O O O
+lab O O O O O O O O O O
+ordu O O O O O O O O O O
+no O O O O O O O O O O
+2111671176296 O O O O O O O O O O
+
+# 0.6002 0.0745 0.0508 0.0472 0.0459 0.0429 0.0423 0.0390 0.0293 0.0278
+şeker O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+5 O O O O O E-Status O O O O
+yıldır O O O O O O O O O O
+
+# 0.6133 0.0682 0.0490 0.0490 0.0464 0.0411 0.0406 0.0384 0.0277 0.0262
+çorsal O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+spondiloz O O O O O O O E-Status O E-Semptom
+çorsal O O O O O O O O O O
+hafif O O O O O O O O O O
+yükseklik O O O O O O O O O O
+kayıpları O O O O O O O O O O
+t11 O O O O O O O O O O
+ve O O O O O O O O O O
+t12 O O O O O O O O O O
+vertebra O O O O O O O O O O
+korpus O O O O O O O O O O
+ön O O O O O O O O O O
+bölümlerinde O O O O O O O O O O
+disklerde O O O O O O O O O O
+dejenerasyon O O O O O O O O O O
+t9-10 O O O O O O O O O O
+seviyesinde O O O O O O O O O O
+posterosantral O O O O O O O O O O
+bulging O O O O O O O O O O
+t9-10 O O O O O O O O O O
+seviyesinde O O O O O O O O O O
+posterosantral O O O O O O O O O O
+t11-12 O O O O O O O O O O
+seviyesinde O O O O O O O O O O
+sol O O O O O O O O O O
+posterolateral O O O O O O O O O O
+bulging O O O O O O O O O O
+t11-12 O O O O O O O O O O
+seviyesinde O O O O O O O O O O
+sol O O O O O O O O O O
+posterolateral O O O O O O O O O O
+korsal O O O O O O O O O O
+mr O O O O O O O O O O
+
+# 0.6050 0.0745 0.0504 0.0475 0.0456 0.0422 0.0390 0.0382 0.0293 0.0282
+baba O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+akciğer O O O O O O E-Status O O O
+ca O O O O O O O O O O
++ O O O O O O O O O O
+( O O O O O O O O O O
+ex O O O O O O O O O O
+) O O O O O O O O O O
+
+# 0.6105 0.0732 0.0487 0.0485 0.0464 0.0418 0.0393 0.0352 0.0290 0.0274
+boğaz O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+da O O O O O O O E-Status O O
+takılma O O O O O O O O O O
+hissi O O O O O O O O O O
+boğaz O O O O O O O O O O
+
+# 0.5870 0.0780 0.0530 0.0487 0.0486 0.0434 0.0415 0.0395 0.0325 0.0277
+bph O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+yüksek O O O O O O E-Status O O O
+psa O O O O O O O O O O
+nedeniyle O O O O O O O O O O
+dış O O O O O O O O O O
+merkezde O O O O O O O O O O
+dr O O O O O O O O O O
+d O O O O O O O O O O
+
+# 0.6123 0.0733 0.0489 0.0484 0.0468 0.0414 0.0391 0.0336 0.0293 0.0270
+başak O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+takip O O O O O O O E-Status O O
+ediliyor O O O O O O O O O O
+
+# 0.5876 0.0792 0.0528 0.0482 0.0480 0.0437 0.0408 0.0390 0.0325 0.0282
+bph O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+2011 O O O O O O E-Status O O O
+senesinde O O O O O O O O O O
+psa O O O O O O O O O O
+5li O O O O O O O O O O
+bir O O O O O O O O O O
+değerde O O O O O O O O O O
+iken O O O O O O O O O O
+biyopsi O O O O O O O O O O
+yapılmış O O O O O O O O O O
+ve O O O O O O O O O O
+patoloji O O O O O O O O O O
+ile O O O O O O O O O O
+uyumlu O O O O O O O O O O
+gelmiş O O O O O O O O O O
+
+# 0.6302 0.0698 0.0470 0.0464 0.0409 0.0406 0.0378 0.0339 0.0289 0.0244
+bir O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+dönem O O O O O O O E-Status O O
+flomax O O O O O O O O O O
+kullanmış O O O O O O O O O O
+sonra O O O O O O O O O O
+bırakmış O O O O O O O O O O
+şu O O O O O O O O O O
+anda O O O O O O O O O O
+genel O O O O O O O O O O
+olarak O O O O O O O O O O
+rahat O O O O O O O O O O
+alfabloker O O O O O O O O O O
+kullanmıyor O O O O O O O O O O
+
+# 0.6049 0.0713 0.0502 0.0480 0.0463 0.0418 0.0417 0.0398 0.0283 0.0276
+güncel O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+psa O O O O O O E-Status O O O
+değeri O O O O O O O O O O
+5 O O O O O O O O O O
+
+# 0.5725 0.0851 0.0550 0.0487 0.0472 0.0445 0.0443 0.0375 0.0374 0.0278
+8 O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+ng O O O O O E-Status O O O O
+ml O O O O O O O O O O
+
+# 0.5959 0.0746 0.0518 0.0483 0.0477 0.0424 0.0419 0.0401 0.0302 0.0269
+median O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+lob O O O O O O E-Status O O O
+hipertrofisi O O O O O O O O O O
+median O O O O O O O O O O
+lob O O O O O O O O O O
+mesane O O O O O O O O O O
+tabanında O O O O O O O O O O
+belirgin O O O O O O O O O O
+başı O O O O O O O O O O
+etkisi O O O O O O O O O O
+mesane O O O O O O O O O O
+tabanında O O O O O O O O O O
+mp O O O O O O O O O O
+prostat O O O O O O O O O O
+mr O O O O O O O O O O
+
+# 0.6088 0.0719 0.0494 0.0488 0.0466 0.0415 0.0393 0.0373 0.0289 0.0274
+pırads O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ııı O O O O O O O E-Status O O
+santral O O O O O O O O O O
+onda O O O O O O O O O O
+bahis O O O O O O O O O O
+düzeyinde O O O O O O O O O O
+posteriorda O O O O O O O O O O
+orta O O O O O O O O O O
+hattın O O O O O O O O O O
+sağında O O O O O O O O O O
+kategori O O O O O O O O O O
+odak O O O O O O O O O O
+
+# 0.6480 0.0667 0.0472 0.0446 0.0403 0.0401 0.0392 0.0292 0.0225 0.0223
+takip O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc S-loc O B-Semptom
+önerilir O O O O O O O O O E-Semptom
+
+# 0.5870 0.0780 0.0530 0.0487 0.0486 0.0434 0.0415 0.0395 0.0325 0.0277
+bph O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+yüksek O O O O O O E-Status O O O
+psa O O O O O O O O O O
+nedeniyle O O O O O O O O O O
+dış O O O O O O O O O O
+merkezde O O O O O O O O O O
+dr O O O O O O O O O O
+d O O O O O O O O O O
+
+# 0.6123 0.0733 0.0489 0.0484 0.0468 0.0414 0.0391 0.0336 0.0293 0.0270
+başak O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+takip O O O O O O O E-Status O O
+ediliyor O O O O O O O O O O
+
+# 0.5876 0.0792 0.0528 0.0482 0.0480 0.0437 0.0408 0.0390 0.0325 0.0282
+bph O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+2011 O O O O O O E-Status O O O
+senesinde O O O O O O O O O O
+psa O O O O O O O O O O
+5li O O O O O O O O O O
+bir O O O O O O O O O O
+değerde O O O O O O O O O O
+iken O O O O O O O O O O
+biyopsi O O O O O O O O O O
+yapılmış O O O O O O O O O O
+ve O O O O O O O O O O
+patoloji O O O O O O O O O O
+ile O O O O O O O O O O
+uyumlu O O O O O O O O O O
+gelmiş O O O O O O O O O O
+
+# 0.6302 0.0698 0.0470 0.0464 0.0409 0.0406 0.0378 0.0339 0.0289 0.0244
+bir O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+dönem O O O O O O O E-Status O O
+flomax O O O O O O O O O O
+kullanmış O O O O O O O O O O
+sonra O O O O O O O O O O
+bırakmış O O O O O O O O O O
+şu O O O O O O O O O O
+anda O O O O O O O O O O
+genel O O O O O O O O O O
+olarak O O O O O O O O O O
+rahat O O O O O O O O O O
+alfabloker O O O O O O O O O O
+kullanmıyor O O O O O O O O O O
+
+# 0.6049 0.0713 0.0502 0.0480 0.0463 0.0418 0.0417 0.0398 0.0283 0.0276
+güncel O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+psa O O O O O O E-Status O O O
+değeri O O O O O O O O O O
+5 O O O O O O O O O O
+
+# 0.5725 0.0851 0.0550 0.0487 0.0472 0.0445 0.0443 0.0375 0.0374 0.0278
+8 O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+ng O O O O O E-Status O O O O
+ml O O O O O O O O O O
+
+# 0.5959 0.0746 0.0518 0.0483 0.0477 0.0424 0.0419 0.0401 0.0302 0.0269
+median O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+lob O O O O O O E-Status O O O
+hipertrofisi O O O O O O O O O O
+median O O O O O O O O O O
+lob O O O O O O O O O O
+mesane O O O O O O O O O O
+tabanında O O O O O O O O O O
+belirgin O O O O O O O O O O
+başı O O O O O O O O O O
+etkisi O O O O O O O O O O
+mesane O O O O O O O O O O
+tabanında O O O O O O O O O O
+mp O O O O O O O O O O
+prostat O O O O O O O O O O
+mr O O O O O O O O O O
+
+# 0.6281 0.0679 0.0482 0.0461 0.0433 0.0406 0.0396 0.0337 0.0290 0.0235
+santral O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+onda O O O O O O O E-Status O O
+bahis O O O O O O O O O O
+düzeyinde O O O O O O O O O O
+posteriorda O O O O O O O O O O
+orta O O O O O O O O O O
+hattın O O O O O O O O O O
+sağında O O O O O O O O O O
+pırads O O O O O O O O O O
+ııı O O O O O O O O O O
+santral O O O O O O O O O O
+onda O O O O O O O O O O
+bahis O O O O O O O O O O
+düzeyinde O O O O O O O O O O
+posteriorda O O O O O O O O O O
+orta O O O O O O O O O O
+hattın O O O O O O O O O O
+sağında O O O O O O O O O O
+kategori O O O O O O O O O O
+odak O O O O O O O O O O
+
+# 0.6480 0.0667 0.0472 0.0446 0.0403 0.0401 0.0392 0.0292 0.0225 0.0223
+takip O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc S-loc O B-Semptom
+önerilir O O O O O O O O O E-Semptom
+
+# 0.6273 0.0704 0.0473 0.0468 0.0422 0.0408 0.0381 0.0334 0.0287 0.0250
+iki O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kranyal O O O O O O O E-Status O O
+bt'side O O O O O O O O O O
+normal O O O O O O O O O O
+acile O O O O O O O O O O
+getirilen O O O O O O O O O O
+hastanın O O O O O O O O O O
+raporlanılmıştı O O O O O O O O O O
+
+# 0.6139 0.0713 0.0490 0.0482 0.0465 0.0412 0.0403 0.0351 0.0287 0.0258
+şüpheli O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+bulunarak O O O O O O O E-Status O O
+beyin O O O O O O O O O O
+mrg O O O O O O O O O O
+istendi O O O O O O O O O O
+
+# 0.6243 0.0673 0.0485 0.0476 0.0438 0.0409 0.0400 0.0347 0.0284 0.0245
+sol O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+temposal O O O O O O O E-Status O O
+sdh O O O O O O O O O O
+sol O O O O O O O O O O
+temposal O O O O O O O O O O
+mr O O O O O O O O O O
+da O O O O O O O O O O
+görülerek O O O O O O O O O O
+takip O O O O O O O O O O
+ve O O O O O O O O O O
+müşahade O O O O O O O O O O
+amacı O O O O O O O O O O
+ile O O O O O O O O O O
+interne O O O O O O O O O O
+edildi O O O O O O O O O O
+
+# 0.6227 0.0703 0.0480 0.0473 0.0433 0.0407 0.0393 0.0349 0.0286 0.0250
+uzun O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+zamandır O O O O O O O E-Status O O
+devam O O O O O O O O O O
+ediyor O O O O O O O O O O
+
+# 0.6021 0.0741 0.0499 0.0489 0.0486 0.0419 0.0409 0.0369 0.0287 0.0280
+tuvalette O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+uzun O O O O O O O E-Status O O
+oturmaz O O O O O O O O O O
+hissiyat O O O O O O O O O O
+oluşmuyor O O O O O O O O O O
+
+# 0.6232 0.0698 0.0485 0.0464 0.0443 0.0403 0.0402 0.0336 0.0287 0.0249
+destekle O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+dışkılama O O O O O O O E-Status O E-Semptom
+yapabiliyor O O O O O O O O O O
+
+# 0.5754 0.0824 0.0546 0.0500 0.0487 0.0438 0.0432 0.0388 0.0357 0.0275
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+kız O O O O O O E-Status O O O
+kardeşinde O O O O O O O O O O
+sedef O O O O O O O O O O
+hast O O O O O O O O O O
+
+# 0.6265 0.0718 0.0485 0.0478 0.0439 0.0414 0.0400 0.0285 0.0258 0.0257
+kuzende O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc S-loc O B-Status
+ra O O O O O O O O O E-Status
+
+# 0.6110 0.0706 0.0490 0.0487 0.0470 0.0413 0.0407 0.0371 0.0280 0.0266
+dengesizlik O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+işitme O O O O O O O E-Status O O
+kaybı O O O O O O O O O O
+uğultu O O O O O O O O O O
+bulantı O O O O O O O O O O
+kusma O O O O O O O O O O
+sürüyor O O O O O O O O O O
+etraf O O O O O O O O O O
+kendi O O O O O O O O O O
+döner O O O O O O O O O O
+tarzda O O O O O O O O O O
+eşlik O O O O O O O O O O
+ediyor O O O O O O O O O O
+
+# 0.6046 0.0730 0.0506 0.0488 0.0472 0.0417 0.0385 0.0381 0.0289 0.0285
+baş O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+ağrısı O O O O O O O E-Status O O
+baş O O O O O O O O O O
+kere O O O O O O O O O O
+oluyor O O O O O O O O O O
+uzun O O O O O O O O O O
+süredir O O O O O O O O O O
+
+# 0.5980 0.0768 0.0507 0.0486 0.0476 0.0421 0.0395 0.0388 0.0295 0.0284
+ismi O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+tipi O O O O O O O E-Status O O
+ile O O O O O O O O O O
+takipli O O O O O O O O O O
+
+# 0.6129 0.0700 0.0484 0.0477 0.0457 0.0413 0.0408 0.0392 0.0278 0.0261
+ventolinden O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+fayda O O O O O O O E-Status O O
+görüyor O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+öyöyöyöy O O O O O O O O O O
+
+# 0.5927 0.0762 0.0519 0.0495 0.0493 0.0423 0.0400 0.0397 0.0310 0.0274
+burun O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+tıkanıklığı O O O O O O O E-Status O O
+burun O O O O O O O O O O
+burun O O O O O O O O O O
+akıntısı O O O O O O O O O O
+burun O O O O O O O O O O
+hapşırmasana O O O O O O O O O O
+hiç O O O O O O O O O O
+geçmeyen O O O O O O O O O O
+hasta O O O O O O O O O O
+özellikle O O O O O O O O O O
+tozlu O O O O O O O O O O
+ortamda O O O O O O O O O O
+dahada O O O O O O O O O O
+artan O O O O O O O O O O
+akıntısı O O O O O O O O O O
+tarihliyor O O O O O O O O O O
+
+# 0.6404 0.0699 0.0469 0.0459 0.0412 0.0410 0.0388 0.0292 0.0233 0.0233
+tayuk O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration O
+ı O O O O O O O O O O
+
+# 0.5947 0.0753 0.0506 0.0501 0.0498 0.0425 0.0410 0.0381 0.0297 0.0283
+hipertansiyon O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+hastanın O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+mevcut O O O O O O O O O O
+
+# 0.5947 0.0753 0.0506 0.0501 0.0498 0.0425 0.0410 0.0381 0.0297 0.0283
+hipertansiyon O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+hastanın O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+mevcut O O O O O O O O O O
+
+# 0.5758 0.0827 0.0549 0.0492 0.0483 0.0439 0.0430 0.0377 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+gündür O O O O O O E-Status O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+karın O O O O O O O O O O
+devam O O O O O O O O O O
+eden O O O O O O O O O O
+
+# 0.6109 0.0704 0.0499 0.0493 0.0464 0.0415 0.0395 0.0366 0.0281 0.0273
+sağ O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+petrol O O O O O O O E-Status O O
+apexde O O O O O O O O O O
+menengioma O O O O O O O O O O
+sağ O O O O O O O O O O
+petrol O O O O O O O O O O
+apexde O O O O O O O O O O
+6ay O O O O O O O O O O
+önce O O O O O O O O O O
+tespit O O O O O O O O O O
+edilmiş O O O O O O O O O O
+
+# 0.6197 0.0720 0.0475 0.0475 0.0435 0.0409 0.0388 0.0355 0.0290 0.0256
+evde O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+şeker O O O O O O O E-Status O O
+ve O O O O O O O O O O
+ta O O O O O O O O O O
+ilaçları O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.6104 0.0722 0.0492 0.0491 0.0472 0.0412 0.0392 0.0350 0.0290 0.0276
+ağrı O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ellerde O O O O O O O E-Status O O
+uyuşma O O O O O O O O O O
+ayaklarda O O O O O O O O O O
+ve O O O O O O O O O O
+geceleri O O O O O O O O O O
+daha O O O O O O O O O O
+fazla O O O O O O O O O O
+şikayeti O O O O O O O O O O
+oluyormuş O O O O O O O O O O
+
+# 0.5758 0.0827 0.0549 0.0492 0.0483 0.0439 0.0430 0.0377 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+gündür O O O O O O E-Status O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+karın O O O O O O O O O O
+devam O O O O O O O O O O
+eden O O O O O O O O O O
+
+# 0.6261 0.0704 0.0491 0.0460 0.0445 0.0404 0.0396 0.0306 0.0294 0.0240
+diyabetus O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+mellitus O O O O O O O E-Status O O
+hastanın O O O O O O O O O O
+hastalığı O O O O O O O O O O
+mevcut O O O O O O O O O O
+
+# 0.6261 0.0704 0.0491 0.0460 0.0445 0.0404 0.0396 0.0306 0.0294 0.0240
+diyabetus O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+mellitus O O O O O O O E-Status O O
+hastanın O O O O O O O O O O
+hastalığı O O O O O O O O O O
+mevcut O O O O O O O O O O
+
+# 0.5903 0.0799 0.0519 0.0478 0.0477 0.0428 0.0400 0.0384 0.0327 0.0284
+3-4 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+aydır O O O O O O E-Status O O O
+mevcut O O O O O O O O O O
+
+# 0.5755 0.0838 0.0550 0.0488 0.0478 0.0440 0.0430 0.0375 0.0370 0.0277
+5 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+ay O O O O O O E-Status O O O
+sol O O O O O O O O O O
+dizde O O O O O O O O O O
+kilitlenme O O O O O O O O O O
+sol O O O O O O O O O O
+dizde O O O O O O O O O O
+ağrı O O O O O O O O O O
+sol O O O O O O O O O O
+dizde O O O O O O O O O O
+zaman O O O O O O O O O O
+zaman O O O O O O O O O O
+ağrı O O O O O O O O O O
+kalçasına O O O O O O O O O O
+önce O O O O O O O O O O
+başlayan O O O O O O O O O O
+ve O O O O O O O O O O
+da O O O O O O O O O O
+vuruyormuş O O O O O O O O O O
+
+# 0.6128 0.0698 0.0495 0.0489 0.0470 0.0410 0.0398 0.0361 0.0283 0.0267
+ayağını O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+boşalıyor O O O O O O O E-Status O O
+ayağını O O O O O O O O O O
+son O O O O O O O O O O
+zamanlarda O O O O O O O O O O
+hissediyormuş O O O O O O O O O O
+
+# 0.6115 0.0722 0.0491 0.0489 0.0470 0.0412 0.0393 0.0349 0.0287 0.0273
+başka O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+merkezler O O O O O O O E-Status O O
+baltalimanı O O O O O O O O O O
+götürülmüş O O O O O O O O O O
+bir O O O O O O O O O O
+şey O O O O O O O O O O
+olmadığı O O O O O O O O O O
+söylendiği O O O O O O O O O O
+ifade O O O O O O O O O O
+ediliyor O O O O O O O O O O
+
+# 0.6058 0.0738 0.0498 0.0486 0.0466 0.0417 0.0392 0.0376 0.0285 0.0284
+artmış O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+yaklaşık O O O O O O O E-Status O O
+23 O O O O O O O O O O
+günden O O O O O O O O O O
+beri O O O O O O O O O O
+şikayetleri O O O O O O O O O O
+giderek O O O O O O O O O O
+
+# 0.5764 0.0832 0.0545 0.0491 0.0482 0.0438 0.0424 0.0379 0.0366 0.0278
+1 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+yıldır O O O O O O E-Status O O O
+şikayetleri O O O O O O O O O O
+devam O O O O O O O O O O
+ediyor O O O O O O O O O O
+
+# 0.6095 0.0733 0.0490 0.0487 0.0464 0.0414 0.0396 0.0368 0.0281 0.0271
+rektum O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tümörü O O O O O O O E-Status O O
+rektum O O O O O O O O O O
+tanısıyla O O O O O O O O O O
+uzun O O O O O O O O O O
+dönem O O O O O O O O O O
+neoadjuvan O O O O O O O O O O
+tedavi O O O O O O O O O O
+alan O O O O O O O O O O
+hasta O O O O O O O O O O
+
+# 0.6118 0.0705 0.0488 0.0485 0.0471 0.0415 0.0399 0.0364 0.0292 0.0263
+ağrısı O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+boyun O O O O O O O E-Status O O
+ağrısı O O O O O O O O O O
+iki O O O O O O O O O O
+omuz O O O O O O O O O O
+ve O O O O O O O O O O
+her O O O O O O O O O O
+şikayeti O O O O O O O O O O
+ile O O O O O O O O O O
+başvurdu O O O O O O O O O O
+
+# 0.6151 0.0688 0.0492 0.0485 0.0469 0.0409 0.0402 0.0360 0.0282 0.0261
+ağrıları O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+uyuşma O O O O O O O E-Status O O
+sol O O O O O O O O O O
+kolda O O O O O O O O O O
+hemen O O O O O O O O O O
+hemen O O O O O O O O O O
+hergün O O O O O O O O O O
+ortaya O O O O O O O O O O
+çıkıyormuş O O O O O O O O O O
+tarihliyor O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+varıköselektomi O O O O O O O O O O
+
+# 0.6387 0.0716 0.0469 0.0458 0.0414 0.0406 0.0385 0.0299 0.0234 0.0233
+hep O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc S-loc B-Duration B-Pre-Diagnosis
+b O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+ht O O O O O O O O O O
+
+# 0.5943 0.0783 0.0531 0.0515 0.0499 0.0430 0.0416 0.0321 0.0282 0.0280
+hednavir O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Duration O B-Status
+coversel O O O O O O O O O E-Status
+
+# 0.6118 0.0705 0.0488 0.0485 0.0471 0.0415 0.0399 0.0364 0.0292 0.0263
+ağrısı O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+boyun O O O O O O O E-Status O O
+ağrısı O O O O O O O O O O
+iki O O O O O O O O O O
+omuz O O O O O O O O O O
+ve O O O O O O O O O O
+her O O O O O O O O O O
+şikayeti O O O O O O O O O O
+ile O O O O O O O O O O
+başvurdu O O O O O O O O O O
+
+# 0.6151 0.0688 0.0492 0.0485 0.0469 0.0409 0.0402 0.0360 0.0282 0.0261
+ağrıları O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+uyuşma O O O O O O O E-Status O O
+sol O O O O O O O O O O
+kolda O O O O O O O O O O
+hemen O O O O O O O O O O
+hemen O O O O O O O O O O
+hergün O O O O O O O O O O
+ortaya O O O O O O O O O O
+çıkıyormuş O O O O O O O O O O
+tarihliyor O O O O O O O O O O
+
+# 0.5903 0.0799 0.0519 0.0478 0.0477 0.0428 0.0400 0.0384 0.0327 0.0284
+3-4 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+aydır O O O O O O E-Status O O O
+mevcut O O O O O O O O O O
+
+# 0.6075 0.0712 0.0496 0.0487 0.0469 0.0417 0.0397 0.0395 0.0279 0.0274
+betaşerç O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+vasoxen O O O O O O O E-Status O O
+1x1 O O O O O O O O O O
+2 O O O O O O O O O O
+kullanıyor O O O O O O O O O O
+
+# 0.6217 0.0710 0.0476 0.0466 0.0421 0.0409 0.0387 0.0375 0.0285 0.0254
+diz O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+problemi O O O O O O O E-Status O O
+diz O O O O O O O O O O
+günlük O O O O O O O O O O
+aktivitelerini O O O O O O O O O O
+sebebiyle O O O O O O O O O O
+yapmakta O O O O O O O O O O
+zorlanıyor O O O O O O O O O O
+
+# 0.6015 0.0766 0.0512 0.0473 0.0443 0.0425 0.0401 0.0375 0.0306 0.0284
+10 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+sene O O O O O O E-Status O O O
+önce O O O O O O O O O O
+anjio O O O O O O O O O O
+olmuş O O O O O O O O O O
+temiz O O O O O O O O O O
+çıkmış O O O O O O O O O O
+
+# 0.6148 0.0725 0.0487 0.0476 0.0440 0.0412 0.0388 0.0374 0.0283 0.0265
+uyku O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+annesi O O O O O O O E-Status O O
+ritm O O O O O O O O O O
+bozukluğu O O O O O O O O O O
+varmış O O O O O O O O O O
+45 O O O O O O O O O O
+sene O O O O O O O O O O
+önce O O O O O O O O O O
+o O O O O O O O O O O
+dönem O O O O O O O O O O
+varmış O O O O O O O O O O
+
+# 0.6011 0.0737 0.0503 0.0485 0.0478 0.0420 0.0404 0.0395 0.0290 0.0278
+kilo O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+verince O O O O O O O E-Status O O
+düzelmiş O O O O O O O O O O
+
+# 0.5812 0.0844 0.0527 0.0497 0.0489 0.0437 0.0388 0.0377 0.0343 0.0287
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+kolesterol O O O O O O O E-Status O O
+dm O O O O O O O O O O
+ve O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.5763 0.0831 0.0546 0.0492 0.0482 0.0437 0.0425 0.0379 0.0365 0.0279
+3 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+ağrısı O O O O O O O O O O
+özellikle O O O O O O O O O O
+gece O O O O O O O O O O
+
+# 0.6075 0.0712 0.0496 0.0487 0.0469 0.0417 0.0397 0.0395 0.0279 0.0274
+betaşerç O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+vasoxen O O O O O O O E-Status O O
+1x1 O O O O O O O O O O
+2 O O O O O O O O O O
+kullanıyor O O O O O O O O O O
+
+# 0.6217 0.0710 0.0476 0.0466 0.0421 0.0409 0.0387 0.0375 0.0285 0.0254
+diz O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+problemi O O O O O O O E-Status O O
+diz O O O O O O O O O O
+günlük O O O O O O O O O O
+aktivitelerini O O O O O O O O O O
+sebebiyle O O O O O O O O O O
+yapmakta O O O O O O O O O O
+zorlanıyor O O O O O O O O O O
+
+# 0.6015 0.0766 0.0512 0.0473 0.0443 0.0425 0.0401 0.0375 0.0306 0.0284
+10 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+sene O O O O O O E-Status O O O
+önce O O O O O O O O O O
+anjio O O O O O O O O O O
+olmuş O O O O O O O O O O
+temiz O O O O O O O O O O
+çıkmış O O O O O O O O O O
+
+# 0.6148 0.0725 0.0487 0.0476 0.0440 0.0412 0.0388 0.0374 0.0283 0.0265
+uyku O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+annesi O O O O O O O E-Status O O
+ritm O O O O O O O O O O
+bozukluğu O O O O O O O O O O
+varmış O O O O O O O O O O
+45 O O O O O O O O O O
+sene O O O O O O O O O O
+önce O O O O O O O O O O
+o O O O O O O O O O O
+dönem O O O O O O O O O O
+varmış O O O O O O O O O O
+
+# 0.6011 0.0737 0.0503 0.0485 0.0478 0.0420 0.0404 0.0395 0.0290 0.0278
+kilo O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+verince O O O O O O O E-Status O O
+düzelmiş O O O O O O O O O O
+
+# 0.5812 0.0844 0.0527 0.0497 0.0489 0.0437 0.0388 0.0377 0.0343 0.0287
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+kolesterol O O O O O O O E-Status O O
+dm O O O O O O O O O O
+ve O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.5763 0.0831 0.0546 0.0492 0.0482 0.0437 0.0425 0.0379 0.0365 0.0279
+3 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+ağrısı O O O O O O O O O O
+özellikle O O O O O O O O O O
+gece O O O O O O O O O O
+
+# 0.6008 0.0732 0.0500 0.0486 0.0483 0.0423 0.0407 0.0394 0.0283 0.0283
+tonsillektomi O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+15 O O O O O O O E-Status O O
+yıl O O O O O O O O O O
+önce O O O O O O O O O O
+
+# 0.6150 0.0698 0.0493 0.0482 0.0469 0.0411 0.0398 0.0346 0.0292 0.0259
+ağrısı O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+sol O O O O O O O E-Status O O
+omuz O O O O O O O O O O
+kısa O O O O O O O O O O
+süredir O O O O O O O O O O
+devam O O O O O O O O O O
+ediyor O O O O O O O O O O
+
+# 0.6146 0.0722 0.0494 0.0482 0.0467 0.0409 0.0390 0.0323 0.0296 0.0271
+ağır O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+valiz O O O O O O O E-Status O O
+kaldırmış O O O O O O O O O O
+
+# 0.6426 0.0661 0.0477 0.0431 0.0398 0.0394 0.0393 0.0297 0.0291 0.0232
+humerus O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+proksimalinde O O O O O O O E-Status O E-Semptom
+enkondrom O O O O O O O O O O
+humerus O O O O O O O O O O
+proksimalinde O O O O O O O O O O
+lezyon O O O O O O O O O O
+sağ O O O O O O O O O O
+omuzda O O O O O O O O O O
+ceckup O O O O O O O O O O
+sırasında O O O O O O O O O O
+ortaya O O O O O O O O O O
+konan O O O O O O O O O O
+ön O O O O O O O O O O
+tanili O O O O O O O O O O
+
+# 0.5757 0.0835 0.0548 0.0490 0.0479 0.0439 0.0428 0.0377 0.0368 0.0279
+7 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+yıl O O O O O O E-Status O O O
+önce O O O O O O O O O O
+sol O O O O O O O O O O
+urs O O O O O O O O O O
+
+# 0.6183 0.0702 0.0485 0.0466 0.0424 0.0416 0.0399 0.0386 0.0281 0.0258
+artan O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc S-loc B-Duration
+1 O O O O O O E-Status O O O
+yıldır O O O O O O O O O O
+ağrısı O O O O O O O O O O
+sol O O O O O O O O O O
+kalçada O O O O O O O O O O
+yürümede O O O O O O O O O O
+zorluk O O O O O O O O O O
+koksartroz O O O O O O O O O O
+uzun O O O O O O O O O O
+süredir O O O O O O O O O O
+var O O O O O O O O O O
+olan O O O O O O O O O O
+son O O O O O O O O O O
+gittikçe O O O O O O O O O O
+analjezik O O O O O O O O O O
+tedavilere O O O O O O O O O O
+yanıt O O O O O O O O O O
+vermeyen O O O O O O O O O O
+gece O O O O O O O O O O
+uykudan O O O O O O O O O O
+uyandıran O O O O O O O O O O
+olan O O O O O O O O O O
+ve O O O O O O O O O O
+çeken O O O O O O O O O O
+hastaya O O O O O O O O O O
+tanısı O O O O O O O O O O
+konuldu O O O O O O O O O O
+
+# 0.6129 0.0721 0.0497 0.0480 0.0473 0.0415 0.0402 0.0327 0.0288 0.0266
+konservatif O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+tedavilere O O O O O O O E-Status O O
+yanıt O O O O O O O O O O
+alınamayan O O O O O O O O O O
+hasta O O O O O O O O O O
+opere O O O O O O O O O O
+edilmek O O O O O O O O O O
+üzere O O O O O O O O O O
+servise O O O O O O O O O O
+yatırıldı O O O O O O O O O O
+
+# 0.6259 0.0679 0.0484 0.0470 0.0433 0.0404 0.0395 0.0339 0.0284 0.0253
+morfin O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+bağımlılığı O O O O O O O E-Status O E-Semptom
+öyküsü O O O O O O O O O O
+olan O O O O O O O O O O
+hastaya O O O O O O O O O O
+enfeksiyon O O O O O O O O O O
+ve O O O O O O O O O O
+diğer O O O O O O O O O O
+riskler O O O O O O O O O O
+anlatıldı O O O O O O O O O O
+
+# 0.6023 0.0751 0.0496 0.0495 0.0490 0.0419 0.0403 0.0348 0.0289 0.0286
+riskleri O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kabul O O O O O O O E-Status O O
+edilen O O O O O O O O O O
+hasta O O O O O O O O O O
+ve O O O O O O O O O O
+yakınlarından O O O O O O O O O O
+onay O O O O O O O O O O
+alınarak O O O O O O O O O O
+servise O O O O O O O O O O
+yatırıldı O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+1 O O O O O O O O O O
+
+# 0.5753 0.0828 0.0552 0.0491 0.0480 0.0440 0.0433 0.0376 0.0370 0.0277
+5 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+yıl O O O O O O E-Status O O O
+baş O O O O O O O O O O
+ağrısı O O O O O O O O O O
+baş O O O O O O O O O O
+önce O O O O O O O O O O
+olmuştu O O O O O O O O O O
+
+# 0.6167 0.0738 0.0495 0.0492 0.0473 0.0416 0.0406 0.0290 0.0274 0.0248
+tarafımdan O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration O
+değerlendirilmişti O O O O O O O O O O
+
+# 0.6359 0.0675 0.0465 0.0453 0.0403 0.0401 0.0383 0.0345 0.0293 0.0223
+ancak O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc B-Status S-loc B-Duration
+kr O O O O O O O E-Status O O
+mrg O O O O O O O O O O
+yaptırmamıştı O O O O O O O O O O
+
+# 0.5869 0.0785 0.0532 0.0485 0.0484 0.0431 0.0413 0.0386 0.0337 0.0278
+10-15 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+gündür O O O O O O E-Status O O O
+yakınması O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.6351 0.0686 0.0470 0.0454 0.0407 0.0401 0.0382 0.0326 0.0290 0.0232
+gece O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+uyku O O O O O O O E-Status O O
+uyuyamıyor O O O O O O O O O O
+
+# 0.6203 0.0707 0.0495 0.0491 0.0474 0.0415 0.0411 0.0287 0.0266 0.0253
+zonklayıcı O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration O
+karakterde O O O O O O O O O O
+
+# 0.6071 0.0717 0.0498 0.0489 0.0473 0.0414 0.0393 0.0379 0.0284 0.0282
+ağrı O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kesici O O O O O O O E-Status O O
+almıyor O O O O O O O O O O
+
+# 0.6053 0.0722 0.0503 0.0484 0.0470 0.0417 0.0392 0.0390 0.0288 0.0281
+ışık O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+ses O O O O O O O E-Status O O
+tetiklemiyor O O O O O O O O O O
+
+# 0.5965 0.0789 0.0523 0.0510 0.0501 0.0433 0.0415 0.0313 0.0284 0.0266
+kemoterapi O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Duration S-loc O
+almış O O O O O O O O O O
+
+# 0.6138 0.0708 0.0492 0.0486 0.0464 0.0410 0.0401 0.0358 0.0278 0.0264
+ayaklarda O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+keçeleşmeleri O O O O O O O E-Status O O
+ayaklarda O O O O O O O O O O
+sonrasında O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.6004 0.0737 0.0505 0.0475 0.0466 0.0428 0.0422 0.0390 0.0291 0.0282
+ayrıca O S-Past-Diagnosis B-Status B-Semptom S-Semptom B-Status E-Status E-loc B-Duration S-loc
+2x225 O O O O O E-Status O O O O
+mg O O O O O O O O O O
+kullanıyor O O O O O O O O O O
+
+# 0.6075 0.0712 0.0499 0.0491 0.0473 0.0413 0.0392 0.0378 0.0283 0.0282
+ağrı O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kesici O O O O O O O E-Status O O
+alınca O O O O O O O O O O
+rahatlatmış O O O O O O O O O O
+
+# 0.6089 0.0729 0.0489 0.0487 0.0469 0.0414 0.0391 0.0363 0.0292 0.0278
+ışık O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+rahatsız O O O O O O O E-Status O O
+etmiyor O O O O O O O O O O
+
+# 0.6072 0.0721 0.0496 0.0489 0.0471 0.0415 0.0396 0.0378 0.0286 0.0276
+ağrıda O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+yol O O O O O O O E-Status O O
+yürüyünce O O O O O O O O O O
+rahatlama O O O O O O O O O O
+oluyor O O O O O O O O O O
+
+# 0.6244 0.0710 0.0497 0.0474 0.0471 0.0412 0.0412 0.0297 0.0253 0.0229
+bulantısı O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration O
+olmuyor O O O O O O O O O O
+
+# 0.6322 0.0697 0.0464 0.0464 0.0410 0.0405 0.0373 0.0335 0.0287 0.0243
+kky O S-Past-Diagnosis B-Semptom B-Status E-Status S-Semptom E-loc B-Status S-loc B-Duration
+kah O O O O O O O E-Status O O
+aç O O O O O O O O O O
+tm O O O O O O O O O O
+aç O O O O O O O O O O
+tm O O O O O O O O O O
+( O O O O O O O O O O
+opere O O O O O O O O O O
+) O O O O O O O O O O
+opere O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+dm O O O O O O O O O O
+
+# 0.5833 0.0824 0.0522 0.0498 0.0485 0.0439 0.0394 0.0385 0.0327 0.0293
+opere O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+ldh O O O O O O O E-Status O O
++ O O O O O O O O O O
+dm O O O O O O O O O O
+ldh O O O O O O O O O O
+dm O O O O O O O O O O
+haziran O O O O O O O O O O
+2018 O O O O O O O O O O
+
+# 0.6127 0.0697 0.0491 0.0488 0.0470 0.0413 0.0397 0.0365 0.0289 0.0264
+ağrısı O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+sağ O O O O O O O E-Status O O
+omuz O O O O O O O O O O
+ağrısı O O O O O O O O O O
+boyun O O O O O O O O O O
+2 O O O O O O O O O O
+aydır O O O O O O O O O O
+ediyorel O O O O O O O O O O
+bileği O O O O O O O O O O
+ağrısı O O O O O O O O O O
+ediyorel O O O O O O O O O O
+bileği O O O O O O O O O O
+ve O O O O O O O O O O
+devam O O O O O O O O O O
+
+# 0.6366 0.0680 0.0471 0.0447 0.0404 0.0402 0.0390 0.0322 0.0292 0.0226
+koah O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+ıleus O O O O O O O E-Status O E-Semptom
+op O O O O O O O O O O
+
+# 0.5754 0.0830 0.0550 0.0490 0.0482 0.0439 0.0432 0.0378 0.0369 0.0276
+1 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+gündür O O O O O O E-Status O O O
+yakınması O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.5729 0.0844 0.0543 0.0494 0.0480 0.0445 0.0441 0.0387 0.0360 0.0276
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom B-Status E-Status E-loc B-Duration S-loc
+dm O O O O O E-Status O O O O
+Renan O O O O O O O O O O
+yetmezlik O O O O O O O O O O
+
+# 0.6103 0.0707 0.0493 0.0490 0.0465 0.0414 0.0400 0.0378 0.0280 0.0270
+yoğun O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ses O O O O O O O E-Status O O
+kullanımı O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+16 O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+03 O O O O O O O O O O
+
+# 0.6173 0.0727 0.0490 0.0466 0.0417 0.0416 0.0379 0.0372 0.0284 0.0275
+2019 O S-Past-Diagnosis B-Status B-Semptom E-Status S-Semptom B-Status E-loc S-loc B-Duration
+tarihinde O O O O O O E-Status O O O
+araç O O O O O O O O O O
+dışı O O O O O O O O O O
+trafik O O O O O O O O O O
+kazası O O O O O O O O O O
+sonucu O O O O O O O O O O
+yaralanma O O O O O O O O O O
+nedeniyle O O O O O O O O O O
+acil O O O O O O O O O O
+servisimize O O O O O O O O O O
+gelen O O O O O O O O O O
+hasta O O O O O O O O O O
+yapılan O O O O O O O O O O
+tetkikler O O O O O O O O O O
+ve O O O O O O O O O O
+konsültasyonların O O O O O O O O O O
+ardından O O O O O O O O O O
+entübe O O O O O O O O O O
+halde O O O O O O O O O O
+3 O O O O O O O O O O
+
+# 0.5904 0.0757 0.0522 0.0504 0.0497 0.0424 0.0404 0.0400 0.0309 0.0279
+basamak O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+yoğun O O O O O O O E-Status O O
+bakım O O O O O O O O O O
+ünitesine O O O O O O O O O O
+yatırıldı O O O O O O O O O O
+
+# 0.6419 0.0669 0.0474 0.0438 0.0398 0.0396 0.0388 0.0299 0.0294 0.0224
+genel O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Pre-Diagnosis
+durumu O O O O O O O E-Status O O
+düzelen O O O O O O O O O O
+ve O O O O O O O O O O
+nörolojik O O O O O O O O O O
+tablosunda O O O O O O O O O O
+iyileşme O O O O O O O O O O
+olan O O O O O O O O O O
+hasta O O O O O O O O O O
+18 O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+03 O O O O O O O O O O
+
+# 0.6171 0.0729 0.0488 0.0466 0.0418 0.0415 0.0380 0.0373 0.0284 0.0275
+2019 O S-Past-Diagnosis B-Status B-Semptom E-Status S-Semptom B-Status E-loc S-loc B-Duration
+tarihinde O O O O O O E-Status O O O
+ekstübe O O O O O O O O O O
+edildi O O O O O O O O O O
+20 O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+03 O O O O O O O O O O
+
+# 0.6165 0.0728 0.0491 0.0465 0.0419 0.0416 0.0384 0.0373 0.0282 0.0277
+2019 O S-Past-Diagnosis B-Status B-Semptom E-Status S-Semptom B-Status E-loc S-loc B-Duration
+tarihinde O O O O O O E-Status O O O
+beyin O O O O O O O O O O
+cerrahi O O O O O O O O O O
+servisine O O O O O O O O O O
+devir O O O O O O O O O O
+alındı O O O O O O O O O O
+
+# 0.6099 0.0714 0.0492 0.0484 0.0465 0.0412 0.0399 0.0380 0.0285 0.0269
+travması O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+kafa O O O O O O O E-Status O O
+travması O O O O O O O O O O
+genel O O O O O O O O O O
+vücut O O O O O O O O O O
+travmatik O O O O O O O O O O
+şak O O O O O O O O O O
+alkollü O O O O O O O O O O
+iken O O O O O O O O O O
+düşme O O O O O O O O O O
+sonrası O O O O O O O O O O
+ve O O O O O O O O O O
+ile O O O O O O O O O O
+getirilen O O O O O O O O O O
+hastanın O O O O O O O O O O
+çekilen O O O O O O O O O O
+beyin O O O O O O O O O O
+tomografide O O O O O O O O O O
+görülmesi O O O O O O O O O O
+üzerine O O O O O O O O O O
+takip O O O O O O O O O O
+ve O O O O O O O O O O
+müşahade O O O O O O O O O O
+amacı O O O O O O O O O O
+ile O O O O O O O O O O
+interne O O O O O O O O O O
+edildi O O O O O O O O O O
+
+# 0.6139 0.0733 0.0505 0.0491 0.0473 0.0420 0.0409 0.0282 0.0282 0.0265
+hasta O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc S-loc B-Duration O
+solak O O O O O O O O O O
+
+# 0.5907 0.0806 0.0518 0.0476 0.0468 0.0429 0.0410 0.0383 0.0322 0.0280
+dm O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+ıkby O O O O O O E-Status O O O
+httah O O O O O O O O O O
+boş O O O O O O O O O O
+dm O O O O O O O O O O
+insülin O O O O O O O O O O
+bağımlı O O O O O O O O O O
+koah O O O O O O O O O O
+tah O O O O O O O O O O
+boş O O O O O O O O O O
+ailede O O O O O O O O O O
+kah O O O O O O O O O O
+20 O O O O O O O O O O
+yıl O O O O O O O O O O
+önce O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+ht O O O O O O O O O O
+
+# 0.6155 0.0721 0.0489 0.0475 0.0463 0.0412 0.0398 0.0336 0.0295 0.0258
+hastanın O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+bilinen O O O O O O O E-Status O O
+bir O O O O O O O O O O
+hastalığı O O O O O O O O O O
+ya O O O O O O O O O O
+da O O O O O O O O O O
+geçirmiş O O O O O O O O O O
+olduğu O O O O O O O O O O
+herhangi O O O O O O O O O O
+bir O O O O O O O O O O
+ameliyat O O O O O O O O O O
+mevcut O O O O O O O O O O
+değil O O O O O O O O O O
+hastanın O O O O O O O O O O
+ebeveyni O O O O O O O O O O
+ailede O O O O O O O O O O
+her O O O O O O O O O O
+hangi O O O O O O O O O O
+bir O O O O O O O O O O
+hastalığın O O O O O O O O O O
+olmadığını O O O O O O O O O O
+ifade O O O O O O O O O O
+ediyor O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+14 O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+3 O O O O O O O O O O
+
+# 0.6247 0.0721 0.0469 0.0467 0.0419 0.0414 0.0378 0.0341 0.0296 0.0249
+kah O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+2019 O O O O O O O E-Status O O
+da O O O O O O O O O O
+kvc O O O O O O O O O O
+paul O O O O O O O O O O
+gelip O O O O O O O O O O
+kardiyolojiye O O O O O O O O O O
+öncelikli O O O O O O O O O O
+gönderilen O O O O O O O O O O
+işlemi O O O O O O O O O O
+tetkik O O O O O O O O O O
+
+# 0.6146 0.0697 0.0493 0.0482 0.0467 0.0409 0.0405 0.0356 0.0287 0.0258
+açısından O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+değerlendirilmiş O O O O O O O E-Status O O
+hasta O O O O O O O O O O
+
+# 0.6323 0.0717 0.0484 0.0466 0.0435 0.0409 0.0396 0.0298 0.0248 0.0223
+lad O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration B-Pre-Diagnosis
+stentli O O O O O O O O O O
+
+# 0.5948 0.0782 0.0530 0.0502 0.0492 0.0436 0.0414 0.0315 0.0300 0.0280
+Parkinson O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Duration O B-Status
+ht O O O O O O O O O E-Status
+
+# 0.5949 0.0758 0.0523 0.0480 0.0475 0.0425 0.0416 0.0386 0.0312 0.0276
+ara O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+ara O O O O O O E-Status O O O
+17yaş O O O O O O O O O O
+aylık O O O O O O O O O O
+kız O O O O O O O O O O
+yaklaşık O O O O O O O O O O
+aydır O O O O O O O O O O
+olan O O O O O O O O O O
+başının O O O O O O O O O O
+arka O O O O O O O O O O
+kısmında O O O O O O O O O O
+sıkıştırdı O O O O O O O O O O
+
+# 0.5757 0.0830 0.0549 0.0491 0.0481 0.0439 0.0429 0.0377 0.0368 0.0278
+1 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+yıldır O O O O O O E-Status O O O
+17yaş O O O O O O O O O O
+aylık O O O O O O O O O O
+erkek O O O O O O O O O O
+yaklaşık O O O O O O O O O O
+özellikle O O O O O O O O O O
+sıkıldığında O O O O O O O O O O
+üzüldüğünde O O O O O O O O O O
+olan O O O O O O O O O O
+
+# 0.5905 0.0780 0.0527 0.0484 0.0481 0.0427 0.0404 0.0384 0.0330 0.0278
+1-2 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+öksürük O O O O O O O O O O
+yaklaşık O O O O O O O O O O
+şikayeti O O O O O O O O O O
+olan O O O O O O O O O O
+hasta O O O O O O O O O O
+polikliniğimize O O O O O O O O O O
+gelmiştir O O O O O O O O O O
+
+# 0.6107 0.0707 0.0490 0.0486 0.0470 0.0414 0.0407 0.0372 0.0280 0.0266
+dengesizlik O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+işitme O O O O O O O E-Status O O
+kaybı O O O O O O O O O O
+uğultu O O O O O O O O O O
+bulantı O O O O O O O O O O
+kusma O O O O O O O O O O
+2 O O O O O O O O O O
+ayda O O O O O O O O O O
+sürüyor O O O O O O O O O O
+kendi O O O O O O O O O O
+döner O O O O O O O O O O
+tarzda O O O O O O O O O O
+eşlik O O O O O O O O O O
+ediyor O O O O O O O O O O
+
+# 0.6046 0.0731 0.0505 0.0488 0.0471 0.0417 0.0386 0.0381 0.0289 0.0285
+baş O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+ağrısı O O O O O O O E-Status O O
+baş O O O O O O O O O O
+kere O O O O O O O O O O
+oluyor O O O O O O O O O O
+
+# 0.5901 0.0764 0.0523 0.0488 0.0484 0.0431 0.0418 0.0397 0.0312 0.0282
+sigara O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+50 O O O O O O E-Status O O O
+yıl O O O O O O O O O O
+günde O O O O O O O O O O
+1 O O O O O O O O O O
+paket O O O O O O O O O O
+
+# 0.5905 0.0780 0.0527 0.0484 0.0481 0.0427 0.0404 0.0384 0.0330 0.0278
+1-2 O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+öksürük O O O O O O O O O O
+yaklaşık O O O O O O O O O O
+şikayeti O O O O O O O O O O
+olan O O O O O O O O O O
+hasta O O O O O O O O O O
+polikliniğimize O O O O O O O O O O
+gelmiştir O O O O O O O O O O
+
+# 0.5756 0.0835 0.0546 0.0491 0.0481 0.0439 0.0428 0.0379 0.0368 0.0277
+2 O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+haftadır O O O O O O E-Status O O O
+şikayeti O O O O O O O O O O
+oluyormuş O O O O O O O O O O
+
+# 0.6052 0.0725 0.0505 0.0489 0.0470 0.0419 0.0394 0.0381 0.0287 0.0278
+bel O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+ağrısı O O O O O O O E-Status O O
+bel O O O O O O O O O O
+nöropatim O O O O O O O O O O
+ağrılar O O O O O O O O O O
+bacakta O O O O O O O O O O
+mekanik O O O O O O O O O O
+karakterde O O O O O O O O O O
+mevcut O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.5797 0.0837 0.0534 0.0499 0.0488 0.0437 0.0391 0.0387 0.0346 0.0284
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+koah O O O O O O E-Status O O O
+kız O O O O O O O O O O
+kardeş O O O O O O O O O O
+ca O O O O O O O O O O
+
+# 0.5817 0.0863 0.0547 0.0501 0.0485 0.0448 0.0394 0.0364 0.0298 0.0283
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Duration O B-Status
+dm O O O O O O O O O E-Status
+
+# 0.6041 0.0731 0.0507 0.0488 0.0472 0.0418 0.0386 0.0384 0.0291 0.0282
+baş O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+dönmesi O O O O O O O E-Status O O
+baş O O O O O O O O O O
+güç O O O O O O O O O O
+kaybı O O O O O O O O O O
+sol O O O O O O O O O O
+taraflı O O O O O O O O O O
+25032019 O O O O O O O O O O
+gece O O O O O O O O O O
+sabaha O O O O O O O O O O
+karşı O O O O O O O O O O
+3 O O O O O O O O O O
+sularında O O O O O O O O O O
+uykudan O O O O O O O O O O
+ve O O O O O O O O O O
+yakınması O O O O O O O O O O
+ile O O O O O O O O O O
+uyanmış O O O O O O O O O O
+
+# 0.6134 0.0698 0.0493 0.0488 0.0469 0.0410 0.0403 0.0360 0.0284 0.0261
+konuşmada O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+bozulması O O O O O O O E-Status O O
+ağızda O O O O O O O O O O
+kayması O O O O O O O O O O
+ağızda O O O O O O O O O O
+eşlik O O O O O O O O O O
+eden O O O O O O O O O O
+ve O O O O O O O O O O
+farkedilmiş O O O O O O O O O O
+
+# 0.5963 0.0812 0.0503 0.0481 0.0466 0.0425 0.0385 0.0367 0.0309 0.0290
+dm O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+kah O O O O O O O E-Status O O
+bilinen O O O O O O O O O O
+
+# 0.6332 0.0666 0.0479 0.0453 0.0421 0.0400 0.0396 0.0322 0.0290 0.0240
+antiagregan O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+başlanmış O O O O O O O E-Status O E-Semptom
+ancak O O O O O O O O O O
+hasta O O O O O O O O O O
+uzun O O O O O O O O O O
+süredir O O O O O O O O O O
+kendi O O O O O O O O O O
+isteği O O O O O O O O O O
+ile O O O O O O O O O O
+kesmiş O O O O O O O O O O
+
+# 0.6104 0.0703 0.0497 0.0493 0.0465 0.0413 0.0398 0.0374 0.0281 0.0272
+sağ O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+talamik O O O O O O O E-Status O O
+bölgede O O O O O O O O O O
+laküner O O O O O O O O O O
+akut O O O O O O O O O O
+enfarkt O O O O O O O O O O
+sağ O O O O O O O O O O
+talamik O O O O O O O O O O
+bölgede O O O O O O O O O O
+difüzyon O O O O O O O O O O
+kısıtlanmasana O O O O O O O O O O
+alanı O O O O O O O O O O
+akut O O O O O O O O O O
+iskemik O O O O O O O O O O
+svo O O O O O O O O O O
+acil O O O O O O O O O O
+serviste O O O O O O O O O O
+değerlendirilen O O O O O O O O O O
+hastanın O O O O O O O O O O
+çekilen O O O O O O O O O O
+difüzyon O O O O O O O O O O
+mrıda O O O O O O O O O O
+ile O O O O O O O O O O
+uyumlu O O O O O O O O O O
+izlenmesi O O O O O O O O O O
+üzerine O O O O O O O O O O
+tanısı O O O O O O O O O O
+ile O O O O O O O O O O
+ileri O O O O O O O O O O
+tetkik O O O O O O O O O O
+ve O O O O O O O O O O
+takip O O O O O O O O O O
+amacıyla O O O O O O O O O O
+servisimize O O O O O O O O O O
+yatırılmıştır O O O O O O O O O O
+
+# 0.6049 0.0730 0.0506 0.0490 0.0471 0.0416 0.0386 0.0379 0.0289 0.0283
+baş O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+dönmesi O O O O O O O E-Status O O
+baş O O O O O O O O O O
+sol O O O O O O O O O O
+taraflı O O O O O O O O O O
+güç O O O O O O O O O O
+kaybı O O O O O O O O O O
+sol O O O O O O O O O O
+taraflı O O O O O O O O O O
+25032019 O O O O O O O O O O
+gece O O O O O O O O O O
+sabaha O O O O O O O O O O
+karşı O O O O O O O O O O
+3 O O O O O O O O O O
+sularında O O O O O O O O O O
+uykudan O O O O O O O O O O
+ve O O O O O O O O O O
+yakınması O O O O O O O O O O
+ile O O O O O O O O O O
+uyanmış O O O O O O O O O O
+
+# 0.6134 0.0698 0.0493 0.0488 0.0469 0.0410 0.0403 0.0360 0.0284 0.0261
+konuşmada O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+bozulması O O O O O O O E-Status O O
+ağızda O O O O O O O O O O
+kayması O O O O O O O O O O
+ağızda O O O O O O O O O O
+eşlik O O O O O O O O O O
+eden O O O O O O O O O O
+ve O O O O O O O O O O
+farkedilmiş O O O O O O O O O O
+
+# 0.5963 0.0812 0.0503 0.0481 0.0466 0.0425 0.0385 0.0367 0.0309 0.0290
+dm O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+kah O O O O O O O E-Status O O
+bilinen O O O O O O O O O O
+
+# 0.6332 0.0666 0.0479 0.0453 0.0421 0.0400 0.0396 0.0322 0.0290 0.0240
+antiagregan O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+başlanmış O O O O O O O E-Status O E-Semptom
+ancak O O O O O O O O O O
+hasta O O O O O O O O O O
+uzun O O O O O O O O O O
+süredir O O O O O O O O O O
+kendi O O O O O O O O O O
+isteği O O O O O O O O O O
+ile O O O O O O O O O O
+kesmiş O O O O O O O O O O
+
+# 0.6104 0.0703 0.0497 0.0493 0.0465 0.0413 0.0398 0.0374 0.0281 0.0272
+sağ O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+talamik O O O O O O O E-Status O O
+bölgede O O O O O O O O O O
+laküner O O O O O O O O O O
+akut O O O O O O O O O O
+enfarkt O O O O O O O O O O
+sağ O O O O O O O O O O
+talamik O O O O O O O O O O
+bölgede O O O O O O O O O O
+difüzyon O O O O O O O O O O
+kısıtlanmasana O O O O O O O O O O
+alanı O O O O O O O O O O
+akut O O O O O O O O O O
+iskemik O O O O O O O O O O
+svo O O O O O O O O O O
+acil O O O O O O O O O O
+serviste O O O O O O O O O O
+değerlendirilen O O O O O O O O O O
+hastanın O O O O O O O O O O
+çekilen O O O O O O O O O O
+difüzyon O O O O O O O O O O
+mrıda O O O O O O O O O O
+ile O O O O O O O O O O
+uyumlu O O O O O O O O O O
+izlenmesi O O O O O O O O O O
+üzerine O O O O O O O O O O
+tanısı O O O O O O O O O O
+ile O O O O O O O O O O
+ileri O O O O O O O O O O
+tetkik O O O O O O O O O O
+ve O O O O O O O O O O
+takip O O O O O O O O O O
+amacıyla O O O O O O O O O O
+servisimize O O O O O O O O O O
+yatırılmıştır O O O O O O O O O O
+
+# 0.5966 0.0780 0.0504 0.0494 0.0488 0.0424 0.0397 0.0360 0.0299 0.0289
+burun O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+op O O O O O O O E-Status O O
+geçirilmiş O O O O O O O O O O
+öyküsü O O O O O O O O O O
+mevcutmuş O O O O O O O O O O
+
+# 0.5907 0.0763 0.0511 0.0499 0.0491 0.0426 0.0412 0.0411 0.0301 0.0280
+hipertansiyon O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+diabetes O O O O O O E-Status O O O
+mellitus O O O O O O O O O O
+
+# 0.5917 0.0791 0.0519 0.0479 0.0476 0.0427 0.0398 0.0385 0.0321 0.0286
+af O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+icd O O O O O O E-Status O O O
+alzheimer O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+hipotiroidi O O O O O O O O O O
+
+# 0.5951 0.0754 0.0511 0.0484 0.0479 0.0429 0.0412 0.0398 0.0301 0.0281
+levotiron O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+150 O O O O O O E-Status O O O
+tb O O O O O O O O O O
+1 O O O O O O O O O O
+1 O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+öyöyöyöy O O O O O O O O O O
+
+# 0.6050 0.0727 0.0505 0.0488 0.0470 0.0419 0.0393 0.0381 0.0286 0.0280
+bel O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+ağrısı O O O O O O O E-Status O O
+bel O O O O O O O O O O
+sağ O O O O O O O O O O
+kalça O O O O O O O O O O
+ağrısı O O O O O O O O O O
+sağ O O O O O O O O O O
+kalça O O O O O O O O O O
+ve O O O O O O O O O O
+şikayeti O O O O O O O O O O
+ile O O O O O O O O O O
+başvurdu O O O O O O O O O O
+
+# 0.6089 0.0728 0.0495 0.0492 0.0468 0.0412 0.0394 0.0361 0.0283 0.0279
+artmış O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+belli O O O O O O O E-Status O O
+aralıklarla O O O O O O O O O O
+ortaya O O O O O O O O O O
+çıkıyormuş O O O O O O O O O O
+son O O O O O O O O O O
+günlerde O O O O O O O O O O
+ağrısı O O O O O O O O O O
+
+# 0.6261 0.0696 0.0479 0.0469 0.0426 0.0406 0.0390 0.0342 0.0286 0.0244
+gaita O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+inkontinansı O O O O O O O E-Status O O
+inkontinansı O O O O O O O O O O
+idrar O O O O O O O O O O
+tariflenmiyor O O O O O O O O O O
+
+# 0.5945 0.0787 0.0508 0.0492 0.0490 0.0425 0.0400 0.0362 0.0301 0.0290
+annede O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+ldh O O O O O O O E-Status O O
+sekreter O O O O O O O O O O
+
+# 0.5917 0.0791 0.0519 0.0479 0.0476 0.0427 0.0398 0.0385 0.0321 0.0286
+af O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+icd O O O O O O E-Status O O O
+alzheimer O O O O O O O O O O
+
+# 0.5747 0.0821 0.0548 0.0500 0.0487 0.0440 0.0436 0.0388 0.0359 0.0273
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+astım O O O O O O E-Status O O O
+baypas O O O O O O O O O O
+15-20 O O O O O O O O O O
+gün O O O O O O O O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+karın O O O O O O O O O O
+bilinen O O O O O O O O O O
+li O O O O O O O O O O
+olan O O O O O O O O O O
+hasta O O O O O O O O O O
+önce O O O O O O O O O O
+seka O O O O O O O O O O
+daha O O O O O O O O O O
+nde O O O O O O O O O O
+ile O O O O O O O O O O
+başvurmuş O O O O O O O O O O
+ve O O O O O O O O O O
+1 O O O O O O O O O O
+hf O O O O O O O O O O
+boyunca O O O O O O O O O O
+genel O O O O O O O O O O
+c O O O O O O O O O O
+tarafından O O O O O O O O O O
+serviste O O O O O O O O O O
+takibi O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6082 0.0731 0.0497 0.0483 0.0459 0.0417 0.0393 0.0377 0.0283 0.0278
+recep O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+için O O O O O O O E-Status O O
+ayaktan O O O O O O O O O O
+tarafımıza O O O O O O O O O O
+yönlendirilmiş O O O O O O O O O O
+
+# 0.6235 0.0689 0.0482 0.0473 0.0439 0.0412 0.0395 0.0344 0.0285 0.0247
+sfinkteretomi O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+stent O O O O O O O E-Status O O
+1 O O O O O O O O O O
+gün O O O O O O O O O O
+önce O O O O O O O O O O
+erce O O O O O O O O O O
+yapılan O O O O O O O O O O
+hasta O O O O O O O O O O
+erce O O O O O O O O O O
+takılması O O O O O O O O O O
+işlemi O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6092 0.0705 0.0496 0.0493 0.0475 0.0415 0.0393 0.0371 0.0282 0.0278
+karın O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ağrısı O O O O O O O E-Status O O
+karın O O O O O O O O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+sırta O O O O O O O O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+epigastrik O O O O O O O O O O
+bölgede O O O O O O O O O O
+bulantı O O O O O O O O O O
+kusma O O O O O O O O O O
+başlayan O O O O O O O O O O
+yayılan O O O O O O O O O O
+yakınmasıyla O O O O O O O O O O
+acil O O O O O O O O O O
+servise O O O O O O O O O O
+başvurmuş O O O O O O O O O O
+
+# 0.6034 0.0743 0.0498 0.0497 0.0487 0.0417 0.0404 0.0350 0.0286 0.0285
+amilaz O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+lipaz O O O O O O O E-Status O O
+yüksekliği O O O O O O O O O O
+akut O O O O O O O O O O
+pankreatit O O O O O O O O O O
+saptanması O O O O O O O O O O
+üzerine O O O O O O O O O O
+ön O O O O O O O O O O
+tanısıyla O O O O O O O O O O
+servise O O O O O O O O O O
+interne O O O O O O O O O O
+edildi O O O O O O O O O O
+
+# 0.5747 0.0821 0.0548 0.0500 0.0487 0.0440 0.0436 0.0388 0.0359 0.0273
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status B-Status E-loc B-Duration S-loc
+astım O O O O O O E-Status O O O
+baypas O O O O O O O O O O
+15-20 O O O O O O O O O O
+gün O O O O O O O O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+karın O O O O O O O O O O
+bilinen O O O O O O O O O O
+li O O O O O O O O O O
+olan O O O O O O O O O O
+hasta O O O O O O O O O O
+önce O O O O O O O O O O
+seka O O O O O O O O O O
+daha O O O O O O O O O O
+nde O O O O O O O O O O
+ile O O O O O O O O O O
+başvurmuş O O O O O O O O O O
+ve O O O O O O O O O O
+1 O O O O O O O O O O
+hf O O O O O O O O O O
+boyunca O O O O O O O O O O
+genel O O O O O O O O O O
+c O O O O O O O O O O
+tarafından O O O O O O O O O O
+serviste O O O O O O O O O O
+takibi O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6082 0.0731 0.0497 0.0483 0.0459 0.0417 0.0393 0.0377 0.0283 0.0278
+recep O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+için O O O O O O O E-Status O O
+ayaktan O O O O O O O O O O
+tarafımıza O O O O O O O O O O
+yönlendirilmiş O O O O O O O O O O
+
+# 0.6235 0.0689 0.0482 0.0473 0.0439 0.0412 0.0395 0.0344 0.0285 0.0247
+sfinkteretomi O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Duration
+stent O O O O O O O E-Status O O
+1 O O O O O O O O O O
+gün O O O O O O O O O O
+önce O O O O O O O O O O
+erce O O O O O O O O O O
+yapılan O O O O O O O O O O
+hasta O O O O O O O O O O
+erce O O O O O O O O O O
+takılması O O O O O O O O O O
+işlemi O O O O O O O O O O
+yapılmış O O O O O O O O O O
+
+# 0.6092 0.0705 0.0496 0.0493 0.0475 0.0415 0.0393 0.0371 0.0282 0.0278
+karın O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ağrısı O O O O O O O E-Status O O
+karın O O O O O O O O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+sırta O O O O O O O O O O
+karın O O O O O O O O O O
+ağrısı O O O O O O O O O O
+epigastrik O O O O O O O O O O
+bölgede O O O O O O O O O O
+bulantı O O O O O O O O O O
+kusma O O O O O O O O O O
+başlayan O O O O O O O O O O
+yayılan O O O O O O O O O O
+yakınmasıyla O O O O O O O O O O
+acil O O O O O O O O O O
+servise O O O O O O O O O O
+başvurmuş O O O O O O O O O O
+
+# 0.6034 0.0743 0.0498 0.0497 0.0487 0.0417 0.0404 0.0350 0.0286 0.0285
+amilaz O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+lipaz O O O O O O O E-Status O O
+yüksekliği O O O O O O O O O O
+akut O O O O O O O O O O
+pankreatit O O O O O O O O O O
+saptanması O O O O O O O O O O
+üzerine O O O O O O O O O O
+ön O O O O O O O O O O
+tanısıyla O O O O O O O O O O
+servise O O O O O O O O O O
+interne O O O O O O O O O O
+edildi O O O O O O O O O O
+
+# 0.6222 0.0718 0.0489 0.0481 0.0468 0.0419 0.0404 0.0298 0.0264 0.0236
+kabızlık O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc B-Duration O
+y O O O O O O O O O O
+
+# 0.6135 0.0713 0.0486 0.0483 0.0453 0.0417 0.0398 0.0366 0.0284 0.0266
+boyun O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+ağrısı O O O O O O O E-Status O O
+boyun O O O O O O O O O O
+için O O O O O O O O O O
+ftr O O O O O O O O O O
+görüyor O O O O O O O O O O
+
+# 0.5964 0.0788 0.0524 0.0512 0.0500 0.0432 0.0412 0.0320 0.0284 0.0266
+lombar O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Duration S-loc O
+diskopatı O O O O O O O O O O
+
+# 0.5992 0.0788 0.0523 0.0493 0.0490 0.0436 0.0405 0.0322 0.0285 0.0267
+oto O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Duration S-loc O
+üretim O O O O O O O O O O
+
+# 0.6097 0.0766 0.0512 0.0476 0.0457 0.0430 0.0391 0.0303 0.0286 0.0283
+baba O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Duration O B-Status
+ht O O O O O O O O O E-Status
+
+# 0.5886 0.0816 0.0523 0.0470 0.0467 0.0438 0.0407 0.0375 0.0329 0.0289
+bx O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status B-Status E-loc B-Duration S-loc
+3110 O O O O O O E-Status O O O
+2018 O O O O O O O O O O
+vm O O O O O O O O O O
+mp O O O O O O O O O O
+747318 O O O O O O O O O O
+sçli O O O O O O O O O O
+
+# 0.6372 0.0686 0.0480 0.0462 0.0429 0.0409 0.0405 0.0288 0.0235 0.0234
+bilinen O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc O B-Semptom
+hast O O O O O O O O O E-Semptom
+
+# 0.6097 0.0766 0.0512 0.0476 0.0457 0.0430 0.0391 0.0303 0.0286 0.0283
+baba O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Duration O B-Status
+ht O O O O O O O O O E-Status
+
+# 0.6046 0.0728 0.0505 0.0487 0.0470 0.0420 0.0393 0.0383 0.0287 0.0280
+bel O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status B-Duration S-loc
+ağrısı O O O O O O O E-Status O O
+bel O O O O O O O O O O
+sırt O O O O O O O O O O
+ağrısı O O O O O O O O O O
+sırt O O O O O O O O O O
+araç O O O O O O O O O O
+içi O O O O O O O O O O
+trafik O O O O O O O O O O
+kazsı O O O O O O O O O O
+sürücü O O O O O O O O O O
+
+# 0.6040 0.0758 0.0496 0.0476 0.0459 0.0428 0.0383 0.0377 0.0295 0.0287
+boş O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Status S-loc B-Duration
+1210 O O O O O O O E-Status O O
+2018 O O O O O O O O O O
+gazi O O O O O O O O O O
+daha O O O O O O O O O O
+90652018 O O O O O O O O O O
+scli O O O O O O O O O O
+7r O O O O O O O O O O
+11r O O O O O O O O O O
+
+# 0.6331 0.0656 0.0478 0.0450 0.0417 0.0400 0.0397 0.0338 0.0286 0.0248
+1-prostatik O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc B-Status S-loc B-Semptom
+adenokarsinom O O O O O O O E-Status O E-Semptom
+1-prostatik O O O O O O O O O O
+prostatik O O O O O O O O O O
+adenokarsinom O O O O O O O O O O
+prostatik O O O O O O O O O O
+tanı O O O O O O O O O O
+bx O O O O O O O O O O
+vm O O O O O O O O O O
+medical O O O O O O O O O O
+park O O O O O O O O O O
+2016 O O O O O O O O O O
+irade O O O O O O O O O O
+ııııv O O O O O O O O O O
+v O O O O O O O O O O
+total O O O O O O O O O O
+skor O O O O O O O O O O
+7 O O O O O O O O O O
+7 O O O O O O O O O O
+nolu O O O O O O O O O O
+sol O O O O O O O O O O
+orta O O O O O O O O O O
+kayıtlı O O O O O O O O O O
+gönderilen O O O O O O O O O O
+materyal O O O O O O O O O O
+patoloji O O O O O O O O O O
+şeyh O O O O O O O O O O
+132262016 O O O O O O O O O O
+gleason O O O O O O O O O O
+4 O O O O O O O O O O
+3 O O O O O O O O O O
+7 O O O O O O O O O O
+n O O O O O O O O O O
+05 O O O O O O O O O O
+pnı O O O O O O O O O O
+var O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+yy O O O O O O O O O O
+
+# 0.5819 0.0831 0.0527 0.0499 0.0492 0.0435 0.0390 0.0380 0.0341 0.0287
+ht O S-Past-Diagnosis B-Status S-Semptom B-Semptom E-Status E-loc B-Status B-Duration S-loc
+kalp O O O O O O O E-Status O O
+hastalığı O O O O O O O O O O
+kalp O O O O O O O O O O
+
+# 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000 0.1000
+kölelithiasis O O O O O O O O O O
+
+# 0.6372 0.0686 0.0480 0.0462 0.0429 0.0409 0.0405 0.0288 0.0235 0.0234
+bilinen O S-Past-Diagnosis B-Semptom B-Status S-Semptom E-Status E-loc S-loc O B-Semptom
+hast O O O O O O O O O E-Semptom
+
+# 0.6097 0.0766 0.0512 0.0476 0.0457 0.0430 0.0391 0.0303 0.0286 0.0283
+baba O S-Past-Diagnosis B-Status B-Semptom S-Semptom E-Status E-loc B-Duration O B-Status
+ht O O O O O O O O O E-Status
+
