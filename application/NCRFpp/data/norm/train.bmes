@@ -10,6 +10,8 @@ başının B-Semptom
 üst I-Semptom
 kısmında I-Semptom
 ol E-Semptom
+başının B-loc
+üst E-loc
 yaklaşık O
 olan O
 
@@ -23,6 +25,9 @@ c B-Past-Diagnosis
 6-7 I-Past-Diagnosis
 sol I-Past-Diagnosis
 diskopati E-Past-Diagnosis
+c B-loc
+6-7 I-loc
+sol E-loc
 izlenen O
 hasta O
 cerrahi O
@@ -35,6 +40,8 @@ izlemde O
 bilateral B-Semptom
 yan I-Semptom
 ağrısı E-Semptom
+bilateral B-loc
+yan E-loc
 bil B-Pre-Diagnosis
 üreten I-Pre-Diagnosis
 taşı E-Pre-Diagnosis
@@ -50,6 +57,8 @@ edildi O
 karotis B-Past-Diagnosis
 arter I-Past-Diagnosis
 darlığı E-Past-Diagnosis
+karotis B-loc
+arter E-loc
 sebebiyle O
 tarafımızca O
 interne O
@@ -75,6 +84,9 @@ korpusunda I-Pre-Diagnosis
 akut I-Pre-Diagnosis
 kompresyon I-Pre-Diagnosis
 fraktürü E-Pre-Diagnosis
+t12 B-loc
+vertebra I-loc
+korpusunda E-loc
 yapılan O
 tetkikleri O
 sonrası O
@@ -125,6 +137,8 @@ edildi O
 sol B-Pre-Diagnosis
 diz I-Pre-Diagnosis
 kontüzyonu E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 
 muayenesi O
 yapıldı O
@@ -136,6 +150,9 @@ sol B-Pre-Diagnosis
 tibin I-Pre-Diagnosis
 platosunda I-Pre-Diagnosis
 fraktır E-Pre-Diagnosis
+sol B-loc
+tibin I-loc
+platosunda E-loc
 bt O
 ve O
 direk O
@@ -152,6 +169,8 @@ kontrole O
 sol B-Pre-Diagnosis
 diz I-Pre-Diagnosis
 kontüzyonu E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 
 muayenesi O
 yapıldı O
@@ -163,6 +182,9 @@ sol B-Pre-Diagnosis
 tibin I-Pre-Diagnosis
 platosunda I-Pre-Diagnosis
 fraktır E-Pre-Diagnosis
+sol B-loc
+tibin I-loc
+platosunda E-loc
 bt O
 ve O
 direk O
@@ -201,6 +223,10 @@ aç I-Pre-Diagnosis
 alt I-Pre-Diagnosis
 Loyd'a I-Pre-Diagnosis
 malignite E-Pre-Diagnosis
+sağ B-loc
+aç I-loc
+alt I-loc
+Loyd'a E-loc
 squamözhücreli B-Pre-Diagnosis
 karsinom E-Pre-Diagnosis
 lobektomi S-Status
@@ -300,6 +326,10 @@ aç I-Pre-Diagnosis
 alt I-Pre-Diagnosis
 Loyd'a I-Pre-Diagnosis
 malignite E-Pre-Diagnosis
+sağ B-loc
+aç I-loc
+alt I-loc
+Loyd'a E-loc
 squamözhücreli B-Pre-Diagnosis
 karsinom E-Pre-Diagnosis
 lobektomi S-Status
@@ -399,6 +429,10 @@ aç I-Pre-Diagnosis
 alt I-Pre-Diagnosis
 Loyd'a I-Pre-Diagnosis
 malignite E-Pre-Diagnosis
+sağ B-loc
+aç I-loc
+alt I-loc
+Loyd'a E-loc
 squamözhücreli B-Pre-Diagnosis
 karsinom E-Pre-Diagnosis
 lobektomi S-Status
@@ -479,14 +513,14 @@ ay I-Duration
 önce E-Duration
 baş B-Semptom
 ağrısı E-Semptom
+sağ B-loc
+taraflı I-loc
+temposal I-loc
+bölgede E-loc
 baş B-Semptom
 ağrısı E-Semptom
+göze S-loc
 başlayan O
-sağ O
-taraflı O
-temposal O
-bölgede O
-göze O
 de O
 yayılan O
 olmuş O
@@ -518,6 +552,8 @@ temposal I-Pre-Diagnosis
 alandaki I-Pre-Diagnosis
 kitlesel I-Pre-Diagnosis
 lezyona E-Pre-Diagnosis
+sağ B-loc
+temposal E-loc
 radyoloji O
 toplantısında O
 da O
@@ -529,6 +565,7 @@ mrspektroskopi O
 
 glial B-Pre-Diagnosis
 tümör E-Pre-Diagnosis
+glial S-loc
 vaskülit S-Pre-Diagnosis
 yapılan O
 spektroskopi O
@@ -561,6 +598,10 @@ sinir I-Pre-Diagnosis
 sistemi I-Pre-Diagnosis
 vasküliti I-Pre-Diagnosis
 intanisi E-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 vaskülit S-Pre-Diagnosis
 regresyon B-Pre-Diagnosis
 döneminde I-Pre-Diagnosis
@@ -683,14 +724,14 @@ ay I-Duration
 önce E-Duration
 baş B-Semptom
 ağrısı E-Semptom
+sağ B-loc
+taraflı I-loc
+temposal I-loc
+bölgede E-loc
 baş B-Semptom
 ağrısı E-Semptom
+göze S-loc
 başlayan O
-sağ O
-taraflı O
-temposal O
-bölgede O
-göze O
 de O
 yayılan O
 olmuş O
@@ -722,6 +763,9 @@ temposal I-Pre-Diagnosis
 alandaki I-Pre-Diagnosis
 kitlesel I-Pre-Diagnosis
 lezyona E-Pre-Diagnosis
+sağ B-loc
+temposal I-loc
+alandaki E-loc
 radyoloji O
 toplantısında O
 da O
@@ -733,8 +777,10 @@ mrspektroskopi O
 
 glial B-Pre-Diagnosis
 tümör E-Pre-Diagnosis
+glial S-loc
 glial B-Pre-Diagnosis
 tümör E-Pre-Diagnosis
+vaskülit S-loc
 yapılan O
 spektroskopi O
 sonrası O
@@ -746,7 +792,6 @@ edilen O
 hastanın O
 patoloji O
 sonucu O
-vaskülit O
 ile O
 uyumlu O
 çıkmış O
@@ -768,18 +813,62 @@ sinir I-Pre-Diagnosis
 sistemi I-Pre-Diagnosis
 vasküliti I-Pre-Diagnosis
 intanisi E-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 vaskülit S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 regresyon B-Pre-Diagnosis
 döneminde I-Pre-Diagnosis
 meningoenfalit E-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 sarkoidoz S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 tbc S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 menenjit S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 şifiyiz S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 lyme S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 bruselloz S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 salmonella S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 mantar S-Pre-Diagnosis
+primer B-loc
+santral I-loc
+sinir I-loc
+sistemi E-loc
 yapılan O
 romatolojim O
 değerlendirmesinde O
@@ -915,6 +1004,7 @@ yıl I-Duration
 önce E-Duration
 mide B-Past-Diagnosis
 kanaması E-Past-Diagnosis
+mide S-loc
 aspirin O
 kullanımı O
 sonrası O
@@ -942,7 +1032,10 @@ gündür E-Duration
 gündür E-Duration
 artan S-Trend
 ağrı S-Semptom
+göğsünden S-loc
 ağrı S-Semptom
+sol B-loc
+koluna E-loc
 bilinen O
 rahatsızlığı O
 olmayan O
@@ -952,9 +1045,6 @@ olan O
 ve O
 son O
 şiddeti O
-göğsünden O
-sol O
-koluna O
 yayılan O
 bir O
 tanımlıyor O
@@ -963,6 +1053,7 @@ kardiyak B-Past-Diagnosis
 hastalık E-Past-Diagnosis
 göğüs B-Semptom
 ağrısı E-Semptom
+göğüs S-loc
 bilinen O
 öyküsü O
 olmayan O
@@ -978,8 +1069,11 @@ infeirorda B-Pre-Diagnosis
 geçici I-Pre-Diagnosis
 st I-Pre-Diagnosis
 elevasyonu E-Pre-Diagnosis
+infeirorda S-loc
 troponin S-Semptom
+infeirorda S-loc
 aks S-Pre-Diagnosis
+infeirorda S-loc
 ekgde O
 ve O
 pozitifliği O
@@ -991,6 +1085,7 @@ yatırıldı O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 şikayeti O
 ile O
 başvurdu O
@@ -1019,6 +1114,8 @@ diz B-Semptom
 önünde I-Semptom
 belirgin I-Semptom
 ağrı E-Semptom
+diz B-loc
+önünde E-loc
 
 soğuk B-Status
 uygulama E-Status
@@ -1035,6 +1132,10 @@ bacak I-Pre-Diagnosis
 diz I-Pre-Diagnosis
 altından I-Pre-Diagnosis
 ampute E-Pre-Diagnosis
+iki B-loc
+bacak I-loc
+diz I-loc
+altından E-loc
 sırt B-Status
 üstü I-Status
 düşmüş E-Status
@@ -1094,6 +1195,7 @@ ve O
 öksürük S-Semptom
 ense B-Semptom
 ağrısı E-Semptom
+ense S-loc
 tansiyonu B-Status
 200 E-Status
 bilinen O
@@ -1132,14 +1234,18 @@ bezi I-Status
 alınmış E-Status
 boyunda B-Semptom
 şişlik E-Semptom
+boyunda S-loc
 tekrarlamış O
 
 afsı S-Past-Diagnosis
 konuşamama S-Semptom
 kuvvet B-Semptom
 kaybı E-Semptom
+sağ B-loc
+kol E-loc
 kuvvet B-Semptom
 kaybı E-Semptom
+bacakta S-loc
 bilinen O
 olan O
 ve O
@@ -1149,10 +1255,7 @@ sağlam O
 görülen O
 hasta O
 sabah O
-sağ O
-kol O
 ve O
-bacakta O
 ile O
 yatakta O
 bulunması O
@@ -1167,6 +1270,8 @@ sol B-Pre-Diagnosis
 mca I-Pre-Diagnosis
 m1 I-Pre-Diagnosis
 oklüzyonu E-Pre-Diagnosis
+sol B-loc
+mca E-loc
 çekilen O
 btde O
 bt O
@@ -1186,6 +1291,7 @@ alındı O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 artış S-Trend
 uzun O
 süredir O
@@ -1207,10 +1313,15 @@ t12-l1 B-Semptom
 vertebralarda I-Semptom
 kompresyon I-Semptom
 fox E-Semptom
+t12-l1 B-loc
+vertebralarda E-loc
 miyelomalazi S-Semptom
+t12-l1 B-loc
+vertebralarda E-loc
 l4-5 B-Semptom
 düzeyinde I-Semptom
 anterospondilolistezis E-Semptom
+l4-5 S-loc
 saptanması O
 üzerine O
 11 O
@@ -1225,9 +1336,11 @@ yapılmış O
 spinal B-Pre-Diagnosis
 kör I-Pre-Diagnosis
 kontüzyonu E-Pre-Diagnosis
+postop B-loc
+t12 E-loc
 ödem S-Pre-Diagnosis
-postop O
-t12 O
+postop B-loc
+t12 E-loc
 düzeyi O
 de O
 ve O
@@ -1268,6 +1381,7 @@ yönlendirilmiş O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 artış S-Trend
 uzun O
 süredir O
@@ -1289,10 +1403,13 @@ t12-l1 B-Pre-Diagnosis
 vertebralarda I-Pre-Diagnosis
 kompresyon I-Pre-Diagnosis
 fox E-Pre-Diagnosis
+t12-l1 B-loc
+vertebralarda E-loc
 miyelomalazi S-Pre-Diagnosis
 l4-5 B-Pre-Diagnosis
 düzeyinde I-Pre-Diagnosis
 anterospondilolistezis E-Pre-Diagnosis
+l4-5 S-loc
 saptanması O
 üzerine O
 11 O
@@ -1311,7 +1428,11 @@ de I-Pre-Diagnosis
 spinal I-Pre-Diagnosis
 kör I-Pre-Diagnosis
 kontüzyonu E-Pre-Diagnosis
+postop B-loc
+t12 E-loc
 ödem S-Pre-Diagnosis
+postop B-loc
+t12 E-loc
 ve O
 gelişmiş O
 
@@ -1350,11 +1471,12 @@ yönlendirilmiş O
 
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 karın B-Semptom
 ağrısı E-Semptom
-gaz O
-gaita O
-çıkaramama O
+gaz B-loc
+gaita I-loc
+çıkaramama E-loc
 şikayeti O
 ile O
 gelen O
@@ -1427,6 +1549,10 @@ belirtti O
 gün E-Duration
 düşme S-Status
 ekimiz S-Semptom
+sağ B-loc
+diz I-loc
+medikalde I-loc
+distile E-loc
 tromboflebit S-Pre-Diagnosis
 sağ B-Pre-Diagnosis
 diz I-Pre-Diagnosis
@@ -1434,6 +1560,11 @@ tuberocitas I-Pre-Diagnosis
 tibiz I-Pre-Diagnosis
 bursasında I-Pre-Diagnosis
 hematim E-Pre-Diagnosis
+sağ B-loc
+diz I-loc
+tuberocitas I-loc
+tibiz I-loc
+bursasında E-loc
 hematim B-Status
 drene E-Status
 antibiyoterapi S-Status
@@ -1442,10 +1573,6 @@ yolda O
 öyküsü O
 olan O
 hasta O
-sağ O
-diz O
-medikalde O
-distile O
 yayılan O
 yaygın O
 mevcut O
@@ -1510,6 +1637,8 @@ zaman E-Period
 sağ B-Semptom
 kalçasında I-Semptom
 ağrı E-Semptom
+sağ B-loc
+kalçasında E-loc
 
 artarak S-Trend
 3 B-Duration
@@ -1548,10 +1677,15 @@ yönlendirilmiş O
 sağ B-Semptom
 yan I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+yan E-loc
 sağ B-Pre-Diagnosis
 toplayıcı I-Pre-Diagnosis
 sistemde I-Pre-Diagnosis
 kalkıl E-Pre-Diagnosis
+sağ B-loc
+toplayıcı I-loc
+sistemde E-loc
 olan O
 hastanın O
 yapılan O
@@ -1569,6 +1703,7 @@ edildi O
 şiddetli S-Intensity
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 kendi O
 araç O
 kullanırken O
@@ -1607,6 +1742,7 @@ uyku-apne S-Past-Diagnosis
 haftadır E-Duration
 göğüs B-Semptom
 ağrısı E-Semptom
+göğüs S-loc
 hastanın O
 şikayeti O
 oluyormuş O
@@ -1616,9 +1752,13 @@ sol B-Semptom
 gözünde I-Semptom
 görme I-Semptom
 azlığı E-Semptom
+sol B-loc
+gözünde E-loc
 sol B-Semptom
 gözdeki I-Semptom
 bulanıklık E-Semptom
+sol B-loc
+gözdeki E-loc
 2 O
 ay O
 önce O
@@ -1686,6 +1826,8 @@ sağ B-Semptom
 Front'la I-Semptom
 bölgede I-Semptom
 baz E-Semptom
+sağ B-loc
+Front'la E-loc
 yaklaşık O
 aydır O
 hemen O
@@ -1717,6 +1859,7 @@ hastası O
 
 sağ B-Past-Diagnosis
 hp E-Past-Diagnosis
+sağ S-loc
 10 O
 yıl O
 önce O
@@ -1727,6 +1870,8 @@ gün I-Duration
 sağ B-Semptom
 dizi I-Semptom
 burkulan E-Semptom
+sağ B-loc
+dizi E-loc
 hastanın O
 ilk O
 müdahalesi O
@@ -1811,6 +1956,7 @@ son I-Semptom
 yıldır I-Semptom
 büyüyen I-Semptom
 şişlik E-Semptom
+verteks S-loc
 3 B-Duration
 yıldır E-Duration
 varmış O
@@ -1820,6 +1966,8 @@ temporalde I-Past-Diagnosis
 benin I-Past-Diagnosis
 kemik I-Past-Diagnosis
 kıomsti E-Past-Diagnosis
+sol B-loc
+temporalde E-loc
 olan O
 hasta O
 takipte O
@@ -1876,13 +2024,17 @@ hikayesi O
 mide B-Pre-Diagnosis
 ca I-Pre-Diagnosis
 metastaz E-Pre-Diagnosis
+mide S-loc
 mevcut O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 sol B-Semptom
 bacakta I-Semptom
 ağrı E-Semptom
+sol B-loc
+bacakta E-loc
 4 B-Duration
 aydır E-Duration
 1 B-Duration
@@ -1898,7 +2050,11 @@ son O
 sol B-Semptom
 bacakta I-Semptom
 ağrı E-Semptom
+sol B-loc
+bacakta E-loc
 güçsüzlük S-Semptom
+sol B-loc
+bacakta E-loc
 ve O
 tarihliyor O
 
@@ -1956,6 +2112,7 @@ yaşta O
 
 iltihabi B-Pre-Diagnosis
 barsak E-Pre-Diagnosis
+barsak S-loc
 şen O
 
 birkaç B-Duration
@@ -1974,6 +2131,7 @@ op E-Status
 
 mide B-Past-Diagnosis
 kanaması E-Past-Diagnosis
+mide S-loc
 ülser S-Past-Diagnosis
 
 y O
@@ -2036,6 +2194,7 @@ edildi O
 
 burunda B-Semptom
 ağrı E-Semptom
+burunda S-loc
 üst B-Semptom
 dudakta I-Semptom
 içi I-Semptom
@@ -2043,6 +2202,8 @@ yüzeyde I-Semptom
 2 I-Semptom
 cm I-Semptom
 kesi E-Semptom
+üst B-loc
+dudakta E-loc
 darp O
 edilme O
 x0a O
@@ -2068,6 +2229,10 @@ paryetal I-Pre-Diagnosis
 bölgede I-Pre-Diagnosis
 subgaleal I-Pre-Diagnosis
 hematim E-Pre-Diagnosis
+sol B-loc
+geri I-loc
+paryetal I-loc
+bölgede E-loc
 lineerfraktür S-Pre-Diagnosis
 acil O
 serviste O
@@ -2173,15 +2338,17 @@ parietalde I-Semptom
 3 I-Semptom
 cm I-Semptom
 kesi E-Semptom
+sol B-loc
+parietalde E-loc
 yüksekten O
 düşme O
 x0a O
 
 hassasiyet S-Semptom
+boyunda S-loc
 hassasiyet S-Semptom
-boyunda O
+sırtında S-loc
 ve O
-sırtında O
 
 beyin O
 bt O
@@ -2202,6 +2369,7 @@ pariyetalde B-Semptom
 3 I-Semptom
 çelik I-Semptom
 yara E-Semptom
+pariyetalde S-loc
 düşme O
 sonrası O
 
@@ -2323,16 +2491,16 @@ hastası O
 6 B-Duration
 aydır E-Duration
 ağrısı S-Semptom
+boyun S-loc
 ağrısı S-Semptom
+sağ B-loc
+kol E-loc
 ağrısı S-Semptom
-boyun O
+sırta B-loc
+yayılan E-loc
 ve O
-sağ O
-kol O
 olan O
 hastanın O
-sırta O
-yayılan O
 oluyormuş O
 
 ftr S-Status
@@ -2704,9 +2872,12 @@ diyabet I-Pre-Diagnosis
 mellitus E-Pre-Diagnosis
 safra B-Pre-Diagnosis
 taşı E-Pre-Diagnosis
+safra S-loc
 alzheimer S-Pre-Diagnosis
+safra S-loc
 kolon B-Pre-Diagnosis
 cıa E-Pre-Diagnosis
+kolon S-loc
 özellik O
 saptanılmadı O
 
@@ -2740,6 +2911,7 @@ var O
 
 kalpte B-Semptom
 üfürüm E-Semptom
+kalpte S-loc
 
 normal O
 
@@ -2823,6 +2995,7 @@ ca E-Status
 
 kaç B-Pre-Diagnosis
 ca E-Pre-Diagnosis
+kaç S-loc
 o O
 
 y O
@@ -2830,6 +3003,7 @@ y O
 mide B-Pre-Diagnosis
 ca I-Pre-Diagnosis
 metastaz E-Pre-Diagnosis
+mide S-loc
 mevcut O
 
 kronik B-Status
@@ -2850,11 +3024,14 @@ pozitif O
 ra S-Past-Diagnosis
 meme B-Past-Diagnosis
 ca E-Past-Diagnosis
+meme S-loc
 ms S-Past-Diagnosis
+meme S-loc
 
 mide B-Past-Diagnosis
 ca I-Past-Diagnosis
 metastaz E-Past-Diagnosis
+mide S-loc
 mevcut O
 
 diyabetus B-Past-Diagnosis
@@ -3005,21 +3182,23 @@ dmmr B-Past-Diagnosis
 : I-Past-Diagnosis
 l4-5 I-Past-Diagnosis
 heri E-Past-Diagnosis
+l4-5 B-loc
+heri E-loc
 dmmr S-Past-Diagnosis
+sağ B-loc
+l5 I-loc
+sinir I-loc
+köküne E-loc
 dmmr S-Past-Diagnosis
+formen B-loc
+düzeyinde I-loc
+sağ I-loc
+l4 I-loc
+sinir I-loc
+köküne E-loc
 2003 O
 te O
-sağ O
-l5 O
-sinir O
-köküne O
 ve O
-formen O
-düzeyinde O
-sağ O
-l4 O
-sinir O
-köküne O
 başı O
 hasta O
 ailesinde O
@@ -3044,69 +3223,75 @@ stent E-Status
 servikal B-Semptom
 aksta I-Semptom
 düzleşmesene E-Semptom
+servikal B-loc
+aksta E-loc
 dejenerasyon S-Semptom
+c4-5 S-loc
 dejenerasyon S-Semptom
+c6-7 S-loc
 bulging S-Semptom
+c3-4 B-loc
+seviyesinde I-loc
+sağ I-loc
+posterolateral I-loc
+formen I-loc
+girişine E-loc
 ç4-5 B-Semptom
 diskinde I-Semptom
 posterosantral I-Semptom
 protrüzyon E-Semptom
+ç4-5 B-loc
+diskinde E-loc
 bulging S-Semptom
+c5-6 B-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+formen I-loc
+girişine E-loc
 c6-7 B-Semptom
 diskinde I-Semptom
 sol I-Semptom
 posterolateral I-Semptom
 bulging E-Semptom
+c6-7 B-loc
+diskinde I-loc
+sol E-loc
 protrüzyon S-Semptom
+c7-t1 B-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+formen I-loc
+girişine E-loc
 protrüzyon S-Semptom
+c8 B-loc
+sinirine I-loc
+bası E-loc
 t1-2 B-Semptom
 diskinde I-Semptom
 posterosantral I-Semptom
 bulging E-Semptom
+t1-2 B-loc
+diskinde E-loc
 2014 O
 mr O
-c45 O
 ve O
-c67 O
 disklerinde O
-c34 O
-seviyesinde O
-sağ O
-posterolateral O
-formen O
-girişine O
 uzanım O
 gösteren O
 ve O
 c4 O
 sinirine O
 bası O
-c56 O
-seviyesinde O
-sol O
-posterolateral O
-formen O
-girişine O
 uzanım O
 gösteren O
-c67 O
 diskinde O
 sol O
 posterolateral O
-c7t1 O
-seviyesinde O
-sol O
-posterolateral O
-formen O
-girişine O
 uzanım O
 gösteren O
 ve O
-c8 O
-sinirine O
-bası O
-t12 O
-diskinde O
 posterosantral O
 
 ldh S-Past-Diagnosis
@@ -3124,8 +3309,10 @@ sağ B-Past-Diagnosis
 mastektomi E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 nodülektomi E-Past-Diagnosis
+tiroit S-loc
 tiroit B-Past-Diagnosis
 nodülektomi E-Past-Diagnosis
+tiroit S-loc
 apandektomi S-Past-Diagnosis
 halalar B-Status
 guatr E-Status
@@ -3146,8 +3333,11 @@ afsı S-Past-Diagnosis
 konuşamama S-Semptom
 kuvvet B-Semptom
 kaybı E-Semptom
+sağ B-loc
+kol E-loc
 kuvvet B-Semptom
 kaybı E-Semptom
+bacakta S-loc
 bilinen O
 olan O
 ve O
@@ -3157,10 +3347,7 @@ sağlam O
 görülen O
 hasta O
 sabah O
-sağ O
-kol O
 ve O
-bacakta O
 ile O
 yatakta O
 bulunması O
@@ -3174,6 +3361,9 @@ sol B-Pre-Diagnosis
 mca I-Pre-Diagnosis
 m1 I-Pre-Diagnosis
 oklüzyonu E-Pre-Diagnosis
+sol B-loc
+mca I-loc
+m1 E-loc
 çekilen O
 btde O
 saptanmayan O
@@ -3248,6 +3438,7 @@ hemoptizi S-Semptom
 kanlı B-Semptom
 nazal I-Semptom
 akıntı E-Semptom
+nazal S-loc
 hematüri S-Past-Diagnosis
 bazal O
 core O
@@ -3276,6 +3467,7 @@ alımı O
 
 böbrek B-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+böbrek S-loc
 pnömoni S-Past-Diagnosis
 pnömoni S-Past-Diagnosis
 bilinen O
@@ -3315,6 +3507,7 @@ hemoptizi S-Semptom
 kanlı B-Semptom
 nazal I-Semptom
 akıntı E-Semptom
+nazal S-loc
 hematüri S-Semptom
 Piyer'i S-Pre-Diagnosis
 iye B-Pre-Diagnosis
@@ -3329,7 +3522,9 @@ fotosensitivite S-Pre-Diagnosis
 artrit S-Pre-Diagnosis
 rast S-Pre-Diagnosis
 aft S-Pre-Diagnosis
+oral S-loc
 aft S-Pre-Diagnosis
+genital S-loc
 kontrast S-Pre-Diagnosis
 hipotansiyon S-Pre-Diagnosis
 bitkisel B-Status
@@ -3337,9 +3532,7 @@ ilaç I-Status
 alımı E-Status
 bazal O
 core O
-oral O
 ve O
-genital O
 kont O
 nâşid O
 
@@ -3401,6 +3594,7 @@ yıl O
 
 hipofiz B-Pre-Diagnosis
 adenomu E-Pre-Diagnosis
+hipofiz S-loc
 anne-babada B-Status
 dm E-Status
 nedeni O
@@ -3421,6 +3615,7 @@ koah S-Past-Diagnosis
 
 serviks B-Pre-Diagnosis
 ca E-Pre-Diagnosis
+serviks S-loc
 
 gaz S-Semptom
 gaita S-Semptom
@@ -3471,6 +3666,8 @@ majör E-Pre-Diagnosis
 koroner B-Pre-Diagnosis
 arter I-Pre-Diagnosis
 hastalığı E-Pre-Diagnosis
+koroner B-loc
+arter E-loc
 
 2 O
 hafta O
@@ -3492,8 +3689,10 @@ kullanıyormuş O
 temporalde B-Pre-Diagnosis
 lineer I-Pre-Diagnosis
 fraktır E-Pre-Diagnosis
+temporalde S-loc
 subdural B-Pre-Diagnosis
 hematim E-Pre-Diagnosis
+temporalde S-loc
 bugün O
 1730 O
 civarı O
@@ -3531,6 +3730,7 @@ okuldayken O
 dm S-Past-Diagnosis
 böbrek B-Past-Diagnosis
 yetmezliği E-Past-Diagnosis
+böbrek S-loc
 tanılı O
 
 
@@ -3571,6 +3771,7 @@ boy O
 
 sakaklarda B-Semptom
 ağrı E-Semptom
+sakaklarda S-loc
 3 B-Duration
 aydır E-Duration
 haftada B-Period
@@ -3637,6 +3838,7 @@ kesesi I-Status
 op E-Status
 mide B-Past-Diagnosis
 hast E-Past-Diagnosis
+mide S-loc
 dm S-Past-Diagnosis
 
 ra S-Past-Diagnosis
@@ -3710,11 +3912,16 @@ eden O
 
 boyun B-Semptom
 ağrısı E-Semptom
+boyun S-loc
 sol B-Semptom
 kolda I-Semptom
 dolaşan I-Semptom
 ağrı E-Semptom
+sol B-loc
+kolda E-loc
 karıncalanma S-Semptom
+sol B-loc
+kolda E-loc
 ve O
 şikayet O
 şle O
@@ -3750,6 +3957,7 @@ yıl E-Duration
 büyümüş S-Trend
 alnındaki B-Semptom
 şişlik E-Semptom
+alnındaki S-loc
 hastanın O
 alanında O
 yaklaşık O
@@ -3808,6 +4016,7 @@ yapılmış O
 
 hipofiz B-Pre-Diagnosis
 adenomu E-Pre-Diagnosis
+hipofiz S-loc
 
 annede B-Status
 migren E-Status
@@ -3833,8 +4042,9 @@ anemastım O
 
 servikal B-Semptom
 darlık E-Semptom
+servikal S-loc
 darlık S-Semptom
-pl O
+pl S-loc
 
 sinüs B-Status
 op E-Status
@@ -3909,6 +4119,8 @@ olmuş O
 kalp B-Past-Diagnosis
 kapak I-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+kalp B-loc
+kapak E-loc
 hafif B-Past-Diagnosis
 orta I-Past-Diagnosis
 aş E-Past-Diagnosis
@@ -3917,6 +4129,7 @@ retrosternal B-Semptom
 bir I-Semptom
 baskı I-Semptom
 hissi E-Semptom
+retrosternal S-loc
 angına S-Semptom
 ve O
 tanısı O
@@ -3949,6 +4162,8 @@ etmiş O
 lateral B-Pre-Diagnosis
 menisküs I-Pre-Diagnosis
 yırtığı E-Pre-Diagnosis
+lateral B-loc
+menisküs E-loc
 o O
 dönemde O
 mr O
@@ -3958,6 +4173,7 @@ söylenmiş O
 eklem B-Semptom
 sıvı I-Semptom
 artışı E-Semptom
+eklem S-loc
 
 konservatif O
 takıp O
@@ -4099,9 +4315,12 @@ gastroskopi O
 
 vücut B-Semptom
 ağrısı E-Semptom
+vücut S-loc
 iki B-Semptom
 dizde I-Semptom
 ağrı E-Semptom
+iki B-loc
+dizde E-loc
 yaygın O
 ve O
 her O
@@ -4155,6 +4374,8 @@ sağ B-Semptom
 bacakta I-Semptom
 da I-Semptom
 titreme E-Semptom
+sağ B-loc
+bacakta E-loc
 bir B-Duration
 haftadır E-Duration
 artan S-Trend
@@ -4168,7 +4389,7 @@ el O
 4 O
 
 kasılma S-Semptom
-parmakta O
+parmakta S-loc
 özellikle O
 sabahları O
 
@@ -4264,8 +4485,10 @@ y O
 sağ B-Semptom
 bacak I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+bacak E-loc
 ağrısı S-Semptom
-bel O
+bel S-loc
 ve O
 şikayetleri O
 ile O
@@ -4294,9 +4517,9 @@ yavaşça B-Trend
 büyüyen E-Trend
 ağrısız B-Semptom
 kitle E-Semptom
-parmak O
-dolar O
-yüzde O
+parmak B-loc
+dolar I-loc
+yüzde E-loc
 varmış O
 
 psk S-Past-Diagnosis
@@ -4517,6 +4740,7 @@ yapıldı O
 
 bob B-Pre-Diagnosis
 taşı E-Pre-Diagnosis
+bob S-loc
 
 6 O
 ay O
@@ -4643,7 +4867,9 @@ meniskopatı S-Pre-Diagnosis
 
 sol B-Past-Diagnosis
 pcn E-Past-Diagnosis
+sol S-loc
 nefrostomisi S-Past-Diagnosis
+sol S-loc
 gebeliği O
 sırasında O
 konulan O
@@ -4693,6 +4919,7 @@ kronik B-Past-Diagnosis
 pankreatit E-Past-Diagnosis
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 bilinen O
 tanılı O
 hasta O
@@ -4732,6 +4959,8 @@ pnömoni S-Pre-Diagnosis
 kbh B-Pre-Diagnosis
 zemininde I-Pre-Diagnosis
 abh E-Pre-Diagnosis
+kbh B-loc
+zemininde E-loc
 bilinen O
 tanısı O
 olan O
@@ -4774,9 +5003,10 @@ yatışının O
 
 karında B-Semptom
 distansiyon E-Semptom
+karında S-loc
 distansiyon S-Semptom
+dişene S-loc
 gününde O
-dişene O
 ve O
 gelişmesi O
 üzerine O
@@ -4798,6 +5028,7 @@ edilemedi O
 karında B-Semptom
 yoğun I-Semptom
 gaz E-Semptom
+karında S-loc
 mevcut O
 hava O
 sıvı O
@@ -4827,6 +5058,8 @@ pnömoni S-Pre-Diagnosis
 kbh B-Pre-Diagnosis
 zemininde I-Pre-Diagnosis
 abh E-Pre-Diagnosis
+kbh B-loc
+zemininde E-loc
 bilinen O
 tanısı O
 olan O
@@ -4868,12 +5101,12 @@ yatışının O
 2 O
 
 distansiyon S-Semptom
+dişene S-loc
 karında B-Semptom
 distansiyon E-Semptom
+karında S-loc
 gününde O
-dişene O
 ve O
-karında O
 gelişmesi O
 üzerine O
 öncelikle O
@@ -4894,6 +5127,7 @@ edilemedi O
 karında B-Semptom
 yoğun I-Semptom
 gaz E-Semptom
+karında S-loc
 mevcut O
 hava O
 sıvı O
@@ -4923,6 +5157,8 @@ pnömoni S-Pre-Diagnosis
 kbh B-Pre-Diagnosis
 zemininde I-Pre-Diagnosis
 abh E-Pre-Diagnosis
+kbh B-loc
+zemininde E-loc
 bilinen O
 tanısı O
 olan O
@@ -4964,12 +5200,12 @@ yatışının O
 2 O
 
 distansiyon S-Semptom
+dişene S-loc
 karında B-Semptom
 distansiyon E-Semptom
+karında S-loc
 gününde O
-dişene O
 ve O
-karında O
 gelişmesi O
 üzerine O
 öncelikle O
@@ -4990,6 +5226,7 @@ edilemedi O
 karında B-Semptom
 yoğun I-Semptom
 gaz E-Semptom
+karında S-loc
 mevcut O
 hava O
 sıvı O
@@ -5052,6 +5289,7 @@ pnömoni S-Pre-Diagnosis
 akut B-Pre-Diagnosis
 böbrek I-Pre-Diagnosis
 yetmezliği E-Pre-Diagnosis
+böbrek S-loc
 yapılan O
 tetkiklerinde O
 izlenen O
@@ -5150,6 +5388,8 @@ yıl E-Duration
 sağ B-Semptom
 sesamoid I-Semptom
 kırığı E-Semptom
+sağ B-loc
+sesamoid E-loc
 önce O
 konservatif O
 takibe O
@@ -5167,6 +5407,7 @@ tinnitus B-Semptom
 dolgunluk E-Semptom
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 
 acca B-Past-Diagnosis
 ca E-Past-Diagnosis
@@ -5189,7 +5430,11 @@ irade O
 sol B-Semptom
 Kuriş'te I-Semptom
 ağrı E-Semptom
+sol B-loc
+Kuriş'te E-loc
 hassasiyet S-Semptom
+sol B-loc
+Kuriş'te E-loc
 
 bel B-Status
 Amelia'lısı E-Status
@@ -5222,6 +5467,7 @@ takipli O
 burundan B-Semptom
 nefes I-Semptom
 alamama E-Semptom
+burundan S-loc
 uzun O
 süredir O
 şikayeti O
@@ -5250,6 +5496,8 @@ stent E-Status
 boyun B-Semptom
 damarlarında I-Semptom
 tıkanıklık E-Semptom
+boyun B-loc
+damarlarında E-loc
 böbrek B-Past-Diagnosis
 hast E-Past-Diagnosis
 annede B-Status
@@ -5257,9 +5505,10 @@ annede B-Status
 
 boyunda B-Semptom
 ağrı E-Semptom
+boyunda S-loc
 ağrı S-Semptom
-sağ O
-ayakta O
+sağ B-loc
+ayakta E-loc
 ve O
 
 şu O
@@ -5275,12 +5524,14 @@ etti O
 
 akciğer B-Pre-Diagnosis
 ca E-Pre-Diagnosis
+akciğer S-loc
 
 baba-prostat B-Status
 kanseri-ex E-Status
 
 akciğer B-Pre-Diagnosis
 ca E-Pre-Diagnosis
+akciğer S-loc
 aştım S-Pre-Diagnosis
 
 parkinson S-Past-Diagnosis
@@ -5440,8 +5691,10 @@ ediyormuş O
 
 sırt B-Semptom
 ağrısı E-Semptom
+sırt S-loc
 nefes B-Semptom
 darlığı E-Semptom
+sırt S-loc
 ayrıca O
 tam O
 başlama O
@@ -5460,6 +5713,8 @@ ikh E-Status
 safra B-Semptom
 kesesi I-Semptom
 kontrakte E-Semptom
+safra B-loc
+kesesi E-loc
 
 opere B-Status
 rektumca I-Status
@@ -5468,10 +5723,10 @@ ca E-Status
 1-2 B-Duration
 aydır E-Duration
 ağrı S-Semptom
+epigastrik S-loc
 ağrı S-Semptom
-epigastrik O
+göğüs S-loc
 başlıyor O
-göğüs O
 yayılıyor O
 
 all O
@@ -5479,10 +5734,12 @@ all O
 kah S-Past-Diagnosis
 kc B-Past-Diagnosis
 sirozu E-Past-Diagnosis
+kc S-loc
 wpw S-Past-Diagnosis
 hipertansiyon S-Past-Diagnosis
 kc B-Past-Diagnosis
 sirozu E-Past-Diagnosis
+kc S-loc
 wpw S-Past-Diagnosis
 hipertansiyon S-Past-Diagnosis
 hipotirroidi S-Past-Diagnosis
@@ -5631,8 +5888,12 @@ dmbypasht O
 2-3 B-Duration
 aydır E-Duration
 şişlik S-Semptom
+ellerinde S-loc
 şişlik S-Semptom
+göz B-loc
+çevresinde E-loc
 şişlik S-Semptom
+bacaklarında S-loc
 tarafında B-Status
 böbrek I-Status
 hastalığı E-Status
@@ -5642,11 +5903,7 @@ sabah O
 kalkınca O
 ortaya O
 çıkan O
-ellerinde O
-göz O
-çevresinde O
 ve O
-bacaklarında O
 gittiğim O
 doktor O
 giderici O
@@ -5658,8 +5915,7 @@ düzelmiş O
 fakat O
 el O
 ve O
-göz O
-çevresindeki O
+ki O
 ler O
 devam O
 ediyormuş O
@@ -5733,6 +5989,12 @@ bronkogramları I-Semptom
 içeren I-Semptom
 pnömonik I-Semptom
 konsolidasyon E-Semptom
+sağ B-loc
+akciğer I-loc
+alt I-loc
+lob I-loc
+anterobazal I-loc
+segmentte E-loc
 akciğer O
 parankima O
 penceresinde O
@@ -5746,6 +6008,8 @@ parankima B-Pre-Diagnosis
 içerisinde I-Pre-Diagnosis
 kistik I-Pre-Diagnosis
 solid E-Pre-Diagnosis
+parankima B-loc
+içerisinde E-loc
 patoloji O
 izlenilmemiştir O
 
@@ -5763,6 +6027,7 @@ karaciğerde B-Semptom
 multiple I-Semptom
 sakal I-Semptom
 kalsifikasyonlar E-Semptom
+karaciğerde S-loc
 granülomatoz B-Pre-Diagnosis
 enfeksiyon I-Pre-Diagnosis
 sekeli E-Pre-Diagnosis
@@ -5779,6 +6044,10 @@ mm I-Semptom
 hipodens I-Semptom
 ekzofıtık I-Semptom
 lezyon E-Semptom
+sol B-loc
+böbrek I-loc
+üst I-loc
+gölde E-loc
 kist S-Semptom
 
 izlenmektedir O
@@ -5788,6 +6057,9 @@ korpus I-Semptom
 köşelerinde I-Semptom
 osteofitik I-Semptom
 değişimler E-Semptom
+vertebra B-loc
+korpus I-loc
+köşelerinde E-loc
 izlenmektedir O
 
 uzun O
@@ -5890,6 +6162,8 @@ sağ B-Past-Diagnosis
 omuz I-Past-Diagnosis
 bölgede I-Past-Diagnosis
 zona E-Past-Diagnosis
+sağ B-loc
+omuz E-loc
 2 O
 hafta O
 önce O
@@ -5939,6 +6213,7 @@ bypass O
 halsizlik S-Semptom
 kas B-Semptom
 ağrıları E-Semptom
+kas S-loc
 nefes B-Semptom
 almada I-Semptom
 güçlük E-Semptom
@@ -5946,8 +6221,11 @@ güçlük E-Semptom
 dasite S-Semptom
 lenf B-Pre-Diagnosis
 kodu E-Pre-Diagnosis
+sağ B-loc
+paratrakiyal E-loc
 lenf B-Pre-Diagnosis
 kodu E-Pre-Diagnosis
+aorttikopülmonal S-loc
 şikayeti O
 ile O
 tarafıma O
@@ -5963,10 +6241,7 @@ olması O
 toraks O
 bt O
 istendi O
-sağ O
-paratrakiyal O
 ve O
-aorttikopülmonal O
 büyükleri O
 kısa O
 aksi O
@@ -5982,6 +6257,8 @@ asimetri I-Pre-Diagnosis
 ve I-Pre-Diagnosis
 konutunda I-Pre-Diagnosis
 lobulasyon E-Pre-Diagnosis
+sağ B-loc
+hulusta E-loc
 lap O
 vasküler O
 
@@ -6003,6 +6280,12 @@ ploparankimal I-Semptom
 ufak I-Semptom
 fibroz I-Semptom
 sekeller E-Semptom
+sağ B-loc
+akciğer I-loc
+alt I-loc
+onda I-loc
+parakardiyak I-loc
+alanda E-loc
 izlenmektedir O
 
 parankima B-Semptom
@@ -6010,6 +6293,8 @@ içerisinde I-Semptom
 kistik I-Semptom
 solid I-Semptom
 patoloji E-Semptom
+parankima B-loc
+içerisinde E-loc
 izlenilmemiştir O
 
 plevra B-Semptom
@@ -6019,6 +6304,8 @@ veya I-Semptom
 söküle I-Semptom
 bayii I-Semptom
 koleksiyonu E-Semptom
+plevra B-loc
+mesafelerinde E-loc
 tespit O
 edilmemiştir O
 
@@ -6027,6 +6314,9 @@ korpus I-Semptom
 köşelerinde I-Semptom
 osteofitik I-Semptom
 değişiklikler E-Semptom
+vertebra B-loc
+korpus I-loc
+köşelerinde E-loc
 izlenmektedir O
 
 öksürük S-Semptom
@@ -6070,6 +6360,12 @@ segmentlerde I-Semptom
 minimal I-Semptom
 fibroz I-Semptom
 şekeller E-Semptom
+bileteral B-loc
+akciğer I-loc
+üst I-loc
+lob I-loc
+Arıkal I-loc
+segmentlerde E-loc
 mevcuttur O
 
 plevra B-Semptom
@@ -6079,12 +6375,15 @@ veya I-Semptom
 söküle I-Semptom
 bayii I-Semptom
 koleksiyonu E-Semptom
+plevra B-loc
+mesafelerinde E-loc
 tespit O
 edilmemiştir O
 
 karaciğer B-Past-Diagnosis
 parankima I-Past-Diagnosis
 dansitesi E-Past-Diagnosis
+karaciğer S-loc
 hepatostaetoz S-Past-Diagnosis
 ile O
 uyumu O
@@ -6095,6 +6394,9 @@ korpus I-Past-Diagnosis
 köşelerinde I-Past-Diagnosis
 osteofitik I-Past-Diagnosis
 değişimler E-Past-Diagnosis
+vertebra B-loc
+korpus I-loc
+köşelerinde E-loc
 izlenmektedir O
 
 6 B-Duration
@@ -6146,6 +6448,7 @@ giderek O
 aydan E-Duration
 kulakta B-Semptom
 akıntı E-Semptom
+kulakta S-loc
 işitme B-Semptom
 azalması E-Semptom
 yaklaşık O
@@ -6166,6 +6469,7 @@ baş B-Semptom
 ağrısı E-Semptom
 baş B-Semptom
 dönmesi E-Semptom
+baş S-loc
 ateş S-Semptom
 halsizlik S-Semptom
 denge B-Semptom
@@ -6174,6 +6478,8 @@ menenjit S-Pre-Diagnosis
 intra B-Pre-Diagnosis
 kranyal I-Pre-Diagnosis
 patoloji E-Pre-Diagnosis
+intra B-loc
+kranyal E-loc
 hastanın O
 beri O
 devam O
@@ -6232,6 +6538,8 @@ doğaldır O
 kemik B-Semptom
 penceresinde I-Semptom
 fraktır E-Semptom
+kemik B-loc
+penceresinde E-loc
 hattı O
 izlenmedi O
 
@@ -6239,6 +6547,8 @@ nazal B-Semptom
 septum I-Semptom
 sağa I-Semptom
 seviyedir E-Semptom
+nazal B-loc
+septum E-loc
 
 mastoid S-Pre-Diagnosis
 sağda O
@@ -6267,6 +6577,7 @@ geçmemiş O
 
 kafa B-Past-Diagnosis
 kırığı E-Past-Diagnosis
+kafa S-loc
 2 O
 gün O
 önce O
@@ -6310,6 +6621,8 @@ patolojik I-Pre-Diagnosis
 boyutta I-Pre-Diagnosis
 lenf I-Pre-Diagnosis
 kodu E-Pre-Diagnosis
+mediastinal B-loc
+mesafede E-loc
 toraks O
 bt O
 sonucu O
@@ -6331,6 +6644,12 @@ segmentlerde I-Semptom
 fibroz I-Semptom
 sakal I-Semptom
 opasiteler E-Semptom
+bilateral B-loc
+akciğer I-loc
+üst I-loc
+lob I-loc
+Arıkal I-loc
+segmentlerde E-loc
 akciğer O
 parankima O
 penceresinde O
@@ -6350,6 +6669,12 @@ segmentte I-Semptom
 mm I-Semptom
 çapta I-Semptom
 nodül E-Semptom
+sağ B-loc
+akciğer I-loc
+alt I-loc
+lob I-loc
+superior I-loc
+segmentte E-loc
 izlenmektedir O
 
 bilateral B-Semptom
@@ -6360,6 +6685,10 @@ ufak I-Semptom
 ploroparankimal I-Semptom
 fibroz I-Semptom
 şekeller E-Semptom
+bilateral B-loc
+akciğer I-loc
+alt I-loc
+onlarda E-loc
 mevcuttur O
 
 parankima B-Semptom
@@ -6367,6 +6696,7 @@ içerisinde I-Semptom
 kistik I-Semptom
 solid I-Semptom
 patoloji E-Semptom
+parankima S-loc
 izlenilmemiştir O
 
 plevra B-Semptom
@@ -6376,6 +6706,8 @@ veya I-Semptom
 söküle I-Semptom
 bayii I-Semptom
 koleksiyonu E-Semptom
+plevra B-loc
+mesafelerinde E-loc
 tespit O
 edilmemiştir O
 
@@ -6390,6 +6722,7 @@ hepatosteatoz S-Pre-Diagnosis
 karaciğer B-Semptom
 parankima I-Semptom
 dansitesi E-Semptom
+karaciğer S-loc
 ile O
 uyumlu O
 olarak O
@@ -6406,6 +6739,11 @@ mm I-Semptom
 çapta I-Semptom
 aksesuar I-Semptom
 dalak E-Semptom
+dalak B-loc
+üst I-loc
+lob I-loc
+anterior I-loc
+kısmı E-loc
 izlenmektedir O
 
 vertebra B-Semptom
@@ -6413,6 +6751,9 @@ korpus I-Semptom
 köşelerinde I-Semptom
 osteofitik I-Semptom
 değişimler E-Semptom
+vertebra B-loc
+korpus I-loc
+köşelerinde E-loc
 izlenmektedir O
 
 astımdiafram O
@@ -6452,8 +6793,10 @@ op E-Status
 aydan E-Duration
 boyundaki B-Semptom
 ağrıların E-Semptom
+boyundaki S-loc
 boyun B-Pre-Diagnosis
 fıtığına E-Pre-Diagnosis
+boyun S-loc
 yaklaşık O
 beri O
 bu O
@@ -6515,10 +6858,12 @@ ortada I-Semptom
 kalifiye I-Semptom
 aterom I-Semptom
 plakları E-Semptom
+abdominal B-loc
+ortada E-loc
 kalifiye B-Semptom
 aterom I-Semptom
 plakları E-Semptom
-toraşık O
+toraşık S-loc
 ve O
 izlenmektedir O
 
@@ -6526,6 +6871,8 @@ koroner B-Semptom
 arterlerde I-Semptom
 çıdar I-Semptom
 kalsifikasyonları E-Semptom
+koroner B-loc
+arterlerde E-loc
 izlenmektedir O
 
 mediastende B-Semptom
@@ -6537,6 +6884,7 @@ birkaç I-Semptom
 adet I-Semptom
 lenf I-Semptom
 kodu E-Semptom
+mediastende S-loc
 reaktif O
 
 izlenmektedir O
@@ -6557,23 +6905,29 @@ konturlu I-Semptom
 Soli'ler I-Semptom
 pulmoner I-Semptom
 nodül E-Semptom
+sol B-loc
+akciğer I-loc
+alt I-loc
+lob I-loc
+posterobazal I-loc
+segment E-loc
 izlenmektedir O
 
 şubplevral B-Semptom
 amfizem I-Semptom
 külleri E-Semptom
+sağ B-loc
+akciğer I-loc
+alt I-loc
+onda E-loc
 şubplevral B-Semptom
 amfizem I-Semptom
 külleri E-Semptom
-bilateral O
-akciğer O
-üst O
-onlarda O
+bilateral B-loc
+akciğer I-loc
+üst I-loc
+onlarda E-loc
 ve O
-sağ O
-akciğer O
-alt O
-onda O
 büyükleri O
 25 O
 mm O
@@ -6584,33 +6938,33 @@ fıbrozişle S-Pre-Diagnosis
 buzlu B-Semptom
 cam I-Semptom
 dansiteleri E-Semptom
+bilateral B-loc
+akciğer I-loc
+Aleks'lerinde E-loc
 buzlu B-Semptom
 cam I-Semptom
 dansiteleri E-Semptom
-bilateral O
-akciğer O
-alekslerinde O
+bilateral B-loc
+akciğer I-loc
+alt I-loc
+zon I-loc
+posterior I-loc
+şubplevral I-loc
+kesimlerde E-loc
 ve O
-bilateral O
-akciğer O
-alt O
-zon O
-posterior O
-şubplevral O
-kesimlerde O
 uyumlu O
 izlenmektedir O
 
 bronşiolektazık B-Semptom
 odaklar E-Semptom
-sağ O
-akciğer O
-alt O
-lob O
-posterobazal O
-segment O
-lateral O
-kesimde O
+sağ B-loc
+akciğer I-loc
+alt I-loc
+lob I-loc
+posterobazal I-loc
+segment I-loc
+lateral I-loc
+kesimde E-loc
 izlenmektedir O
 
 plevra B-Semptom
@@ -6620,6 +6974,8 @@ veya I-Semptom
 söküle I-Semptom
 bayii I-Semptom
 koleksiyonu E-Semptom
+plevra B-loc
+mesafelerinde E-loc
 tespit O
 edilmemiştir O
 
@@ -6630,12 +6986,17 @@ granülomatoz I-Semptom
 enfeksiyon I-Semptom
 sekeli I-Semptom
 kalsifikasyon E-Semptom
+karaciğer B-loc
+sağ I-loc
+Lobo'da E-loc
 izlenmektedir O
 
 kemik B-Semptom
 yapılarda I-Semptom
 dejeneratif I-Semptom
 değişimler E-Semptom
+kemik B-loc
+yapılarda E-loc
 izlenmektedir O
 
 6 B-Duration
@@ -6697,6 +7058,8 @@ ortada I-Semptom
 kalifiye I-Semptom
 aterom I-Semptom
 plakları E-Semptom
+toraşık B-loc
+ortada E-loc
 izlenmektedir O
 
 mediastinal B-Semptom
@@ -6705,6 +7068,8 @@ patolojik I-Semptom
 boyutta I-Semptom
 lenf I-Semptom
 kodu E-Semptom
+mediastinal B-loc
+mesafede E-loc
 izlenilmemiştir O
 
 sağ B-Semptom
@@ -6716,6 +7081,11 @@ alanda I-Semptom
 minimal I-Semptom
 fibroz I-Semptom
 sakal E-Semptom
+sağ B-loc
+akciğer I-loc
+alt I-loc
+zon I-loc
+parakardiyak E-loc
 akciğer O
 parankima O
 penceresinde O
@@ -6730,6 +7100,7 @@ içerisinde I-Semptom
 kistik I-Semptom
 solid I-Semptom
 patoloji E-Semptom
+parankima S-loc
 izlenilmemiştir O
 
 plevra B-Semptom
@@ -6739,6 +7110,8 @@ veya I-Semptom
 söküle I-Semptom
 bayii I-Semptom
 koleksiyonu E-Semptom
+plevra B-loc
+mesafelerinde E-loc
 tespit O
 edilmemiştir O
 
@@ -6746,6 +7119,7 @@ hepatosteatoz S-Pre-Diagnosis
 karaciğer B-Semptom
 parankima I-Semptom
 dansitesi E-Semptom
+karaciğer S-loc
 ile O
 uyumlu O
 olarak O
@@ -6829,6 +7203,8 @@ iki B-Past-Diagnosis
 diz I-Past-Diagnosis
 artroskopik I-Past-Diagnosis
 menisküs E-Past-Diagnosis
+iki B-loc
+diz E-loc
 5 O
 haftada O
 bir O
@@ -6838,6 +7214,8 @@ tamiri O
 lombar B-Past-Diagnosis
 disk I-Past-Diagnosis
 Henri'si E-Past-Diagnosis
+lombar B-loc
+disk E-loc
 ağrıları S-Semptom
 1 O
 yıl O
@@ -6860,6 +7238,7 @@ doğum O
 burundan B-Semptom
 nefes I-Semptom
 alamama E-Semptom
+burundan S-loc
 uzun O
 süredir O
 şikayeti O
@@ -6902,6 +7281,8 @@ svh O
 intra B-Pre-Diagnosis
 kranyal I-Pre-Diagnosis
 patoloji E-Pre-Diagnosis
+intra B-loc
+kranyal E-loc
 
 açısından O
 kranyal O
@@ -6911,6 +7292,8 @@ istendi O
 hiperostozis B-Pre-Diagnosis
 frontalıs I-Pre-Diagnosis
 intern E-Pre-Diagnosis
+frontalıs B-loc
+intern E-loc
 kranyal O
 bt O
 sonucu O
@@ -6919,16 +7302,16 @@ mevcuttur O
 kalifiye B-Semptom
 aterom I-Semptom
 plakları E-Semptom
+sol B-loc
+vertebral I-loc
+arterde E-loc
 kalifiye B-Semptom
 aterom I-Semptom
 plakları E-Semptom
-sol O
-vertebral O
-arterde O
+willis B-loc
+poligonu I-loc
+arterlerinde E-loc
 ve O
-willis O
-poligonu O
-arterlerinde O
 izlenmektedir O
 
 bilateral O
@@ -6950,13 +7333,13 @@ mezensefalon O
 normaldir O
 
 geniştir S-Semptom
+üst B-loc
+ventriküller I-loc
+sistem I-loc
+sulkuslar E-loc
 geniştir S-Semptom
-üst O
-ventriküller O
-sistem O
-sulkuslar O
+sisternalar S-loc
 ve O
-sisternalar O
 
 serebellar B-Pre-Diagnosis
 atrofi E-Pre-Diagnosis
@@ -6965,14 +7348,21 @@ iki I-Semptom
 kaudat I-Semptom
 nükleusda I-Semptom
 lagünler E-Semptom
+her B-loc
+iki I-loc
+kaudat I-loc
+nükleusda E-loc
 mevcuttur O
 
 iskemik S-Semptom
+beyaz B-loc
+cevher I-loc
+alanlarında E-loc
 gliotik B-Semptom
 alanlar E-Semptom
-beyaz O
-cevher O
-alanlarında O
+beyaz B-loc
+cevher I-loc
+alanlarında E-loc
 izlenmektedir O
 
 pina O
@@ -6987,6 +7377,9 @@ orta B-Semptom
 hat I-Semptom
 yapılarda I-Semptom
 çift E-Semptom
+orta B-loc
+hat I-loc
+yapılarda E-loc
 izlenmedi O
 
 bilateral O
@@ -7002,17 +7395,23 @@ kemik B-Semptom
 penceresinde I-Semptom
 fraktır I-Semptom
 hattı E-Semptom
+kemik B-loc
+penceresinde E-loc
 izlenmedi O
 
 nazal B-Semptom
 septum I-Semptom
 sağa E-Semptom
+nazal B-loc
+septum E-loc
 seviyedir O
 
 maksiler B-Semptom
 sinüslerde I-Semptom
 mükozal I-Semptom
 kalınlaşmalar E-Semptom
+maksiler B-loc
+sinüslerde E-loc
 izlenmektedir O
 
 1 B-Duration
@@ -7075,10 +7474,13 @@ mediastinal B-Semptom
 vasküler I-Semptom
 yapılar I-Semptom
 geniştir E-Semptom
+mediastinal B-loc
+vasküler I-loc
+yapılar E-loc
 
 lenf B-Semptom
 kodu E-Semptom
-mediastinal O
+mediastinal S-loc
 büyükleri O
 kısa O
 aksi O
@@ -7093,36 +7495,38 @@ reaktif O
 kalifiye B-Semptom
 lenf I-Semptom
 kodları E-Semptom
+sağ B-loc
+paratrakeal E-loc
 kalifiye B-Semptom
 lenf I-Semptom
 kodları E-Semptom
+sağ B-loc
+hiler E-loc
 ayrıca O
-sağ O
-paratrakeal O
 ve O
-sağ O
-hiler O
 mevcuttur O
 
 centriasiner B-Semptom
 amfizem I-Semptom
 alanları E-Semptom
+bilateral B-loc
+akciğerlerde E-loc
 amfizem B-Semptom
 külleri E-Semptom
-bilateral O
-akciğerlerde O
+bilateral B-loc
+akciğerlerde E-loc
 ve O
 izlenmektedir O
 
 ploroparankimal B-Semptom
 fibroz I-Semptom
 şekeller E-Semptom
-bilateral O
-akciğer O
-alt O
-zon O
-parakardiyak O
-alanlarda O
+bilateral B-loc
+akciğer I-loc
+alt I-loc
+zon I-loc
+parakardiyak I-loc
+alanlarda E-loc
 mevcuttur O
 
 fıbrozis S-Pre-Diagnosis
@@ -7132,6 +7536,9 @@ alanlarda I-Semptom
 buzlu I-Semptom
 cam I-Semptom
 dansiteleri E-Semptom
+posterior B-loc
+şubplevral I-loc
+alanlarda E-loc
 
 izlenmektedir O
 
@@ -7144,6 +7551,8 @@ mm I-Semptom
 çapta I-Semptom
 kistik I-Semptom
 lezyon E-Semptom
+hepatörenal B-loc
+Mossad'a E-loc
 
 izlenmektedir O
 
@@ -7156,6 +7565,7 @@ vertebra B-Semptom
 korpusköşelerinde I-Semptom
 osteofitik I-Semptom
 değişimler E-Semptom
+vertebra S-loc
 izlenmektedir O
 
 8 B-Status
@@ -7171,18 +7581,18 @@ gerilik E-Past-Diagnosis
 epilepsi S-Past-Diagnosis
 tonik B-Semptom
 kasılma E-Semptom
+sağ B-loc
+kol E-loc
 tonik B-Semptom
 kasılma E-Semptom
+bacakta S-loc
 ve O
 tanıları O
 ile O
 takip O
 edilen O
 hasta O
-sağ O
-kol O
 ve O
-bacakta O
 şeklinde O
 nöbetlerle O
 pediatri O
@@ -7235,15 +7645,17 @@ gerilik E-Past-Diagnosis
 epilepsi S-Past-Diagnosis
 tonik B-Semptom
 kasılma E-Semptom
+sağ B-loc
+kol E-loc
 bacakta S-Semptom
+sağ B-loc
+kol E-loc
 ve O
 tanıları O
 ile O
 takip O
 edilen O
 hasta O
-sağ O
-kol O
 ve O
 şeklinde O
 nöbetlerle O
@@ -7295,6 +7707,8 @@ sağ B-Semptom
 ayağındaki I-Semptom
 güç I-Semptom
 kaybı E-Semptom
+sağ B-loc
+ayağındaki E-loc
 devam O
 ediyor O
 
@@ -7307,8 +7721,10 @@ ht S-Past-Diagnosis
 ay E-Duration
 göğüs B-Semptom
 ağrısı E-Semptom
+göğüs S-loc
 non B-Semptom
 st E-Semptom
+göğüs S-loc
 cx B-Status
 mid I-Status
 lezyona I-Status
@@ -7319,7 +7735,11 @@ lob I-Semptom
 da I-Semptom
 kitle I-Semptom
 hiç E-Semptom
+sol B-loc
+lob E-loc
 met S-Semptom
+sol B-loc
+lob E-loc
 önce O
 şikayetleri O
 başlayan O
@@ -7348,6 +7768,7 @@ b I-Status
 taşıyıcısı E-Status
 hepatosellüler B-Pre-Diagnosis
 karsinom E-Pre-Diagnosis
+hepatosellüler S-loc
 şüphesi O
 bulunan O
 aynı O
@@ -7381,6 +7802,7 @@ ht S-Past-Diagnosis
 ay E-Duration
 göğüs B-Semptom
 ağrısı E-Semptom
+göğüs S-loc
 non B-Semptom
 st E-Semptom
 cx B-Status
@@ -7393,6 +7815,8 @@ lob I-Semptom
 da I-Semptom
 kitle I-Semptom
 hiç E-Semptom
+sol B-loc
+lob E-loc
 önce O
 şikayetleri O
 başlayan O
@@ -7422,6 +7846,7 @@ b I-Status
 taşıyıcısı E-Status
 hepatosellüler B-Pre-Diagnosis
 karsinom E-Pre-Diagnosis
+hepatosellüler S-loc
 şüphesi O
 bulunan O
 aynı O
@@ -7450,6 +7875,7 @@ astım S-Past-Diagnosis
 baypas S-Status
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 bilinen O
 li O
 olan O
@@ -7494,15 +7920,16 @@ yapılmış O
 
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 karın B-Semptom
 ağrısı E-Semptom
+epigastrik B-loc
+bölgede E-loc
 karın B-Semptom
 ağrısı E-Semptom
+sırta S-loc
 kusma S-Semptom
-epigastrik O
-bölgede O
 başlayan O
-sırta O
 yayılan O
 bulantı O
 yakınmasıyla O
@@ -7528,6 +7955,7 @@ astım S-Past-Diagnosis
 baypas S-Status
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 bilinen O
 li O
 olan O
@@ -7572,15 +8000,16 @@ yapılmış O
 
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 karın B-Semptom
 ağrısı E-Semptom
+sırta S-loc
 karın B-Semptom
 ağrısı E-Semptom
+epigastrik B-loc
+bölgede E-loc
 kusma S-Semptom
-epigastrik O
-bölgede O
 başlayan O
-sırta O
 yayılan O
 bulantı O
 yakınmasıyla O
@@ -7608,6 +8037,7 @@ ediyormuş O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 hastanın O
 özellikle O
 geceleri O
@@ -7630,6 +8060,7 @@ tariflenmiyor O
 
 modüler B-Past-Diagnosis
 guatr E-Past-Diagnosis
+guatr S-loc
 hemoroidektomi S-Past-Diagnosis
 hasta O
 ailesinde O
@@ -7684,24 +8115,24 @@ gündür O
 yakınmaları O
 
 ağrı S-Semptom
+tepede S-loc
 ağrı S-Semptom
+arka B-loc
+tarafta E-loc
 bazen O
-tepede O
 bazen O
-arka O
-tarafta O
 oluyormuş O
 
 ağrı S-Semptom
+başının B-loc
+sağ I-loc
+yan I-loc
+tarafından E-loc
 10 O
 gün O
 önce O
 buzdolabına O
 eğildiğinde O
-başının O
-sağ O
-yan O
-tarafından O
 karşı O
 uzanan O
 zonklama O
@@ -7710,6 +8141,7 @@ olmuş O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 
 gerilim B-Pre-Diagnosis
 tipi I-Pre-Diagnosis
@@ -7720,8 +8152,10 @@ olası O
 
 değişik B-Semptom
 hisler E-Semptom
+kol S-loc
 değişik B-Semptom
 hisler E-Semptom
+bacaklarda S-loc
 epizodik B-Semptom
 duysal I-Semptom
 fenomenler E-Semptom
@@ -7732,9 +8166,7 @@ edilen O
 hastanın O
 son O
 günlerde O
-kol O
 ve O
-bacaklarda O
 kısa O
 süreli O
 ortaya O
@@ -7801,26 +8233,28 @@ bbt O
 çekilmiş O
 
 karıncalanma S-Semptom
+baş S-loc
 boyun B-Semptom
 ağrısı E-Semptom
+boyun S-loc
 hasta O
 kliniğimize O
-baş O
 bölgesinde O
 ve O
 nedeni O
 ile O
-başvurdu O
+vurdu O
 
 uyuşma S-Semptom
+iki B-loc
+kolda E-loc
 her O
-iki O
-kolda O
 şikayetleri O
 oluyormuş O
 
 mide B-Past-Diagnosis
 ca E-Past-Diagnosis
+mide S-loc
 o O
 
 y O
@@ -7829,6 +8263,7 @@ zaman B-Period
 zaman E-Period
 kalçasında B-Semptom
 ağrı E-Semptom
+kalçasında S-loc
 ağrı S-Semptom
 hasta O
 kontrole O
@@ -7871,6 +8306,8 @@ ağrısı E-Semptom
 sağ B-Semptom
 bacak I-Semptom
 uyuşma E-Semptom
+sağ B-loc
+bacak E-loc
 hasta O
 şike O
 ile O
@@ -7888,9 +8325,11 @@ senkron B-Past-Diagnosis
 odak E-Past-Diagnosis
 kolonca B-Past-Diagnosis
 ca E-Past-Diagnosis
+kolonca S-loc
 
 kaç B-Past-Diagnosis
 ca E-Past-Diagnosis
+kaç S-loc
 o O
 
 y O
@@ -7910,6 +8349,7 @@ giderek O
 
 bacak B-Semptom
 ağrıları E-Semptom
+bacak S-loc
 artıyormuş S-Trend
 ağrısı S-Semptom
 hasta O
@@ -7993,7 +8433,9 @@ abla O
 
 alnındaki B-Semptom
 şişliğin E-Semptom
+alnındaki S-loc
 şişliğin S-Semptom
+yüzündeki S-loc
 2 B-Status
 gün I-Status
 önce I-Status
@@ -8003,7 +8445,6 @@ ile O
 başka O
 hastaneye O
 götürmüş O
-yüzündeki O
 ve O
 artması O
 üzerine O
@@ -8014,11 +8455,13 @@ yatırıldı O
 sol B-Semptom
 kol I-Semptom
 ağrısı E-Semptom
+sol B-loc
+kol E-loc
 ağrısı S-Semptom
+boyun S-loc
 3 B-Duration
 ay E-Duration
 artmış S-Trend
-boyun O
 ve O
 şikayeti O
 ile O
@@ -8030,14 +8473,14 @@ zamanlarda O
 ağrıları O
 
 uyuşma S-Semptom
+sol B-loc
+kolda E-loc
 sol B-Semptom
 elde I-Semptom
 uyuşma E-Semptom
-sol O
-kolda O
+sol B-loc
+elde E-loc
 ve O
-sol O
-elde O
 tarihliyor O
 
 ht S-Past-Diagnosis
@@ -8063,6 +8506,8 @@ son O
 sağ B-Semptom
 kolda I-Semptom
 uyuşma E-Semptom
+sağ B-loc
+kolda E-loc
 tarihliyor O
 
 alerjik B-Past-Diagnosis
@@ -8078,6 +8523,7 @@ bulunmuyor O
 kronik B-Past-Diagnosis
 subdural I-Past-Diagnosis
 hemotomu E-Past-Diagnosis
+subdural S-loc
 olan O
 hasta O
 beyin O
@@ -8137,6 +8583,7 @@ yaş B-Status
 erkek E-Status
 baş B-Semptom
 dönmesi E-Semptom
+baş S-loc
 yaklaşık O
 ara O
 olan O
@@ -8152,6 +8599,9 @@ iki B-Semptom
 Front'la I-Semptom
 bölgede I-Semptom
 zonkaly E-Semptom
+iki B-loc
+Front'la I-loc
+bölgede E-loc
 yaklaşık O
 aydır O
 olan O
@@ -8168,10 +8618,14 @@ kolelitiazis S-Past-Diagnosis
 pankreatit S-Past-Diagnosis
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 karın B-Semptom
 ağrısı E-Semptom
+epigastrik B-loc
+bölgede E-loc
 karın B-Semptom
 ağrısı E-Semptom
+sırta S-loc
 amilaz B-Semptom
 lipaz I-Semptom
 yüksekliği E-Semptom
@@ -8181,10 +8635,7 @@ kez O
 geçirilmiş O
 olan O
 hasta O
-epigastrik O
-bölgede O
 başlayan O
-sırta O
 yayılan O
 yakınmasıyla O
 acil O
@@ -8205,9 +8656,15 @@ intrahepatik I-Semptom
 safra I-Semptom
 yolları I-Semptom
 belirgin E-Semptom
+sol B-loc
+intrahepatik I-loc
+safra I-loc
+yolları E-loc
 pankreas B-Semptom
 diffüz I-Semptom
 ödemli E-Semptom
+pankreas B-loc
+diffüz E-loc
 akut B-Pre-Diagnosis
 pankreatit E-Pre-Diagnosis
 5 O
@@ -8232,10 +8689,14 @@ kolelitiazis S-Past-Diagnosis
 pankreatit S-Past-Diagnosis
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 karın B-Semptom
 ağrısı E-Semptom
+epigastrik B-loc
+bölgede E-loc
 karın B-Semptom
 ağrısı E-Semptom
+sırta S-loc
 amilaz B-Semptom
 lipaz I-Semptom
 yüksekliği E-Semptom
@@ -8245,10 +8706,7 @@ kez O
 geçirilmiş O
 olan O
 hasta O
-epigastrik O
-bölgede O
 başlayan O
-sırta O
 yayılan O
 yakınmasıyla O
 acil O
@@ -8269,9 +8727,15 @@ intrahepatik I-Semptom
 safra I-Semptom
 yolları I-Semptom
 belirgin E-Semptom
+sol B-loc
+intrahepatik I-loc
+safra I-loc
+yolları E-loc
 pankreas B-Semptom
 diffüz I-Semptom
 ödemli E-Semptom
+pankreas B-loc
+diffüz E-loc
 akut B-Pre-Diagnosis
 pankreatit E-Pre-Diagnosis
 5 O
@@ -8293,6 +8757,7 @@ edildi O
 
 pankreas B-Pre-Diagnosis
 hastalığı E-Pre-Diagnosis
+pankreas S-loc
 
 baba O
 dianne O
@@ -8303,11 +8768,18 @@ ht O
 gündür E-Duration
 boyunda B-Semptom
 şişme E-Semptom
+boyunda S-loc
 nodül S-Semptom
+tiroit B-loc
+sol I-loc
+Loyd'a E-loc
 metastaz B-Semptom
 şüpheli I-Semptom
 lenf I-Semptom
 kodları E-Semptom
+boyu B-loc
+sol I-loc
+lateralde E-loc
 son O
 olan O
 sebebiyle O
@@ -8316,15 +8788,9 @@ merkezde O
 tetkik O
 edilen O
 hastanın O
-tiroit O
-sol O
-loyda O
 yaklaşık O
 6cm O
 ve O
-boyu O
-sol O
-lateralde O
 saptanmış O
 
 anaplaştık B-Pre-Diagnosis
@@ -8348,7 +8814,11 @@ başvurdu O
 gündür E-Duration
 boyunda B-Semptom
 şişme E-Semptom
+boyunda S-loc
 nodül S-Semptom
+tiroit B-loc
+sol I-loc
+Loyd'a E-loc
 boyu B-Semptom
 sol I-Semptom
 lateralde I-Semptom
@@ -8356,6 +8826,9 @@ metastaz I-Semptom
 şüpheli I-Semptom
 lenf I-Semptom
 kodları E-Semptom
+boyu B-loc
+sol I-loc
+lateralde E-loc
 son O
 olan O
 sebebiyle O
@@ -8364,9 +8837,6 @@ merkezde O
 tetkik O
 edilen O
 hastanın O
-tiroit O
-sol O
-loyda O
 yaklaşık O
 6cm O
 ve O
@@ -8463,12 +8933,16 @@ alındı O
 svh B-Pre-Diagnosis
 intrakranial I-Pre-Diagnosis
 kanama E-Pre-Diagnosis
+svh B-loc
+intrakranial E-loc
 
 temporalde B-Semptom
 lineer I-Semptom
 fraktır E-Semptom
+temporalde S-loc
 subdural B-Semptom
 hematim E-Semptom
+subdural S-loc
 bugün O
 1730 O
 civarı O
@@ -8527,6 +9001,7 @@ kky S-Past-Diagnosis
 kronik B-Past-Diagnosis
 böbrek I-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+böbrek S-loc
 yüksek B-Semptom
 ateş E-Semptom
 bilinen O
@@ -8553,6 +9028,8 @@ edildi O
 sağ B-Semptom
 sürrenalde I-Semptom
 kitle E-Semptom
+sağ B-loc
+sürrenalde E-loc
 dışmerkezde O
 yapılan O
 batın O
@@ -8576,6 +9053,9 @@ sağ B-Semptom
 el I-Semptom
 bileği I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+el I-loc
+bileği E-loc
 4 O
 gün O
 önce O
@@ -8600,6 +9080,8 @@ sol B-Semptom
 temposal I-Semptom
 hemotom I-Semptom
 kitle E-Semptom
+sol B-loc
+temposal E-loc
 yaklaşık O
 bir O
 hafta O
@@ -8616,6 +9098,7 @@ yatırıldı O
 displastik B-Semptom
 böbreğe I-Semptom
 sekunder E-Semptom
+böbreğe S-loc
 ıkby S-Semptom
 olan O
 hastaya O
@@ -8729,6 +9212,8 @@ ht S-Past-Diagnosis
 sağ B-Semptom
 omuz I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+omuz E-loc
 
 adenoidektomı S-Status
 tonsillektomı S-Status
@@ -8770,11 +9255,12 @@ tipi I-Status
 timpanoplasti E-Status
 az B-Semptom
 duyan E-Semptom
+kulakları S-loc
 duymadığını S-Semptom
 kulaklarında B-Semptom
 tıkanıklık E-Semptom
+kulaklarında S-loc
 2017 O
-kulakları O
 bir O
 süredir O
 hasta O
@@ -8782,18 +9268,23 @@ son O
 günlerde O
 iyice O
 ve O
+nda O
+tıkanıklık O
 hissettiğini O
 söylüyor O
 
 
 bel B-Past-Diagnosis
 fıtığı E-Past-Diagnosis
+bel S-loc
 hikayesi O
 bilinmiyor O
 
 sol B-Semptom
 kolon I-Semptom
 tümörü E-Semptom
+sol B-loc
+kolon E-loc
 3 B-Status
 stent E-Status
 nedeniyle O
@@ -8913,11 +9404,14 @@ menisektomi E-Status
 
 Renan B-Past-Diagnosis
 transplant E-Past-Diagnosis
+Renan S-loc
 hastası O
 
 sağ B-Semptom
 omuz I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+omuz E-loc
 
 hnp B-Status
 opere E-Status
@@ -8969,6 +9463,7 @@ desyrel O
 aç S-Past-Diagnosis
 lombar B-Past-Diagnosis
 herniektomi E-Past-Diagnosis
+lombar S-loc
 
 tbc S-Past-Diagnosis
 
@@ -8976,9 +9471,13 @@ göz B-Semptom
 sinir I-Semptom
 damarında I-Semptom
 iltihaplanma E-Semptom
+göz B-loc
+sinir I-loc
+damarında E-loc
 
 optik B-Pre-Diagnosis
 nörit E-Pre-Diagnosis
+optik S-loc
 
 görme B-Semptom
 kaybı E-Semptom
@@ -9008,6 +9507,8 @@ de O
 mitral B-Past-Diagnosis
 kapak I-Past-Diagnosis
 yetmezliği E-Past-Diagnosis
+mitral B-loc
+kapak E-loc
 1 O
 yıl O
 önce O
@@ -9102,6 +9603,7 @@ anne O
 gün E-Duration
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 bulantı S-Semptom
 kusma S-Semptom
 ara B-Period
@@ -9121,7 +9623,10 @@ sonucu I-Status
 exitus E-Status
 
 fraktır S-Semptom
+sağ B-loc
+tempoparyetik E-loc
 fraktır S-Semptom
+c2 S-loc
 araç O
 içi O
 trafik O
@@ -9130,10 +9635,7 @@ sonucu O
 acil O
 polikinliğe O
 gelerek O
-sağ O
-tempoparyetik O
 ve O
-c2 O
 tespit O
 edilen O
 hasta O
@@ -9175,32 +9677,33 @@ izlendi O
 
 epiglot B-Pre-Diagnosis
 larengeal E-Pre-Diagnosis
+epiglot S-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
+yüzü B-loc
+dolduran I-loc
+sağ I-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden E-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
+sol B-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden I-loc
+başlayıp E-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
+ventrikülü S-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
-yüzü O
-dolduran O
-sağ O
-tarafta O
-vokal O
-kod O
-üzerinden O
+anterior B-loc
+kommissüre E-loc
 başlayan O
-sol O
-tarafta O
-vokal O
-kod O
-üzerinden O
-başlayıp O
-ventrikülü O
 dolduran O
-anterior O
-kommissüre O
 yaklaşıp O
 tutan O
 debulke O
@@ -9255,7 +9758,10 @@ sıkıldığında O
 olan O
 
 fraktır S-Semptom
+sağ B-loc
+tempoparyetik E-loc
 fraktır S-Semptom
+c2 S-loc
 araç O
 içi O
 trafik O
@@ -9264,10 +9770,7 @@ sonucu O
 acil O
 polikinliğe O
 gelerek O
-sağ O
-tempoparyetik O
 ve O
-c2 O
 tespit O
 edilen O
 hasta O
@@ -9288,6 +9791,8 @@ yaralanma E-Status
 sağ B-Semptom
 temposal I-Semptom
 kontüzyon E-Semptom
+sağ B-loc
+temposal E-loc
 ile O
 acil O
 servise O
@@ -9318,10 +9823,15 @@ pnömosefali B-Semptom
 sağ I-Semptom
 omuz I-Semptom
 kırığı E-Semptom
+sağ B-loc
+omuz E-loc
 sağ B-Semptom
 memur I-Semptom
 acetabolumunda I-Semptom
 kırık E-Semptom
+sağ B-loc
+memur I-loc
+acetabolumunda E-loc
 bugün O
 araç O
 dışı O
@@ -9430,7 +9940,14 @@ kör I-Semptom
 de I-Semptom
 keratotik I-Semptom
 lezyon E-Semptom
+sağ B-loc
+vokal I-loc
+kör I-loc
+ön I-loc
+1/3 I-loc
+de E-loc
 scc S-Pre-Diagnosis
+scc S-loc
 klinik O
 bilgi O
 mikroskopi O
@@ -9504,6 +10021,12 @@ kör I-Semptom
 de I-Semptom
 keratotik I-Semptom
 lezyon E-Semptom
+sağ B-loc
+vokal I-loc
+kör I-loc
+ön I-loc
+1/3 I-loc
+de E-loc
 scc S-Pre-Diagnosis
 klinik O
 bilgi O
@@ -9537,6 +10060,8 @@ tipte I-Semptom
 iltihabi I-Semptom
 hücre I-Semptom
 infiltrasyonu E-Semptom
+epitel B-loc
+altında E-loc
 invazyon B-Semptom
 odağı E-Semptom
 mikroskopi O
@@ -9651,6 +10176,8 @@ sol B-Semptom
 gözde I-Semptom
 bulanık I-Semptom
 görmesi E-Semptom
+sol B-loc
+gözde E-loc
 de O
 varmış O
 
@@ -9667,11 +10194,11 @@ haftadır E-Duration
 zonklar B-Semptom
 tarzda I-Semptom
 ağrıları E-Semptom
+sol B-loc
+göz I-loc
+arkasından E-loc
 var O
 olan O
-sol O
-göz O
-arkasından O
 başlayıp O
 arkaya O
 yayılan O
@@ -9743,6 +10270,8 @@ sol B-Semptom
 gözde I-Semptom
 bulanık I-Semptom
 görmesi E-Semptom
+sol B-loc
+gözde E-loc
 de O
 varmış O
 
@@ -9759,11 +10288,11 @@ haftadır E-Duration
 zonklar B-Semptom
 tarzda I-Semptom
 ağrıları E-Semptom
+sol B-loc
+göz I-loc
+arkasından E-loc
 var O
 olan O
-sol O
-göz O
-arkasından O
 başlayıp O
 arkaya O
 yayılan O
@@ -9835,6 +10364,8 @@ sol B-Semptom
 gözde I-Semptom
 bulanık I-Semptom
 görmesi E-Semptom
+sol B-loc
+gözde E-loc
 de O
 varmış O
 
@@ -9861,6 +10392,8 @@ artıyormuş E-Status
 karın B-Past-Diagnosis
 zarı I-Past-Diagnosis
 veremi E-Past-Diagnosis
+karın B-loc
+zarı E-loc
 geçirmiş O
 
 diyalize S-Status
@@ -9912,6 +10445,8 @@ kız E-Status
 basının B-Semptom
 tamamında I-Semptom
 sıkıştı E-Semptom
+basının B-loc
+tamamında E-loc
 yaklaşık O
 yıldır O
 hemen O
@@ -9954,6 +10489,7 @@ dm E-Past-Diagnosis
 sağ B-Past-Diagnosis
 atrofik I-Past-Diagnosis
 böbrek E-Past-Diagnosis
+böbrek S-loc
 anne B-Status
 ht E-Status
 dede B-Status
@@ -10045,19 +10581,21 @@ ifade O
 etti O
 
 ağrı S-Semptom
+iki B-loc
+dizde E-loc
 ağrı S-Semptom
+bel S-loc
 hareket B-Semptom
 kısıtlılığı E-Semptom
 her O
-iki O
-dizde O
 ve O
-bel O
 de O
 
 sağ B-Semptom
 kolon I-Semptom
 tümörü E-Semptom
+sağ B-loc
+kolon E-loc
 2018 B-Status
 de I-Status
 robotik I-Status
@@ -10083,9 +10621,11 @@ merkezde O
 
 c2 B-Semptom
 nondeplase E-Semptom
+c2 S-loc
 akut B-Pre-Diagnosis
 subdural I-Pre-Diagnosis
 hematim E-Pre-Diagnosis
+subdural S-loc
 araç O
 içi O
 trafik O
@@ -10101,7 +10641,10 @@ bakıma O
 yatırıldı O
 
 fraktır S-Semptom
+sağ B-loc
+tempoparyetik E-loc
 fraktır S-Semptom
+c2 S-loc
 araç O
 içi O
 trafik O
@@ -10110,10 +10653,7 @@ sonucu O
 acil O
 polikinliğe O
 gelerek O
-sağ O
-tempoparyetik O
 ve O
-c2 O
 tespit O
 edilen O
 hasta O
@@ -10130,14 +10670,17 @@ alındı O
 
 huzursuz B-Past-Diagnosis
 bacak E-Past-Diagnosis
+bacak S-loc
 
 hipertansiyon S-Past-Diagnosis
 diyabet S-Past-Diagnosis
 kalp B-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+kalp S-loc
 
 pankreas B-Past-Diagnosis
 ca E-Past-Diagnosis
+pankreas S-loc
 o O
 
 y O
@@ -10145,6 +10688,7 @@ y O
 pt3nx S-Past-Diagnosis
 rektumca B-Past-Diagnosis
 ca E-Past-Diagnosis
+rektumca S-loc
 postop S-Past-Diagnosis
 
 dm S-Past-Diagnosis
@@ -10162,6 +10706,9 @@ alt B-Past-Diagnosis
 solunum I-Past-Diagnosis
 yolu I-Past-Diagnosis
 enfeksiyonu E-Past-Diagnosis
+alt B-loc
+solunum I-loc
+yolu E-loc
 2019 O
 da O
 poliklinik O
@@ -10200,6 +10747,7 @@ bir B-Duration
 yıldır E-Duration
 rektosigmoid B-Past-Diagnosis
 tümör E-Past-Diagnosis
+rektosigmoid S-loc
 devam O
 eden O
 şikayetleri O
@@ -10229,6 +10777,7 @@ getirildi O
 
 midede B-Semptom
 yanma E-Semptom
+midede S-loc
 şikayeti O
 mevcut O
 
@@ -10251,6 +10800,7 @@ atak E-Pre-Diagnosis
 
 insizyonel B-Past-Diagnosis
 heri E-Past-Diagnosis
+insizyonel S-loc
 14082018 O
 preperitoneal O
 mesh O
@@ -10367,6 +10917,7 @@ etti O
 
 göğüs B-Semptom
 ağrısı E-Semptom
+göğüs S-loc
 inferior B-Semptom
 derivasyonlarda I-Semptom
 st I-Semptom
@@ -10432,25 +10983,31 @@ kullanıyor O
 iki B-Semptom
 diz I-Semptom
 ağrısı E-Semptom
+iki B-loc
+diz E-loc
 iki B-Semptom
 diz I-Semptom
 ağrısı E-Semptom
+iki B-loc
+diz E-loc
 her O
 her O
 
 bel B-Past-Diagnosis
 fıtığı E-Past-Diagnosis
+bel S-loc
 fıtığı S-Past-Diagnosis
+boyun S-loc
 d B-Past-Diagnosis
 vit I-Past-Diagnosis
 eksikliği E-Past-Diagnosis
 kalp S-Past-Diagnosis
 dm S-Past-Diagnosis
-boyun O
 v O
 
 böbrek B-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+böbrek S-loc
 core B-Semptom
 : I-Semptom
 9 E-Semptom
@@ -10491,6 +11048,7 @@ hemoptizi S-Semptom
 kanlı B-Semptom
 nazal I-Semptom
 akıntı E-Semptom
+nazal S-loc
 hematüri S-Semptom
 Piyer'i S-Semptom
 hık S-Past-Diagnosis
@@ -10506,7 +11064,9 @@ fotosensitivite S-Past-Diagnosis
 artrit S-Past-Diagnosis
 rast S-Semptom
 aft S-Semptom
+oral S-loc
 aft S-Semptom
+genital S-loc
 kontrast S-Past-Diagnosis
 hipotansiyon S-Past-Diagnosis
 Nâşid S-Past-Diagnosis
@@ -10518,9 +11078,7 @@ core O
 iye O
 taş O
 hepatit O
-oral O
 ve O
-genital O
 kont O
 
 ht S-Past-Diagnosis
@@ -10552,6 +11110,9 @@ sağ B-Semptom
 el I-Semptom
 bileği I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+el I-loc
+bileği E-loc
 artmış S-Trend
 yaklaşık O
 olan O
@@ -10589,8 +11150,11 @@ afsı S-Past-Diagnosis
 konuşamama S-Semptom
 kuvvet B-Semptom
 kaybı E-Semptom
+sağ B-loc
+kol E-loc
 kuvvet B-Semptom
 kaybı E-Semptom
+bacakta S-loc
 bilinen O
 olan O
 ve O
@@ -10600,10 +11164,7 @@ sağlam O
 görülen O
 hasta O
 sabah O
-sağ O
-kol O
 ve O
-bacakta O
 ile O
 yatakta O
 bulunması O
@@ -10617,6 +11178,9 @@ sol B-Pre-Diagnosis
 mca I-Pre-Diagnosis
 m1 I-Pre-Diagnosis
 oklüzyonu E-Pre-Diagnosis
+sol B-loc
+mca I-loc
+m1 E-loc
 çekilen O
 btde O
 saptanmayan O
@@ -10659,6 +11223,7 @@ pozitif O
 
 hashimato B-Past-Diagnosis
 tiroidin E-Past-Diagnosis
+tiroidin S-loc
 5 B-Duration
 yıldır E-Duration
 tanısı O
@@ -10726,6 +11291,7 @@ pozitif O
 
 hashimato B-Past-Diagnosis
 tiroidin E-Past-Diagnosis
+tiroidin S-loc
 5 B-Duration
 yıldır E-Duration
 tanısı O
@@ -10786,8 +11352,10 @@ svo E-Past-Diagnosis
 
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 baş B-Semptom
 dönmesi E-Semptom
+baş S-loc
 15yaş O
 aylık O
 erkek O
@@ -10795,6 +11363,7 @@ yaklaşık O
 haftadır O
 3 O
 4gündrü O
+dönmesi O
 ve O
 göz O
 
@@ -10824,6 +11393,8 @@ dm S-Past-Diagnosis
 safra B-Past-Diagnosis
 yolu I-Past-Diagnosis
 çat E-Past-Diagnosis
+safra B-loc
+yolu E-loc
 hasta O
 ailede O
 herhangi O
@@ -10837,6 +11408,7 @@ ediyor O
 senedir E-Duration
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 yaklaşık O
 olan O
 hasta O
@@ -10848,6 +11420,8 @@ almamış O
 lombar B-Past-Diagnosis
 bölgede I-Past-Diagnosis
 kırık E-Past-Diagnosis
+lombar B-loc
+bölgede E-loc
 les S-Past-Diagnosis
 ve O
 nedeniyle O
@@ -10868,11 +11442,11 @@ minimal B-Semptom
 kronik I-Semptom
 hemorajik I-Semptom
 alan E-Semptom
+kranial S-loc
 uyku O
 hali O
 nedeniyle O
 çekilen O
-kranial O
 orda O
 saptanmış O
 
@@ -10903,14 +11477,16 @@ edildi O
 sağda B-Semptom
 oksipitalda I-Semptom
 şişlik E-Semptom
+sağda B-loc
+oksipitalda E-loc
 şişlik S-Semptom
-sağ O
-ön O
-koskalarda O
-midklavikuler O
-hatla O
-birleşim O
-yerinde O
+sağ B-loc
+ön I-loc
+Koska'larda I-loc
+midklavikuler I-loc
+hatla I-loc
+birleşim I-loc
+yerinde E-loc
 
 1 B-Duration
 yıldır E-Duration
@@ -10920,6 +11496,8 @@ sol B-Semptom
 gözde I-Semptom
 renkli I-Semptom
 ışıklar E-Semptom
+sol B-loc
+gözde E-loc
 12yaş O
 aylık O
 kız O
@@ -10930,13 +11508,13 @@ var O
 ara B-Period
 ara E-Period
 bulantı S-Semptom
+alın B-loc
+bölgesinde E-loc
 yaş O
 aylık O
 erkekyaklşaık O
 haftadır O
 olan O
-alın O
-bölgesinde O
 olan O
 
 ht S-Past-Diagnosis
@@ -11077,6 +11655,9 @@ başının B-Semptom
 üst I-Semptom
 kısmında I-Semptom
 sıkıştırıcı E-Semptom
+başının B-loc
+üst I-loc
+kısmında E-loc
 14yaş O
 kız O
 yaklaşık O
@@ -11104,6 +11685,8 @@ bölgesinde I-Semptom
 olan I-Semptom
 zonklayıcı I-Semptom
 karat E-Semptom
+alın B-loc
+bölgesinde E-loc
 15yaş O
 aylık O
 erkek O
@@ -11113,6 +11696,7 @@ ara B-Period
 ara E-Period
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 yaş O
 aylık O
 erkek O
@@ -11126,13 +11710,13 @@ mevcut O
 günde I-Period
 bir E-Period
 bulantı S-Semptom
+basının B-loc
+tamamında E-loc
 kusma S-Semptom
 12yaş O
 erkek O
 yaklaşık O
 yıldır O
-basının O
-tamamında O
 e O
 
 küçüklüğünden B-Duration
@@ -11172,8 +11756,10 @@ tema O
 
 böbrek B-Past-Diagnosis
 taşı E-Past-Diagnosis
+böbrek S-loc
 huzursuz B-Past-Diagnosis
 bacak E-Past-Diagnosis
+bacak S-loc
 fib S-Past-Diagnosis
 yaygın B-Past-Diagnosis
 anksiyete I-Past-Diagnosis
@@ -11183,6 +11769,9 @@ başının B-Semptom
 üst I-Semptom
 kısmında I-Semptom
 ağrı E-Semptom
+başının B-loc
+üst I-loc
+kısmında E-loc
 hergün S-Period
 12yaş O
 aylık O
@@ -11219,9 +11808,9 @@ titreme S-Semptom
 bulantı S-Semptom
 kusma S-Semptom
 ağrı S-Semptom
+göbek B-loc
+etrafında E-loc
 ağrısı S-Semptom
-göbek O
-etrafında O
 610 O
 şiddetinde O
 gezici O
@@ -11309,6 +11898,9 @@ iki B-Semptom
 Front'la I-Semptom
 bölgede I-Semptom
 sıkıştı E-Semptom
+iki B-loc
+Front'la I-loc
+bölgede E-loc
 11yaş O
 10aylık O
 kız O
@@ -11328,6 +11920,8 @@ basının B-Semptom
 tamamında I-Semptom
 olan I-Semptom
 zon E-Semptom
+basının B-loc
+tamamında E-loc
 16yaş O
 aylık O
 kız O
@@ -11337,10 +11931,10 @@ hemen O
 olan O
 
 ağrısı S-Semptom
+bel S-loc
 ağrısı S-Semptom
-bel O
+sırt S-loc
 ve O
-sırt O
 
 dan B-Pre-Diagnosis
 virüsü E-Pre-Diagnosis
@@ -11376,12 +11970,12 @@ irade O
 
 karaciğer B-Pre-Diagnosis
 hastalığı E-Pre-Diagnosis
+karaciğer S-loc
 ile O
 uyumlu O
 bulgular O
 olması O
 nedeniyle O
-karaciğer O
 nakil O
 sürecinin O
 protokolünü O
@@ -11414,16 +12008,18 @@ romatizma E-Status
 
 beyin B-Past-Diagnosis
 kanaması E-Past-Diagnosis
+beyin S-loc
 ta S-Past-Diagnosis
+beyin S-loc
 beyin B-Status
 op E-Status
 olmuş O
 ve O
-beyin O
 için O
 ilaçlar O
 alıyor O
 3akez O
+op O
 olmuş O
 
 svo S-Pre-Diagnosis
@@ -11442,14 +12038,19 @@ yatırıldı O
 ht S-Past-Diagnosis
 kalp B-Past-Diagnosis
 hast E-Past-Diagnosis
+kalp S-loc
 kasık B-Past-Diagnosis
 fıtığı E-Past-Diagnosis
+kasık S-loc
 
 böbrek B-Past-Diagnosis
 taşı E-Past-Diagnosis
+böbrek S-loc
 Babadağ'a B-Status
 tek I-Status
 böbrek E-Status
+babadağa O
+tek O
 
 ra S-Pre-Diagnosis
 
@@ -11465,6 +12066,8 @@ anal B-Semptom
 kanaldan I-Semptom
 pürülan I-Semptom
 akıntı E-Semptom
+anal B-loc
+kanaldan E-loc
 muayenede O
 mevcut O
 
@@ -11476,6 +12079,7 @@ imkansız O
 
 perianal B-Pre-Diagnosis
 abes E-Pre-Diagnosis
+perianal S-loc
 x0a O
 şüphesi O
 ile O
@@ -11486,6 +12090,7 @@ verildi O
 
 anal B-Pre-Diagnosis
 atrezi E-Pre-Diagnosis
+anal S-loc
 babası B-Status
 kistik I-Status
 fibrozis I-Status
@@ -11516,6 +12121,7 @@ hemorajık B-Past-Diagnosis
 svh E-Past-Diagnosis
 sağ B-Past-Diagnosis
 hemiparezi E-Past-Diagnosis
+sağ S-loc
 
 bronşit S-Past-Diagnosis
 anne B-Status
@@ -11604,6 +12210,9 @@ iki B-Semptom
 Front'la I-Semptom
 bölgede I-Semptom
 sıkıştırdı E-Semptom
+iki B-loc
+Front'la I-loc
+bölgede E-loc
 15yaş O
 kız O
 yaklaşık O
@@ -11662,28 +12271,44 @@ sonrası E-Status
 dudakta I-Semptom
 cilt I-Semptom
 lezyonu E-Semptom
+üst B-loc
+dudakta E-loc
 sağ B-Semptom
 dizde I-Semptom
 ağrı E-Semptom
+sağ B-loc
+dizde E-loc
 sağ B-Semptom
 dizde I-Semptom
 ödem I-Semptom
 palpasyon E-Semptom
+sağ B-loc
+dizde E-loc
 ağrı S-Semptom
+sağ B-loc
+dizde E-loc
 düşme B-Status
 sonrası E-Status
 üst B-Semptom
 dudakta I-Semptom
 cilt I-Semptom
 lezyonu E-Semptom
+üst B-loc
+dudakta E-loc
 sağ B-Semptom
 dizde I-Semptom
 ağrı E-Semptom
+sağ B-loc
+dizde E-loc
 sağ B-Semptom
 dizde I-Semptom
 ödem I-Semptom
 palpasyon E-Semptom
+sağ B-loc
+dizde E-loc
 ağrı S-Semptom
+sağ B-loc
+dizde E-loc
 ve O
 şikayetiüst O
 dudağı O
@@ -11693,6 +12318,8 @@ değerlendirdi O
 pansumanı O
 yapıldı O
 fide O
+ödem O
+palpasyon O
 ile O
 düz O
 bacak O
@@ -11706,6 +12333,8 @@ değerlendirdi O
 pansumanı O
 yapıldı O
 fide O
+ödem O
+palpasyon O
 ile O
 düz O
 bacak O
@@ -11717,28 +12346,44 @@ sonrası E-Status
 dudakta I-Semptom
 cilt I-Semptom
 lezyonu E-Semptom
+üst B-loc
+dudakta E-loc
 sağ B-Semptom
 dizde I-Semptom
 ağrı E-Semptom
+sağ B-loc
+dizde E-loc
 sağ B-Semptom
 dizde I-Semptom
 ödem I-Semptom
 palpasyon E-Semptom
+sağ B-loc
+dizde E-loc
 ağrı S-Semptom
+sağ B-loc
+dizde E-loc
 düşme B-Status
 sonrası E-Status
 üst B-Semptom
 dudakta I-Semptom
 cilt I-Semptom
 lezyonu E-Semptom
+üst B-loc
+dudakta E-loc
 sağ B-Semptom
 dizde I-Semptom
 ağrı E-Semptom
+sağ B-loc
+dizde E-loc
 sağ B-Semptom
 dizde I-Semptom
 ödem I-Semptom
 palpasyon E-Semptom
+sağ B-loc
+dizde E-loc
 ağrı S-Semptom
+sağ B-loc
+dizde E-loc
 ve O
 şikayetiüst O
 dudağı O
@@ -11748,6 +12393,8 @@ değerlendirdi O
 pansumanı O
 yapıldı O
 fide O
+ödem O
+palpasyon O
 ile O
 düz O
 bacak O
@@ -11761,6 +12408,8 @@ değerlendirdi O
 pansumanı O
 yapıldı O
 fide O
+ödem O
+palpasyon O
 ile O
 düz O
 bacak O
@@ -11768,6 +12417,7 @@ kaldıramıyorkrepitasyon O
 
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 15yaş O
 aylık O
 kız O
@@ -11838,6 +12488,7 @@ karaciğerde B-Semptom
 santral I-Semptom
 yerleşimli I-Semptom
 kitle E-Semptom
+karaciğerde S-loc
 hiç S-Pre-Diagnosis
 
 saptanan O
@@ -11849,6 +12500,7 @@ başvurdu O
 
 kalp B-Past-Diagnosis
 hast E-Past-Diagnosis
+kalp S-loc
 
 akrabalarda O
 yaygın O
@@ -11889,6 +12541,9 @@ alt B-Past-Diagnosis
 solunum I-Past-Diagnosis
 yolu I-Past-Diagnosis
 enfeksiyonu E-Past-Diagnosis
+alt B-loc
+solunum I-loc
+yolu E-loc
 2019 O
 da O
 poliklinik O
@@ -11924,6 +12579,7 @@ hipotiroid E-Status
 ht S-Past-Diagnosis
 stent S-Status
 darlık S-Semptom
+d1 S-loc
 tanısı O
 olan O
 hastaya O
@@ -11935,7 +12591,6 @@ ya O
 de O
 implant O
 edildi O
-d1 O
 de O
 90 O
 olan O
@@ -11999,6 +12654,9 @@ sağ B-Semptom
 el I-Semptom
 bileği I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+el I-loc
+bileği E-loc
 önce O
 yolda O
 her O
@@ -12011,9 +12669,11 @@ dm S-Past-Diagnosis
 opere B-Status
 kutusu E-Status
 füzyon S-Past-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz S-Past-Diagnosis
-sol O
-diz O
+sol B-loc
+diz E-loc
 mr O
 lombar O
 mr O
@@ -12051,12 +12711,17 @@ opere B-Status
 kutusu E-Status
 dm S-Past-Diagnosis
 füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz B-Pre-Diagnosis
 lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 lombar B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
 disklerde B-Semptom
 dejenerasyon E-Semptom
+disklerde S-loc
 l3 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 4 I-Pre-Diagnosis
@@ -12064,6 +12729,12 @@ seviyesinde I-Pre-Diagnosis
 sağ I-Pre-Diagnosis
 farlateral I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
 l4 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 5 I-Pre-Diagnosis
@@ -12071,20 +12742,24 @@ seviyesinde I-Pre-Diagnosis
 diskte I-Pre-Diagnosis
 diffüz I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
 minimal B-Pre-Diagnosis
 bulging E-Pre-Diagnosis
-sol O
-diz O
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
 mr O
 mr O
 artrozlomber O
 mr O
-l5 O
-s1 O
-seviyesinde O
-sol O
-posterolateral O
-framene O
 uzanım O
 gösteren O
 
@@ -12093,12 +12768,18 @@ opere B-Status
 kutusu E-Status
 dm S-Past-Diagnosis
 füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz B-Pre-Diagnosis
 lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 lombar B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
 disklerde B-Semptom
 dejenerasyon E-Semptom
+disklerde S-loc
 l3 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 4 I-Pre-Diagnosis
@@ -12106,6 +12787,12 @@ seviyesinde I-Pre-Diagnosis
 sağ I-Pre-Diagnosis
 farlateral I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
 l4 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 5 I-Pre-Diagnosis
@@ -12113,20 +12800,23 @@ seviyesinde I-Pre-Diagnosis
 diskte I-Pre-Diagnosis
 diffüz I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
 minimal B-Pre-Diagnosis
 bulging E-Pre-Diagnosis
-sol O
-diz O
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
 mr O
 mr O
-artrozlomber O
 mr O
-l5 O
-s1 O
-seviyesinde O
-sol O
-posterolateral O
-framene O
 uzanım O
 gösteren O
 
@@ -12135,12 +12825,18 @@ opere B-Status
 kutusu E-Status
 dm S-Past-Diagnosis
 füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz B-Pre-Diagnosis
 lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 lombar B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
 disklerde B-Semptom
 dejenerasyon E-Semptom
+disklerde S-loc
 l3 B-Semptom
 / I-Semptom
 4 I-Semptom
@@ -12148,6 +12844,12 @@ seviyesinde I-Semptom
 sağ I-Semptom
 farlateral I-Semptom
 bulging E-Semptom
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
 l4 B-Semptom
 / I-Semptom
 5 I-Semptom
@@ -12155,20 +12857,23 @@ seviyesinde I-Semptom
 diskte I-Semptom
 diffüz I-Semptom
 bulging E-Semptom
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
 minimal B-Semptom
 bulging E-Semptom
-sol O
-diz O
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
 mr O
 mr O
-artrozlomber O
 mr O
-l5 O
-s1 O
-seviyesinde O
-sol O
-posterolateral O
-framene O
 uzanım O
 gösteren O
 
@@ -12176,12 +12881,18 @@ ht S-Past-Diagnosis
 opere B-Status
 kutusu E-Status
 füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz B-Pre-Diagnosis
 lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 lombar B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
 disklerde B-Semptom
 dejenerasyon E-Semptom
+disklerde S-loc
 l3 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 4 I-Pre-Diagnosis
@@ -12189,6 +12900,12 @@ seviyesinde I-Pre-Diagnosis
 sağ I-Pre-Diagnosis
 farlateral I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
 l4 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 5 I-Pre-Diagnosis
@@ -12196,21 +12913,24 @@ seviyesinde I-Pre-Diagnosis
 diskte I-Pre-Diagnosis
 diffüz I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
 minimal B-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
 dm O
-sol O
-diz O
 mr O
 mr O
-artrozlomber O
 mr O
-l5 O
-s1 O
-seviyesinde O
-sol O
-posterolateral O
-framene O
 uzanım O
 gösteren O
 
@@ -12219,12 +12939,18 @@ opere B-Status
 kutusu E-Status
 dm S-Past-Diagnosis
 füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz B-Pre-Diagnosis
 lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 lombar B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
 disklerde B-Semptom
 dejenerasyon E-Semptom
+disklerde S-loc
 l3 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 4 I-Pre-Diagnosis
@@ -12232,6 +12958,12 @@ seviyesinde I-Pre-Diagnosis
 sağ I-Pre-Diagnosis
 farlateral I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
 l4 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 5 I-Pre-Diagnosis
@@ -12239,20 +12971,23 @@ seviyesinde I-Pre-Diagnosis
 diskte I-Pre-Diagnosis
 diffüz I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
 minimal B-Pre-Diagnosis
 bulging E-Pre-Diagnosis
-sol O
-diz O
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
 mr O
 mr O
-artrozlomber O
 mr O
-l5 O
-s1 O
-seviyesinde O
-sol O
-posterolateral O
-framene O
 uzanım O
 gösteren O
 
@@ -12261,12 +12996,18 @@ opere B-Status
 kutusu E-Status
 dm S-Past-Diagnosis
 füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz B-Pre-Diagnosis
 lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 lombar B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
 disklerde B-Semptom
 dejenerasyon E-Semptom
+disklerde S-loc
 l3 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 4 I-Pre-Diagnosis
@@ -12274,6 +13015,12 @@ seviyesinde I-Pre-Diagnosis
 sağ I-Pre-Diagnosis
 farlateral I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
 l4 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 5 I-Pre-Diagnosis
@@ -12281,20 +13028,23 @@ seviyesinde I-Pre-Diagnosis
 diskte I-Pre-Diagnosis
 diffüz I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
 minimal B-Pre-Diagnosis
 bulging E-Pre-Diagnosis
-sol O
-diz O
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
 mr O
 mr O
-artrozlomber O
 mr O
-l5 O
-s1 O
-seviyesinde O
-sol O
-posterolateral O
-framene O
 uzanım O
 gösteren O
 
@@ -12303,12 +13053,18 @@ opere B-Status
 kutusu E-Status
 dm S-Past-Diagnosis
 füzyon S-Pre-Diagnosis
+sol B-loc
+diz E-loc
 gonartroz B-Pre-Diagnosis
 lombar E-Pre-Diagnosis
+sol B-loc
+diz E-loc
 lombar B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
+artrozlomber S-loc
 disklerde B-Semptom
 dejenerasyon E-Semptom
+disklerde S-loc
 l3 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 4 I-Pre-Diagnosis
@@ -12316,6 +13072,12 @@ seviyesinde I-Pre-Diagnosis
 sağ I-Pre-Diagnosis
 farlateral I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l3 B-loc
+/ I-loc
+4 I-loc
+seviyesinde I-loc
+sağ I-loc
+farlateral E-loc
 l4 B-Pre-Diagnosis
 / I-Pre-Diagnosis
 5 I-Pre-Diagnosis
@@ -12323,20 +13085,23 @@ seviyesinde I-Pre-Diagnosis
 diskte I-Pre-Diagnosis
 diffüz I-Pre-Diagnosis
 bulging E-Pre-Diagnosis
+l4 B-loc
+/ I-loc
+5 I-loc
+seviyesinde I-loc
+diskte E-loc
 minimal B-Pre-Diagnosis
 bulging E-Pre-Diagnosis
-sol O
-diz O
+l5 B-loc
+/ I-loc
+s1 I-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral I-loc
+Frame'ne E-loc
 mr O
 mr O
-artrozlomber O
 mr O
-l5 O
-s1 O
-seviyesinde O
-sol O
-posterolateral O
-framene O
 uzanım O
 gösteren O
 
@@ -12353,6 +13118,7 @@ guatr S-Pre-Diagnosis
 kronik B-Pre-Diagnosis
 böbrek I-Pre-Diagnosis
 hastalığı E-Pre-Diagnosis
+böbrek S-loc
 2 O
 
 5 B-Duration
@@ -12454,12 +13220,16 @@ gün E-Duration
 sol B-Semptom
 kasık I-Semptom
 ağrısı E-Semptom
+sol B-loc
+kasık E-loc
 sol B-Semptom
 kasık I-Semptom
 ağrısı E-Semptom
+kalçaya S-loc
 sol B-Semptom
 kasık I-Semptom
 ağrısı E-Semptom
+bacağa S-loc
 ara B-Period
 ara E-Period
 daha O
@@ -12468,9 +13238,7 @@ geçirmiş O
 önce O
 başlamış O
 sonar O
-kalçaya O
 yayılmış O
-bacağa O
 yayılıyor O
 
 ta S-Past-Diagnosis
@@ -12549,6 +13317,9 @@ sol B-Semptom
 ağırlıklı I-Semptom
 kol I-Semptom
 ağrıları E-Semptom
+sol B-loc
+ağırlıklı I-loc
+kol E-loc
 önce O
 başlayan O
 gece O
@@ -12579,16 +13350,16 @@ haftadır E-Duration
 dikenler B-Semptom
 batıyormuş I-Semptom
 hissi E-Semptom
+koluna S-loc
 dikenler B-Semptom
 batıyormuş I-Semptom
 hissi E-Semptom
+eline S-loc
 son O
 da O
 değişen O
 lokalizasyonlarda O
-koluna O
 ve O
-eline O
 oluyormuş O
 
 uyuşukluk S-Semptom
@@ -12630,6 +13401,7 @@ y O
 
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12642,19 +13414,7 @@ miyetenia B-Past-Diagnosis
 Graves E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
-tiroidektomi S-Status
-radyoaktif B-Status
-iyot I-Status
-tedavisi E-Status
-var O
-2011 O
-ocak O
-almış O
-
-miyetenia B-Past-Diagnosis
-Graves E-Past-Diagnosis
-tiroit B-Past-Diagnosis
-ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12668,33 +13428,7 @@ miyetenia B-Past-Diagnosis
 Graves E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
-tiroidektomi S-Status
-radyoaktif B-Status
-iyot I-Status
-tedavisi E-Status
-var O
-2011 O
-ocak O
-almış O
-
-miyetenia B-Past-Diagnosis
-Graves E-Past-Diagnosis
-var O
-
-tiroit B-Past-Diagnosis
-ca E-Past-Diagnosis
-tiroidektomi S-Status
-radyoaktif B-Status
-iyot I-Status
-tedavisi E-Status
-2011 O
-ocak O
-almış O
-
-miyetenia B-Past-Diagnosis
-Graves E-Past-Diagnosis
-tiroit B-Past-Diagnosis
-ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12708,19 +13442,7 @@ miyetenia B-Past-Diagnosis
 Graves E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
-tiroidektomi S-Status
-radyoaktif B-Status
-iyot I-Status
-tedavisi E-Status
-var O
-2011 O
-ocak O
-almış O
-
-miyetenia B-Past-Diagnosis
-Graves E-Past-Diagnosis
-tiroit B-Past-Diagnosis
-ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12736,6 +13458,7 @@ var O
 
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12748,19 +13471,7 @@ miyetenia B-Past-Diagnosis
 Graves E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
-tiroidektomi S-Status
-radyoaktif B-Status
-iyot I-Status
-tedavisi E-Status
-var O
-2011 O
-ocak O
-almış O
-
-miyetenia B-Past-Diagnosis
-Graves E-Past-Diagnosis
-tiroit B-Past-Diagnosis
-ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12774,6 +13485,21 @@ miyetenia B-Past-Diagnosis
 Graves E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12789,6 +13515,7 @@ var O
 
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12801,19 +13528,7 @@ miyetenia B-Past-Diagnosis
 Graves E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
-tiroidektomi S-Status
-radyoaktif B-Status
-iyot I-Status
-tedavisi E-Status
-var O
-2011 O
-ocak O
-almış O
-
-miyetenia B-Past-Diagnosis
-Graves E-Past-Diagnosis
-tiroit B-Past-Diagnosis
-ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12827,6 +13542,78 @@ miyetenia B-Past-Diagnosis
 Graves E-Past-Diagnosis
 tiroit B-Past-Diagnosis
 ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+var O
+
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
+tiroidektomi S-Status
+radyoaktif B-Status
+iyot I-Status
+tedavisi E-Status
+var O
+2011 O
+ocak O
+almış O
+
+miyetenia B-Past-Diagnosis
+Graves E-Past-Diagnosis
+tiroit B-Past-Diagnosis
+ca E-Past-Diagnosis
+tiroit S-loc
 tiroidektomi S-Status
 radyoaktif B-Status
 iyot I-Status
@@ -12876,6 +13663,7 @@ kah S-Past-Diagnosis
 
 endometrium B-Past-Diagnosis
 ca E-Past-Diagnosis
+endometrium S-loc
 dm S-Past-Diagnosis
 ht S-Past-Diagnosis
 ikh S-Past-Diagnosis
@@ -12888,6 +13676,7 @@ bilinmiyor O
 
 akciğer B-Past-Diagnosis
 ca E-Past-Diagnosis
+akciğer S-loc
 pankreasça O
 
 parkinson S-Past-Diagnosis
@@ -13123,6 +13912,7 @@ tanımlamıyor O
 
 safra B-Past-Diagnosis
 çamuru E-Past-Diagnosis
+safra S-loc
 baba B-Status
 dm E-Status
 
@@ -13130,6 +13920,8 @@ kolesistektomi S-Status
 safra B-Semptom
 kanallarının I-Semptom
 tıkanık E-Semptom
+safra B-loc
+kanallarının E-loc
 12 O
 yaşında O
 sonrası O
@@ -13199,6 +13991,7 @@ solunum B-Semptom
 sıkıntısı E-Semptom
 akciğerde B-Pre-Diagnosis
 pnömoni E-Pre-Diagnosis
+akciğerde S-loc
 hasta O
 nedeniyle O
 yatırıldı O
@@ -13210,6 +14003,7 @@ oy S-Past-Diagnosis
 
 prostat B-Past-Diagnosis
 kanseri E-Past-Diagnosis
+prostat S-loc
 kız B-Status
 kardeş I-Status
 meme I-Status
@@ -13248,6 +14042,7 @@ solunum I-Semptom
 yetmezliği E-Semptom
 solunum-dolaşım B-Pre-Diagnosis
 Aires'ti E-Pre-Diagnosis
+solunum-dolaşım S-loc
 önceden O
 bilinen O
 hastalıkları O
@@ -13312,8 +14107,11 @@ afsı S-Past-Diagnosis
 konuşamama S-Semptom
 kuvvet B-Semptom
 kaybı E-Semptom
+sağ B-loc
+kol E-loc
 kuvvet B-Semptom
 kaybı E-Semptom
+bacakta S-loc
 bilinen O
 olan O
 ve O
@@ -13323,10 +14121,7 @@ sağlam O
 görülen O
 hasta O
 sabah O
-sağ O
-kol O
 ve O
-bacakta O
 ile O
 yatakta O
 bulunması O
@@ -13340,6 +14135,9 @@ sol B-Semptom
 mca I-Semptom
 m1 I-Semptom
 oklüzyonu E-Semptom
+sol B-loc
+mca I-loc
+m1 E-loc
 çekilen O
 btde O
 saptanmayan O
@@ -13361,6 +14159,7 @@ alındı O
 migren S-Past-Diagnosis
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 20 O
 yıldır O
 var O
@@ -13368,18 +14167,19 @@ var O
 4-5 B-Duration
 aydır E-Duration
 ağrılar S-Semptom
+sırt S-loc
 ağrılar S-Semptom
+boyun S-loc
 ağrılar S-Semptom
+ense S-loc
 parmaklarda B-Semptom
 uyuşma E-Semptom
+parmaklarda S-loc
 migren S-Past-Diagnosis
 haftada B-Period
 1-2 E-Period
 bazen S-Period
 ayrıca O
-sırt O
-boyun O
-ense O
 var O
 ba O
 
@@ -13392,12 +14192,14 @@ lohusa E-Status
 
 kalp B-Past-Diagnosis
 yet E-Past-Diagnosis
+kalp S-loc
 koah S-Past-Diagnosis
 
 8 B-Duration
 yıldır E-Duration
 bel B-Semptom
 ağrıları E-Semptom
+bel S-loc
 ldh S-Past-Diagnosis
 olan O
 hasta O
@@ -13411,6 +14213,8 @@ sol B-Semptom
 bacağını I-Semptom
 topallayarak I-Semptom
 yürümeye E-Semptom
+sol B-loc
+bacağını E-loc
 düşmeleri S-Semptom
 sık S-Period
 haziran O
@@ -13472,6 +14276,9 @@ iki B-Semptom
 ayak I-Semptom
 parmaklarında I-Semptom
 düşme E-Semptom
+iki B-loc
+ayak I-loc
+parmaklarında E-loc
 op O
 sonrasında O
 her O
@@ -13513,6 +14320,7 @@ düşme S-Status
 
 akciğer B-Pre-Diagnosis
 ca E-Pre-Diagnosis
+akciğer S-loc
 
 y O
 
@@ -13552,6 +14360,7 @@ y O
 
 epidermoid B-Pre-Diagnosis
 ca E-Pre-Diagnosis
+epidermoid S-loc
 bx O
 karadeniz O
 patoloji O
@@ -13600,6 +14409,8 @@ adenokarsinom S-Pre-Diagnosis
 sol B-Semptom
 hiler I-Semptom
 kitle E-Semptom
+sol B-loc
+hiler E-loc
 bx O
 medicine O
 hastanesi O
@@ -13659,6 +14470,7 @@ k O
 
 eklemlerde B-Semptom
 effüzyonlar E-Semptom
+eklemlerde S-loc
 çeşitli O
 olmuş O
 hasta O
@@ -13703,14 +14515,18 @@ normal O
 koroner B-Past-Diagnosis
 arter I-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+koroner B-loc
+arter E-loc
 kolit S-Past-Diagnosis
 böbrek B-Past-Diagnosis
 kisti E-Past-Diagnosis
+böbrek S-loc
 özellik O
 yo O
 
 meme B-Past-Diagnosis
 ca E-Past-Diagnosis
+meme S-loc
 hastanın O
 ailesinde O
 ve O
@@ -13734,11 +14550,13 @@ etti O
 lombar B-Past-Diagnosis
 disk I-Past-Diagnosis
 Mernis'i E-Past-Diagnosis
+lombar B-loc
+disk E-loc
 Mernis'i S-Past-Diagnosis
+servikal S-loc
 masa O
 başı O
 abide O
-servikal O
 ve O
 
 astım S-Past-Diagnosis
@@ -13793,14 +14611,17 @@ cgy O
 dm S-Past-Diagnosis
 mesane B-Past-Diagnosis
 tm E-Past-Diagnosis
+mesane S-loc
 plevra B-Past-Diagnosis
 füzyon E-Past-Diagnosis
+plevra S-loc
 nonopere O
 
 tansiyon B-Semptom
 yüksekliği E-Semptom
 böbrek B-Past-Diagnosis
 yetmezliği E-Past-Diagnosis
+böbrek S-loc
 anne B-Status
 ve I-Status
 babada I-Status
@@ -13938,8 +14759,10 @@ ht S-Past-Diagnosis
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 
 sağ B-Status
 mrm E-Status
@@ -13970,6 +14793,7 @@ ekstrakapsüler B-Semptom
 lenf I-Semptom
 kodu I-Semptom
 yayılımı E-Semptom
+lenf S-loc
 7 O
 cm O
 hg O
@@ -14003,13 +14827,13 @@ dr O
 
 Mikat B-Past-Diagnosis
 ınvazıv E-Past-Diagnosis
+düktal S-loc
 Mikat B-Past-Diagnosis
 ınvazıv E-Past-Diagnosis
+pleomorfik B-loc
+lobiler E-loc
 gülnur O
 güler O
-düktal O
-pleomorfik O
-lobiler O
 karsinomu O
 er O
 90 O
@@ -14169,10 +14993,10 @@ yıldan O
 fazla O
 
 ağrı S-Semptom
+topuk S-loc
 ağrı S-Semptom
+parmak S-loc
 sen O
-topuk O
-parmak O
 inen O
 
 arada O
@@ -14241,7 +15065,7 @@ fazla O
 belde B-Semptom
 şiddetli I-Semptom
 batması E-Semptom
-belde O
+belde S-loc
 batması O
 da O
 oluyor O
@@ -14290,31 +15114,31 @@ izlendi O
 
 ülserovejetan B-Semptom
 kitle E-Semptom
+epiglot B-loc
+larengeal I-loc
+yüzü I-loc
+dolduran I-loc
+sağ I-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden E-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
+sol B-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden I-loc
+başlayıp I-loc
+ventrikülü I-loc
+dolduran E-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
-epiglot O
-larengeal O
-yüzü O
-dolduran O
-sağ O
-tarafta O
-vokal O
-kod O
-üzerinden O
+anterior B-loc
+kommissüre I-loc
+yaklaşıp E-loc
 başlayan O
-sol O
-tarafta O
-vokal O
-kod O
-üzerinden O
-başlayıp O
-ventrikülü O
-dolduran O
-anterior O
-kommissüre O
-yaklaşıp O
 tutan O
 debulke O
 edilerek O
@@ -14387,31 +15211,31 @@ izlendi O
 
 ülserovejetan B-Semptom
 kitle E-Semptom
+epiglot B-loc
+larengeal I-loc
+yüzü I-loc
+dolduran I-loc
+sağ I-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden E-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
+sol B-loc
+tarafta I-loc
+vokal I-loc
+kod I-loc
+üzerinden I-loc
+başlayıp I-loc
+ventrikülü I-loc
+dolduran E-loc
 ülserovejetan B-Semptom
 kitle E-Semptom
-epiglot O
-larengeal O
-yüzü O
-dolduran O
-sağ O
-tarafta O
-vokal O
-kod O
-üzerinden O
+anterior B-loc
+kommissüre I-loc
+yaklaşıp E-loc
 başlayan O
-sol O
-tarafta O
-vokal O
-kod O
-üzerinden O
-başlayıp O
-ventrikülü O
-dolduran O
-anterior O
-kommissüre O
-yaklaşıp O
 tutan O
 debulke O
 edilerek O
@@ -14499,6 +15323,8 @@ aydır E-Duration
 sağ B-Semptom
 dizde I-Semptom
 ağrı E-Semptom
+sağ B-loc
+dizde E-loc
 takılma-kilitlenme S-Semptom
 takılma-kilitlenme S-Semptom
 boşalma S-Semptom
@@ -14515,6 +15341,7 @@ hipertansiyon S-Past-Diagnosis
 diyabet S-Past-Diagnosis
 kalp B-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+kalp S-loc
 
 hipertansiyon S-Past-Diagnosis
 diyabet S-Past-Diagnosis
@@ -14566,6 +15393,7 @@ imiş O
 
 meme B-Past-Diagnosis
 ca E-Past-Diagnosis
+meme S-loc
 o O
 
 y O
@@ -14635,6 +15463,8 @@ carotis I-Semptom
 % I-Semptom
 70 I-Semptom
 darlık E-Semptom
+sol B-loc
+carotis E-loc
 söz O
 konusu O
 
@@ -14700,6 +15530,8 @@ carotis I-Semptom
 % I-Semptom
 70 I-Semptom
 darlık E-Semptom
+sol B-loc
+carotis E-loc
 söz O
 konusu O
 
@@ -14790,6 +15622,7 @@ testi I-Status
 şüpheli E-Status
 göğüs B-Semptom
 ağrısı E-Semptom
+göğüs S-loc
 tanısı O
 olan O
 hastanın O
@@ -14823,6 +15656,8 @@ olmuş O
 sol B-Semptom
 omuzda I-Semptom
 ağrı E-Semptom
+sol B-loc
+omuzda E-loc
 şişlik S-Semptom
 hassasiyet S-Semptom
 hareket B-Semptom
@@ -14833,8 +15668,10 @@ gastrit S-Past-Diagnosis
 
 burun B-Semptom
 tıkanıklığı E-Semptom
+burun S-loc
 burun B-Semptom
 akıntısı E-Semptom
+burun S-loc
 hapşırmasana S-Semptom
 hiç O
 geçmeyen O
@@ -14844,6 +15681,7 @@ tozlu O
 ortamda O
 dahada O
 artan O
+akıntısı O
 tarihliyor O
 
 ldh B-Status
@@ -14903,6 +15741,7 @@ meme I-Status
 ca E-Status
 intraserebral B-Past-Diagnosis
 hematim E-Past-Diagnosis
+intraserebral S-loc
 
 6 B-Status
 kez I-Status
@@ -14931,8 +15770,10 @@ kc B-Past-Diagnosis
 de I-Past-Diagnosis
 multiple I-Past-Diagnosis
 hemanjiom E-Past-Diagnosis
+kc S-loc
 böbrekte B-Semptom
 kist E-Semptom
+böbrekte S-loc
 ve O
 saptanmış O
 
@@ -15058,6 +15899,7 @@ oluyormuş O
 
 mesane B-Past-Diagnosis
 tm E-Past-Diagnosis
+mesane S-loc
 yüksek B-Semptom
 dereceli I-Semptom
 pta E-Semptom
@@ -15113,6 +15955,64 @@ uygulanmış O
 
 mesane B-Past-Diagnosis
 tm E-Past-Diagnosis
+mesane S-loc
+yüksek B-Semptom
+dereceli I-Semptom
+pta E-Semptom
+mesane S-loc
+ocak O
+2016da O
+tanısı O
+konularak O
+dış O
+merkezde O
+turt O
+yapılan O
+sol O
+orifıslateralinde O
+arka O
+ve O
+yan O
+duvara O
+uzanan O
+22 O
+
+indüksiyon S-Status
+idame B-Status
+ıntravezikal I-Status
+bçg E-Status
+5 O
+cm O
+boyutunda O
+hastaya O
+sonrasında O
+ve O
+uygulaması O
+yapılmış O
+
+sistoskopisi S-Status
+tümör S-Semptom
+en O
+son O
+6 O
+ay O
+evvel O
+kontrol O
+yapılmış O
+ve O
+izlenilmemiş O
+
+3 B-Status
+defa I-Status
+intravezikal I-Status
+bçg E-Status
+ardından O
+de O
+uygulanmış O
+
+mesane B-Past-Diagnosis
+tm E-Past-Diagnosis
+mesane S-loc
 yüksek B-Semptom
 dereceli I-Semptom
 pta E-Semptom
@@ -15168,61 +16068,7 @@ uygulanmış O
 
 mesane B-Past-Diagnosis
 tm E-Past-Diagnosis
-yüksek B-Semptom
-dereceli I-Semptom
-pta E-Semptom
-ocak O
-2016da O
-tanısı O
-konularak O
-dış O
-merkezde O
-turt O
-yapılan O
-sol O
-orifıslateralinde O
-arka O
-ve O
-yan O
-duvara O
-uzanan O
-22 O
-
-indüksiyon S-Status
-idame B-Status
-ıntravezikal I-Status
-bçg E-Status
-5 O
-cm O
-boyutunda O
-hastaya O
-sonrasında O
-ve O
-uygulaması O
-yapılmış O
-
-sistoskopisi S-Status
-tümör S-Semptom
-en O
-son O
-6 O
-ay O
-evvel O
-kontrol O
-yapılmış O
-ve O
-izlenilmemiş O
-
-3 B-Status
-defa I-Status
-intravezikal I-Status
-bçg E-Status
-ardından O
-de O
-uygulanmış O
-
-mesane B-Past-Diagnosis
-tm E-Past-Diagnosis
+mesane S-loc
 yüksek B-Semptom
 dereceli I-Semptom
 pta E-Semptom
@@ -15358,29 +16204,37 @@ yıldır E-Duration
 
 çorsal B-Pre-Diagnosis
 spondiloz E-Pre-Diagnosis
+çorsal S-loc
 hafif S-Intensity
 yükseklik B-Semptom
 kayıpları E-Semptom
+t11 B-loc
+ve I-loc
+t12 I-loc
+vertebra I-loc
+korpus I-loc
+ön I-loc
+bölümlerinde E-loc
 disklerde B-Semptom
 dejenerasyon E-Semptom
 t9-10 B-Semptom
 seviyesinde I-Semptom
 posterosantral I-Semptom
 bulging E-Semptom
+t9-10 B-loc
+seviyesinde I-loc
+posterosantral E-loc
 t11-12 B-Semptom
 seviyesinde I-Semptom
 sol I-Semptom
 posterolateral I-Semptom
 bulging E-Semptom
+t11-12 B-loc
+seviyesinde I-loc
+sol I-loc
+posterolateral E-loc
 korsal O
 mr O
-t11 O
-ve O
-t12 O
-vertebra O
-korpus O
-ön O
-bölümlerinde O
 
 baba B-Status
 akciğer I-Status
@@ -15394,6 +16248,7 @@ boğaz B-Semptom
 da I-Semptom
 takılma I-Semptom
 hissi E-Semptom
+boğaz S-loc
 
 bph S-Past-Diagnosis
 yüksek B-Semptom
@@ -15450,11 +16305,15 @@ ml O
 median B-Pre-Diagnosis
 lob I-Pre-Diagnosis
 hipertrofisi E-Pre-Diagnosis
+median B-loc
+lob E-loc
 mesane B-Semptom
 tabanında I-Semptom
 belirgin I-Semptom
 başı I-Semptom
 etkisi E-Semptom
+mesane B-loc
+tabanında E-loc
 mp O
 prostat O
 mr O
@@ -15462,14 +16321,14 @@ mr O
 
 pırads B-Semptom
 ııı E-Semptom
-santral O
-onda O
-bahis O
-düzeyinde O
-posteriorda O
-orta O
-hattın O
-sağında O
+santral B-loc
+onda I-loc
+bahis I-loc
+düzeyinde I-loc
+posteriorda I-loc
+orta I-loc
+hattın I-loc
+sağında E-loc
 kategori O
 odak O
 
@@ -15531,11 +16390,15 @@ ml O
 median B-Pre-Diagnosis
 lob I-Pre-Diagnosis
 hipertrofisi E-Pre-Diagnosis
+median B-loc
+lob E-loc
 mesane B-Semptom
 tabanında I-Semptom
 belirgin I-Semptom
 başı I-Semptom
 etkisi E-Semptom
+mesane B-loc
+tabanında E-loc
 mp O
 prostat O
 mr O
@@ -15551,6 +16414,14 @@ hattın I-Semptom
 sağında I-Semptom
 pırads I-Semptom
 ııı E-Semptom
+santral B-loc
+onda I-loc
+bahis I-loc
+düzeyinde I-loc
+posteriorda I-loc
+orta I-loc
+hattın I-loc
+sağında E-loc
 kategori O
 odak O
 
@@ -15575,6 +16446,8 @@ istendi O
 sol B-Pre-Diagnosis
 temposal I-Pre-Diagnosis
 sdh E-Pre-Diagnosis
+sol B-loc
+temposal E-loc
 mr O
 da O
 görülerek O
@@ -15626,6 +16499,7 @@ ediyor O
 
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 kere O
 oluyor O
 uzun O
@@ -15644,8 +16518,10 @@ görüyor O
 
 burun B-Semptom
 tıkanıklığı E-Semptom
+burun S-loc
 burun B-Semptom
 akıntısı E-Semptom
+burun S-loc
 hapşırmasana S-Semptom
 hiç O
 geçmeyen O
@@ -15655,6 +16531,7 @@ tozlu O
 ortamda O
 dahada O
 artan O
+akıntısı O
 tarihliyor O
 
 tayuk O
@@ -15674,6 +16551,7 @@ mevcut O
 gündür E-Duration
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 devam O
 eden O
 
@@ -15681,6 +16559,9 @@ sağ B-Past-Diagnosis
 petrol I-Past-Diagnosis
 apexde I-Past-Diagnosis
 menengioma E-Past-Diagnosis
+sağ B-loc
+petrol I-loc
+apexde E-loc
 6ay O
 önce O
 tespit O
@@ -15694,10 +16575,10 @@ ilaçları O
 var O
 
 ağrı S-Semptom
+ellerde S-loc
 uyuşma S-Semptom
-ellerde O
+ayaklarda S-loc
 ve O
-ayaklarda O
 geceleri O
 daha O
 fazla O
@@ -15708,6 +16589,7 @@ oluyormuş O
 gündür E-Duration
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 devam O
 eden O
 
@@ -15732,19 +16614,24 @@ ay E-Duration
 sol B-Semptom
 dizde I-Semptom
 kilitlenme E-Semptom
+sol B-loc
+dizde E-loc
 ağrı S-Semptom
+sol B-loc
+dizde E-loc
 zaman B-Period
 zaman E-Period
 ağrı S-Semptom
+kalçasına S-loc
 önce O
 başlayan O
 ve O
-kalçasına O
 da O
 vuruyormuş O
 
 ayağını B-Semptom
 boşalıyor E-Semptom
+ayağını S-loc
 son O
 zamanlarda O
 hissediyormuş O
@@ -15776,6 +16663,7 @@ ediyor O
 
 rektum B-Past-Diagnosis
 tümörü E-Past-Diagnosis
+rektum S-loc
 tanısıyla O
 uzun O
 dönem O
@@ -15785,25 +16673,25 @@ alan O
 hasta O
 
 ağrısı S-Semptom
+boyun S-loc
 ağrısı S-Semptom
-boyun O
+iki B-loc
+omuz E-loc
 ve O
 her O
-iki O
-omuz O
 şikayeti O
 ile O
 başvurdu O
 
 ağrıları S-Semptom
 uyuşma S-Semptom
+sol B-loc
+kolda E-loc
 hemen O
 hemen O
 hergün O
 ortaya O
 çıkıyormuş O
-sol O
-kolda O
 tarihliyor O
 
 varıköselektomi S-Status
@@ -15817,25 +16705,25 @@ hednavir O
 coversel O
 
 ağrısı S-Semptom
+boyun S-loc
 ağrısı S-Semptom
-boyun O
+iki B-loc
+omuz E-loc
 ve O
 her O
-iki O
-omuz O
 şikayeti O
 ile O
 başvurdu O
 
 ağrıları S-Semptom
 uyuşma S-Semptom
+sol B-loc
+kolda E-loc
 hemen O
 hemen O
 hergün O
 ortaya O
 çıkıyormuş O
-sol O
-kolda O
 tarihliyor O
 
 3-4 B-Duration
@@ -15850,6 +16738,7 @@ kullanıyor O
 
 diz B-Semptom
 problemi E-Semptom
+diz S-loc
 günlük O
 aktivitelerini O
 sebebiyle O
@@ -15900,6 +16789,7 @@ kullanıyor O
 
 diz B-Semptom
 problemi E-Semptom
+diz S-loc
 günlük O
 aktivitelerini O
 sebebiyle O
@@ -15948,8 +16838,8 @@ yıl O
 önce O
 
 ağrısı S-Semptom
-sol O
-omuz O
+sol B-loc
+omuz E-loc
 kısa O
 süredir O
 devam O
@@ -15962,9 +16852,11 @@ kaldırmış O
 humerus B-Past-Diagnosis
 proksimalinde I-Past-Diagnosis
 enkondrom E-Past-Diagnosis
+humerus B-loc
+proksimalinde E-loc
 lezyon S-Past-Diagnosis
-sağ O
-omuzda O
+sağ B-loc
+omuzda E-loc
 ceckup O
 sırasında O
 ortaya O
@@ -15982,6 +16874,8 @@ artan S-Trend
 1 B-Duration
 yıldır E-Duration
 ağrısı S-Semptom
+sol B-loc
+kalçada E-loc
 yürümede B-Semptom
 zorluk E-Semptom
 koksartroz S-Pre-Diagnosis
@@ -15998,8 +16892,6 @@ vermeyen O
 gece O
 uykudan O
 uyandıran O
-sol O
-kalçada O
 olan O
 ve O
 çeken O
@@ -16046,6 +16938,7 @@ yatırıldı O
 yıl E-Duration
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 önce O
 olmuştu O
 
@@ -16082,6 +16975,7 @@ almış O
 
 ayaklarda B-Semptom
 keçeleşmeleri E-Semptom
+ayaklarda S-loc
 sonrasında O
 var O
 
@@ -16131,19 +17025,19 @@ haziran O
 2018 O
 
 ağrısı S-Semptom
+sağ B-loc
+omuz E-loc
 ağrısı S-Semptom
+boyun S-loc
 2 B-Duration
 aydır E-Duration
 ediyorel B-Semptom
 bileği I-Semptom
 ağrısı E-Semptom
-sağ O
-omuz O
+ediyorel B-loc
+bileği E-loc
 ve O
-boyun O
 devam O
-ediyorel O
-bileği O
 
 koah S-Past-Diagnosis
 ıleus B-Status
@@ -16226,17 +17120,17 @@ devir O
 alındı O
 
 travması S-Past-Diagnosis
+kafa S-loc
 travması S-Past-Diagnosis
+genel B-loc
+vücut E-loc
 travmatik B-Past-Diagnosis
 şak E-Past-Diagnosis
 alkollü O
 iken O
 düşme O
 sonrası O
-kafa O
 ve O
-genel O
-vücut O
 ile O
 getirilen O
 hastanın O
@@ -16376,6 +17270,7 @@ ediyor O
 
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 kere O
 oluyor O
 
@@ -16404,12 +17299,13 @@ oluyormuş O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 nöropatim B-Past-Diagnosis
 ağrılar E-Past-Diagnosis
+bacakta S-loc
 mekanik O
 karakterde O
 mevcut O
-bacakta O
 var O
 
 ht S-Past-Diagnosis
@@ -16423,8 +17319,11 @@ dm S-Past-Diagnosis
 
 baş B-Semptom
 dönmesi E-Semptom
+baş S-loc
 güç B-Semptom
 kaybı E-Semptom
+sol B-loc
+taraflı E-loc
 25032019 O
 gece O
 sabaha O
@@ -16433,8 +17332,6 @@ karşı O
 sularında O
 uykudan O
 ve O
-sol O
-taraflı O
 yakınması O
 ile O
 uyanmış O
@@ -16443,6 +17340,7 @@ konuşmada B-Semptom
 bozulması E-Semptom
 ağızda B-Semptom
 kayması E-Semptom
+ağızda S-loc
 eşlik O
 eden O
 ve O
@@ -16469,6 +17367,9 @@ bölgede I-Pre-Diagnosis
 laküner I-Pre-Diagnosis
 akut I-Pre-Diagnosis
 enfarkt E-Pre-Diagnosis
+sağ B-loc
+talamik I-loc
+bölgede E-loc
 difüzyon B-Semptom
 kısıtlanmasana I-Semptom
 alanı E-Semptom
@@ -16498,10 +17399,13 @@ yatırılmıştır O
 
 baş B-Semptom
 dönmesi E-Semptom
+baş S-loc
 sol B-Semptom
 taraflı I-Semptom
 güç I-Semptom
 kaybı E-Semptom
+sol B-loc
+taraflı E-loc
 25032019 O
 gece O
 sabaha O
@@ -16518,6 +17422,7 @@ konuşmada B-Semptom
 bozulması E-Semptom
 ağızda B-Semptom
 kayması E-Semptom
+ağızda S-loc
 eşlik O
 eden O
 ve O
@@ -16544,6 +17449,9 @@ bölgede I-Pre-Diagnosis
 laküner I-Pre-Diagnosis
 akut I-Pre-Diagnosis
 enfarkt E-Pre-Diagnosis
+sağ B-loc
+talamik I-loc
+bölgede E-loc
 difüzyon B-Semptom
 kısıtlanmasana I-Semptom
 alanı E-Semptom
@@ -16597,9 +17505,12 @@ tb O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 sağ B-Semptom
 kalça I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+kalça E-loc
 ve O
 şikayeti O
 ile O
@@ -16635,6 +17546,7 @@ baypas S-Status
 gün E-Duration
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 bilinen O
 li O
 olan O
@@ -16677,16 +17589,17 @@ yapılmış O
 
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 karın B-Semptom
 ağrısı E-Semptom
+sırta S-loc
 karın B-Semptom
 ağrısı E-Semptom
+epigastrik B-loc
+bölgede E-loc
 bulantı S-Semptom
 kusma S-Semptom
-epigastrik O
-bölgede O
 başlayan O
-sırta O
 yayılan O
 yakınmasıyla O
 acil O
@@ -16713,6 +17626,7 @@ baypas S-Status
 gün E-Duration
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 bilinen O
 li O
 olan O
@@ -16755,16 +17669,17 @@ yapılmış O
 
 karın B-Semptom
 ağrısı E-Semptom
+karın S-loc
 karın B-Semptom
 ağrısı E-Semptom
+sırta S-loc
 karın B-Semptom
 ağrısı E-Semptom
+epigastrik B-loc
+bölgede E-loc
 bulantı S-Semptom
 kusma S-Semptom
-epigastrik O
-bölgede O
 başlayan O
-sırta O
 yayılan O
 yakınmasıyla O
 acil O
@@ -16789,6 +17704,7 @@ y O
 
 boyun B-Semptom
 ağrısı E-Semptom
+boyun S-loc
 için O
 ftr O
 görüyor O
@@ -16818,8 +17734,10 @@ ht E-Status
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 sırt B-Semptom
 ağrısı E-Semptom
+sırt S-loc
 araç O
 içi O
 trafik O
@@ -16838,8 +17756,10 @@ scli O
 
 1-prostatik B-Pre-Diagnosis
 adenokarsinom E-Pre-Diagnosis
+1-prostatik S-loc
 prostatik B-Pre-Diagnosis
 adenokarsinom E-Pre-Diagnosis
+prostatik S-loc
 tanı O
 bx O
 vm O
@@ -16877,6 +17797,7 @@ yy O
 ht S-Past-Diagnosis
 kalp B-Past-Diagnosis
 hastalığı E-Past-Diagnosis
+kalp S-loc
 
 kölelithiasis S-Past-Diagnosis
 
@@ -24745,6 +25666,8 @@ bulundu O
 Antu'm B-Pre-Diagnosis
 tabanında I-Pre-Diagnosis
 lsc E-Pre-Diagnosis
+Antu'm B-loc
+tabanında E-loc
 tanındı O
 ve O
 intak O
@@ -24761,12 +25684,16 @@ santral I-Pre-Diagnosis
 mm I-Pre-Diagnosis
 ilk I-Pre-Diagnosis
 perforasyon E-Pre-Diagnosis
+Tampa'n B-loc
+membranda E-loc
 mevcuttu O
 
 orta B-Pre-Diagnosis
 kulaktan I-Pre-Diagnosis
 kaynaklanan I-Pre-Diagnosis
 polisin E-Pre-Diagnosis
+orta B-loc
+kulaktan E-loc
 perforasyondan O
 dış O
 kulak O
@@ -24814,10 +25741,13 @@ alındı O
 
 Staples B-Pre-Diagnosis
 intaktı E-Pre-Diagnosis
+Staples S-loc
 
 faşsal B-Pre-Diagnosis
 kanal I-Pre-Diagnosis
 intaktti E-Pre-Diagnosis
+faşsal B-loc
+kanal E-loc
 
 tragüsdan O
 perkondriumu O
@@ -24946,6 +25876,10 @@ akciğerde I-Pre-Diagnosis
 üst I-Pre-Diagnosis
 Bob'da I-Pre-Diagnosis
 kitle E-Pre-Diagnosis
+sağ B-loc
+akciğerde I-loc
+üst I-loc
+Bob'da E-loc
 bilinen O
 1 O
 ay O
@@ -25008,6 +25942,8 @@ sağ B-Past-Diagnosis
 kalçada I-Past-Diagnosis
 kemik I-Past-Diagnosis
 ödemi E-Past-Diagnosis
+sağ B-loc
+kalçada E-loc
 eylül O
 2018de O
 olduğu O
@@ -25026,6 +25962,8 @@ başlanmış O
 kalça B-Past-Diagnosis
 ekleminde I-Past-Diagnosis
 kireçlenme E-Past-Diagnosis
+kalça B-loc
+ekleminde E-loc
 olduğu O
 belirtilmiş O
 
@@ -25048,6 +25986,8 @@ kasık B-Semptom
 çizgisinde I-Semptom
 ağrı I-Semptom
 yakınması E-Semptom
+kasık B-loc
+çizgisinde E-loc
 meloksikam O
 ve O
 hbo O
@@ -25058,13 +25998,12 @@ gerilemiş O
 fakat O
 aktivite O
 ile O
-kasık O
-çizgisinde O
 oluyormuş O
 
 diyabet S-Past-Diagnosis
 yüz B-Past-Diagnosis
 felci E-Past-Diagnosis
+yüz S-loc
 erkek B-Status
 kardeş I-Status
 akciğer I-Status
@@ -25096,6 +26035,8 @@ ht S-Pre-Diagnosis
 2 B-Pre-Diagnosis
 kalça I-Pre-Diagnosis
 dekompresyon E-Pre-Diagnosis
+2 B-loc
+kalça E-loc
 her O
 
 normal O
@@ -25112,16 +26053,19 @@ ht S-Pre-Diagnosis
 
 baş B-Semptom
 ağrısı E-Semptom
+baş S-loc
 ağrısı S-Semptom
+boyun S-loc
 hastanın O
-boyun O
 ve O
 şikayeti O
 mevcut O
 
 kulak B-Semptom
 ağrısı E-Semptom
+kulak S-loc
 akıntı S-Semptom
+kulak S-loc
 hastanın O
 her O
 iki O
@@ -25184,12 +26128,18 @@ abide O
 bronşiyal B-Pre-Diagnosis
 astıma I-Pre-Diagnosis
 sekunder E-Pre-Diagnosis
+bronşiyal S-loc
 pulmoner B-Past-Diagnosis
 hipertansiyona E-Past-Diagnosis
+bronşiyal S-loc
 triküspid B-Pre-Diagnosis
 kapakta I-Pre-Diagnosis
 yetmezlik E-Pre-Diagnosis
+triküspid B-loc
+kapakta E-loc
 dişene S-Pre-Diagnosis
+triküspid B-loc
+kapakta E-loc
 ciddi O
 bağlı O
 ileri O
@@ -25206,9 +26156,12 @@ tanımlıyor O
 
 bel B-Semptom
 ağrısı E-Semptom
+bel S-loc
 sağ B-Semptom
 bacak I-Semptom
 ağrısı E-Semptom
+sağ B-loc
+bacak E-loc
 ve O
 şikayeti O
 le O
@@ -66961,289 +67914,3 @@ sağlandı O
 
 enfeksiyon O
 parametreleri O
-geriledi O
-
-oral O
-prednol O
-tb O
-e O
-geçildi O
-
-mrı O
-uroflowmetri O
-
-lombar O
-disk O
-mernisi O
-düşünülen O
-hastadan O
-lombar O
-mrı O
-istendi O
-
-hastaya O
-reçete O
-verildi O
-
-
-tora O
-ve O
-tüm O
-batın O
-bt O
-istendikontrole O
-geldi O
-daha O
-iyilab O
-testleri O
-istenir O
-
-bel O
-bölgesinden O
-15 O
-seans O
-25dk O
-
-tenis O
-20dk O
-
-hp O
-10dk O
-
-enfraruj O
-5dk O
-
-us O
-tedavisi O
-aldı O
-
-bel O
-diz O
-rom O
-güçlendirme O
-izometrik O
-egzersizleri O
-ev O
-programı O
-olarak O
-verildi O
-
-15 O
-seans O
-ftr O
-sonunda O
-ağrıları O
-ve O
-bulguları O
-azalan O
-hastanın O
-tedavisi O
-sonlandırıldı O
-
-28112017 O
-hasta O
-klinik O
-olarak O
-sol O
-meme O
-t3n2m0 O
-infiltratıdf O
-düktal O
-karsinomu O
-er O
-pr O
-cerebb2 O
-olarak O
-değerlendirildi O
-nakit O
-mkc O
-sind O
-art O
-letrozol O
-tedavi O
-şeması O
-planlandı O
-
-kardiyoloji O
-konsültasyonunda O
-kardiyak O
-bir O
-kontrendikasyon O
-bildirilmedi O
-28112017 O
-1 O
-
-kur O
-na O
-100 O
-mg O
-doxorubiçin O
-1000 O
-mg O
-sıklofosfamid O
-için O
-yatış O
-verildi O
-19122017 O
-2 O
-
-kur O
-aç O
-için O
-yatış O
-verildi O
-
-09012018 O
-3 O
-
-kur O
-aç O
-için O
-yatış O
-verildi O
-
-30012018 O
-4 O
-
-kur O
-aç O
-için O
-yatış O
-verildi O
-
-20022018 O
-1 O
-
-kur O
-160 O
-mg O
-docetaxel O
-için O
-yatış O
-verildi O
-
-13032018 O
-2 O
-
-kur O
-adjuvant O
-docetaxel O
-için O
-yatış O
-verildi O
-
-03042018 O
-3 O
-
-kur O
-adjuvant O
-docetaxel O
-için O
-yatış O
-verildi O
-
-24042018 O
-4 O
-
-ve O
-sen O
-kur O
-adjuvant O
-docetaxel O
-için O
-yatış O
-verildi O
-
-art O
-için O
-hasta O
-radyasyon O
-onkolojisi O
-kliniğine O
-yönlendirildi O
-10092018 O
-hastaya O
-17072018 O
-2408 O
-2018 O
-arasında O
-art O
-verilmiş O
-
-hat O
-letrozol O
-2 O
-
-5 O
-mg O
-po O
-başlandı O
-3 O
-ay O
-sonra O
-kontrol O
-
-25032019 O
-progresyona O
-yönelik O
-çekilen O
-üst O
-ve O
-alt O
-batın O
-kontrassiz O
-bt O
-meme O
-üs O
-de O
-ve O
-rutin O
-tetkiklerde O
-sonuç O
-adjuxvant O
-letrozol O
-devam O
-4 O
-ay O
-sonra O
-kontrol O
-
-bt O
-istendi O
-
-tetkik O
-
-öp O
-önerildi O
-20032019 O
-adbg O
-hava O
-sıvı O
-seviyesi O
-batın O
-bt O
-tetkik O
-hastanın O
-yatışı O
-yapıldı O
-
-tüm O
-sinüslerin O
-detaylarını O
-ve O
-konakların O
-kemik O
-yapısını O
-görmek O
-için O
-paranazal O
-sinüs O
-bt O
-istendikonka O
-bülloza O
-önerildi O
-
-pa O
-aç O
-ve O
-kan O

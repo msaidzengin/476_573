@@ -58,6 +58,24 @@ def prepareData(chosenFile):
                         train_data.append(outWords[i] + " I-" + out['category'])
 
             text = text.replace(out['text'], '')
+
+            loc = out['loc']
+            if loc is not None:
+                loc = loc['text']
+                locs = loc.split(' ')
+                if len(locs) == 1:
+                    train_data.append(locs[0] + " S-loc")
+                else:
+                    for i in range(len(locs)):
+                        if i == 0:
+                            train_data.append(locs[i] + " B-loc")
+                        elif i == len(locs) - 1:
+                            train_data.append(locs[i] + " E-loc")
+                        else:
+                            train_data.append(locs[i] + " I-loc")
+
+                text = text.replace(loc, '')
+
             
         text = text.translate(str.maketrans('', '', string.punctuation)).lower()
         text = text.split(' ')
