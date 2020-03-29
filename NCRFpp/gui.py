@@ -34,13 +34,26 @@ def prepareData(chosenFile):
     with open('data/' + chosenFile + '/out.json', encoding='utf-8') as fh:
         output = json.load(fh)
 
-    data['data'] = data['data'][:1900]
 
     train_data = []
+    test_data = []
+    dev_data = []
+
+
+    total = len(data['data'])
+    trainLen = int(total * 0.7)
+    testLen = int(total * 0.15)
+    devLen = int(total * 0.15)
 
     for i in data['data']:
         idd = i['id']
         text = i['text']
+
+        text = text.translate(str.maketrans('', '', string.punctuation)).lower()
+        words = text.split(' ')
+        wordDict = {}
+        for word in words:
+            wordDict[word] = 'O'
 
         outs = []
 
@@ -49,69 +62,83 @@ def prepareData(chosenFile):
                 outs.append(j)
 
         for out in outs:
-            outWords = out['text'].split(' ')
+            outt = out['text'].translate(str.maketrans('', '', string.punctuation)).lower()
+            outWords = outt.split(' ')
+
             if len(outWords) == 1:
-                train_data.append(outWords[0] + " S-" + out['category'])
+                wordDict[outWords[0]] = "S-" + out['category']
             else:
                 for i in range(len(outWords)):
                     if i == 0:
-                        train_data.append(outWords[i] + " B-" + out['category'])
+                        wordDict[outWords[i]] = "B-" + out['category']
                     elif i == len(outWords) - 1:
-                        train_data.append(outWords[i] + " E-" + out['category'])
+                        wordDict[outWords[i]] = "E-" + out['category']
                     else:
-                        train_data.append(outWords[i] + " I-" + out['category'])
-
-            text = text.replace(out['text'], '')
+                        wordDict[outWords[i]] = "I-" + out['category']
 
             loc = out['loc']
             if loc is not None:
-                loc = loc['text']
+                loc = loc['text'].translate(str.maketrans('', '', string.punctuation)).lower()
                 locs = loc.split(' ')
                 if len(locs) == 1:
-                    train_data.append(locs[0] + " S-loc")
+                    wordDict[locs[0]] = "S-loc"
                 else:
                     for i in range(len(locs)):
                         if i == 0:
-                            train_data.append(locs[i] + " B-loc")
+                            wordDict[locs[i]] = "B-loc"
                         elif i == len(locs) - 1:
-                            train_data.append(locs[i] + " E-loc")
+                            wordDict[locs[i]] = "E-loc"
                         else:
-                            train_data.append(locs[i] + " I-loc")
-
-                text = text.replace(loc, '')
-
+                            wordDict[locs[i]] = "I-loc"
             
-        text = text.translate(str.maketrans('', '', string.punctuation)).lower()
-        text = text.split(' ')
-        for word in text:
-            if word != '':
-                train_data.append(word + " O")
+        if len(train_data) < trainLen:
 
-        train_data.append("")
+            count = 0
+            for word in words:
+                if word != "":
+                    train_data.append(word + " " + wordDict[word])
+                    count += 1
+            if count != 0:
+                train_data.append("")
 
+        elif len(test_data) < testLen:
+
+            count = 0
+            for word in words:
+                if word != "":
+                    test_data.append(word + " " + wordDict[word])
+                    count += 1
+            if count != 0:
+                test_data.append("")
+
+        else:
+            count = 0
+            for word in words:
+                if word != "":
+                    dev_data.append(word + " " + wordDict[word])
+                    count += 1
+            if count != 0:
+                dev_data.append("")           
     
-    total = len(train_data)
-    train = int(total * 0.7)
-    test = int(total * 0.15)
-    dev = int(total * 0.15)
+
 
     with open('data/' + chosenFile + "/train.bmes", "w", encoding='utf8') as fl:
-        for line in train_data[ : train]:
+        for line in train_data:
             fl.write(line + "\n")
     fl.close()
 
     with open('data/' + chosenFile + "/test.bmes", "w", encoding='utf8') as fl:
-        for line in train_data[ train : train + test ]:
+        for line in test_data:
             fl.write(line + "\n")
     fl.close()
 
     with open('data/' + chosenFile + "/dev.bmes", "w", encoding='utf8') as fl:
-        for line in train_data[ train + test : ]:
+        for line in dev_data:
             fl.write(line + "\n")
     fl.close()
 
     with open('data/' + chosenFile + "/raw.bmes", "w", encoding='utf8') as fl:
-        for line in train_data[ train + test : ]:
+        for line in dev_data:
             fl.write(line + "\n")
     fl.close()
 
@@ -178,6 +205,9 @@ def choose_file():
 
     if not os.path.exists('data/' + dirname[0]):
         os.makedirs('data/' + dirname[0])
+
+    # Output dosyasında 1900'den sonrası mevcut değil.
+    data['data'] = data['data'][:1900] 
 
     with open('data/' + dirname[0] + "/data.json", 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
