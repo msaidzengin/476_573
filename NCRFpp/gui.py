@@ -61,6 +61,9 @@ def prepareData(chosenFile):
             if j['id'] == idd:
                 outs.append(j)
 
+        if len(outs) == 0:
+            continue
+
         for out in outs:
             outt = out['text'].translate(str.maketrans('', '', string.punctuation)).lower()
             outWords = outt.split(' ')

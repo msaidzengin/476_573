@@ -1,0 +1,288 @@
+yaklaşık O
+6 B-Duration
+aydan I-Duration
+beri E-Duration
+bu O
+şikayetleri O
+aralıklarla S-Period
+devam O
+ediyormuş O
+bir O
+kaç O
+kez O
+ilaç O
+tedavisi O
+almış O
+ama O
+şikayetleri O
+geçmemiş O
+
+verteks S-loc
+kısmında I-Semptom
+son I-Semptom
+3 B-Duration
+yıldır E-Duration
+büyüyen I-Semptom
+şişlik E-Semptom
+varmış O
+
+sol B-loc
+temporalde E-loc
+benin I-Past-Diagnosis
+kemik I-Past-Diagnosis
+kıomsti E-Past-Diagnosis
+olan O
+hasta O
+takipte O
+
+kah S-Past-Diagnosis
+kağ S-Past-Diagnosis
+stentkabızlık O
+dm S-Past-Diagnosis
+p O
+
+o O
+baba B-Status
+çağ E-Status
+
+10 B-Duration
+gün E-Duration
+önce O
+bu O
+durum O
+ortaya O
+çıkmış O
+ra O
+oklüzyonu O
+tanısı O
+göz O
+hastalıkları O
+bölümünce O
+konmuş O
+ve O
+hiperbarik O
+oksijen O
+tedavisi O
+önerilmiş O
+hasta O
+uymamış O
+
+ht S-Past-Diagnosis
+oy O
+
+tay S-Pre-Diagnosis
+
+8 B-Duration
+sene E-Duration
+önce O
+açba S-Past-Diagnosis
+1 B-Duration
+yıl E-Duration
+önce O
+pci S-Status
+hikayesi O
+ht S-Past-Diagnosis
+dm S-Past-Diagnosis
+
+mide S-loc
+ca I-Pre-Diagnosis
+metastaz E-Pre-Diagnosis
+mevcut O
+
+bel S-loc
+ağrısı E-Semptom
+ve O
+sol B-loc
+bacakta E-loc
+ağrı E-Semptom
+şikayeti O
+ie O
+başvurdu O
+4 B-Duration
+aydır E-Duration
+mevcut O
+son O
+1 B-Duration
+haftadır E-Duration
+artmış S-Trend
+
+sol B-loc
+bacakta E-loc
+ağrı E-Semptom
+ve O
+güçsüzlük S-Semptom
+tarihliyor O
+
+1 B-Duration
+aydır E-Duration
+devam O
+ediyormuş O
+
+2018 O
+nüks B-Past-Diagnosis
+tm E-Past-Diagnosis
+cerrahisi04 O
+
+dm S-Past-Diagnosis
+anne B-Status
+doğum I-Status
+üzerine I-Status
+ex E-Status
+genç O
+yaşta O
+
+iltihabi B-Pre-Diagnosis
+barsak S-loc
+şen O
+
+birkaç B-Duration
+aydır E-Duration
+şikayetleri O
+olduğunu O
+ifade O
+ediyor O
+
+guatr B-Status
+op E-Status
+
+kemik B-Status
+tm I-Status
+op E-Status
+
+mide S-loc
+kanaması E-Past-Diagnosis
+ülser S-Past-Diagnosis
+
+yaklaşık O
+6 B-Duration
+aydan E-Duration
+beri O
+bu O
+şikayetleri O
+aralıklarla O
+devam O
+ediyormuş O
+bir O
+kaç O
+kez O
+ilaç O
+tedavisi O
+almış O
+ama O
+şikayetleri O
+geçmemiş O
+
+bugün O
+düşme O
+sonrası O
+kusmaları S-Semptom
+başlayan O
+hasta O
+acil O
+servise O
+getirilmiş O
+
+romatoid B-Pre-Diagnosis
+artrit E-Pre-Diagnosis
+
+dm S-Past-Diagnosis
+15 O
+yıldır O
+insülin O
+2 O
+1 O
+ht S-Past-Diagnosis
+oy S-Past-Diagnosis
+
+romatoid B-Pre-Diagnosis
+artrit E-Pre-Diagnosis
+
+dm S-Past-Diagnosis
+oral B-Status
+antıdıabetık I-Status
+tedavi E-Status
+alıyor O
+dm S-Past-Diagnosis
+
+darp O
+edilme O
+x0a O
+burunda S-loc
+ağrı E-Semptom
+ve O
+üst B-loc
+dudakta E-loc
+içi I-Semptom
+yüzeyde I-Semptom
+2 I-Semptom
+cm I-Semptom
+kesi E-Semptom
+
+bugün O
+kendi O
+yüksekliğinden O
+düşme B-Status
+sonrası I-Status
+2 I-Status
+kez I-Status
+nöbet E-Status
+geçiren O
+hasta O
+acil O
+servise O
+getirilmiş O
+
+acil O
+serviste O
+yapılan O
+ilk O
+müdahelesi O
+sonrası O
+tarafımıza O
+konsulto O
+edilen O
+ve O
+bbt O
+de O
+sol B-loc
+geri I-loc
+paryetal I-loc
+bölgede E-loc
+subgaleal I-Pre-Diagnosis
+hematim E-Pre-Diagnosis
+ve O
+altında O
+şüpheli O
+lineerfraktür S-Pre-Diagnosis
+hattı O
+tespit O
+edilen O
+hasta O
+yakın O
+şuur O
+takibi O
+amaçlı O
+yoğun O
+bakım O
+ünitemize O
+yatırıldı O
+
+bulanık O
+devlet O
+hastanesine O
+bilinç B-Semptom
+kaybı E-Semptom
+ile O
+giden O
+hastaya O
+beyin O
+bt O
+çekilmiş O
+normal O
+olduğu O
+için O
+acilimize O
+ambulans O
+ile O
+gönderildi O
+
