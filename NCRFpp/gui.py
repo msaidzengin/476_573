@@ -19,7 +19,8 @@ def wordEmbedding(chosenFile):
 
     with open('data/' + chosenFile + '/sentences.txt', "w", encoding='utf8') as text_file:
         for d in data['data']:
-            text_file.write(d['text'] + "\n")
+            text = d['text'].translate(str.maketrans('', '', string.punctuation)).lower()
+            text_file.write(text + "\n")
     text_file.close()
 
     model = Word2Vec(LineSentence('data/' + chosenFile + "/sentences.txt"), size=400, window=5, min_count=1, workers=multiprocessing.cpu_count())
@@ -253,7 +254,41 @@ def train():
 def predict():
 
     os.system("python main.py --config demo.decode.config")
-    done = ttk.Label(root.tab3, text = "Done ✓", style = "S.TLabel").pack(pady = (10,0))
+
+    with open("data/norm/raw2.out", encoding="utf-8") as f:
+        content = f.readlines()
+    lines = [x.strip() for x in content] 
+
+
+    result = {}
+    data = []
+
+    data.append({
+        "id": 0,
+        "category": 0,
+        "text": 0,
+        "start_index": 0, 
+        "end_index": 0, 
+        "token_array": [
+          0, 
+          1, 
+          2
+        ], 
+        "loc": {
+          "text": "Antu'm tabanında", 
+          "start_index": 0, 
+          "end_index": 16, 
+          "token_array": [
+            0, 
+            1
+          ]
+        }
+    })
+
+    result['data'] = data
+
+
+    done = ttk.Label(root.tab4, text = "Done ✓", style = "S.TLabel").pack(pady = (10,0))
 
 
 root = ThemedTk(theme = "black")
