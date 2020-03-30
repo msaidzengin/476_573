@@ -1,11 +1,13 @@
-# 0.7757 0.0328 0.0315 0.0270 0.0261 0.0238 0.0213 0.0212 0.0207 0.0198
-hasta O S-Pre-Diagnosis E-Pre-Diagnosis E-Semptom B-loc E-loc O O O O
+# 0.7776 0.0327 0.0314 0.0270 0.0261 0.0238 0.0209 0.0206 0.0202 0.0197
+hasta O S-Pre-Diagnosis E-Pre-Diagnosis E-Semptom B-loc E-loc O O O S-Status
 acilde O O O O O O O O O O
 değerlendirirken O O O O O O O O O O
 1 O O O O O O O O O O
-kez O O O O O O O O S-Pre-Diagnosis B-loc
+kez O O O O O O O O O O
+nöbet O O O O O O O O O O
+geçirdi O O O O O O O S-Pre-Diagnosis O O
 
-# 0.7769 0.0330 0.0314 0.0270 0.0261 0.0240 0.0209 0.0206 0.0204 0.0198
+# 0.7770 0.0330 0.0314 0.0271 0.0261 0.0240 0.0208 0.0206 0.0202 0.0198
 hasta O S-Pre-Diagnosis E-Pre-Diagnosis E-Semptom B-loc E-loc O S-Status O B-Status
 takip O O O O O O O O O O
 sırasında O O O O O O O O O O
@@ -18,21 +20,25 @@ ve O O O O O O O O O O
 dizem O O O O O O O O O O
 ile O O O O O O O O O O
 nöbeti O O O O O O O O O O
-kontrol O O O O O O S-Pre-Diagnosis O B-loc O
+kontrol O O O O O O O O O O
+altına O O O O O O O O O O
+alındı O O O O O O S-Pre-Diagnosis O B-loc O
 
-# 0.7722 0.0333 0.0319 0.0276 0.0264 0.0240 0.0216 0.0214 0.0214 0.0202
-idrarda O S-Pre-Diagnosis E-Pre-Diagnosis E-Semptom B-loc E-loc O O O S-Status
+# 0.7754 0.0330 0.0315 0.0273 0.0263 0.0239 0.0211 0.0209 0.0206 0.0200
+idrarda O S-Pre-Diagnosis E-Pre-Diagnosis E-Semptom B-loc E-loc S-Status O O O
 zorlanma O O O O O O O O O O
-ve O O O O O O O B-loc O O
+ve O O O O O O O O O O
+yanma O O O O O O O O O B-loc
 
-# 0.7779 0.0327 0.0312 0.0267 0.0258 0.0237 0.0211 0.0210 0.0204 0.0194
+# 0.7779 0.0327 0.0312 0.0267 0.0258 0.0237 0.0215 0.0206 0.0204 0.0194
 yüksekten O S-Pre-Diagnosis E-Pre-Diagnosis E-Semptom B-loc E-loc O O O O
 düşme O O O O O O O O O O
 x0a O O O O O O O O O O
 sol O O O O O O O O O O
 parietalde O O O O O O O O O O
 3 O O O O O O O O O O
-cm O O O O O O O O B-loc S-Pre-Diagnosis
+cm O O O O O O O O O O
+kesi O O O O O O O O S-Pre-Diagnosis B-loc
 
 # 0.7786 0.0326 0.0313 0.0264 0.0262 0.0235 0.0209 0.0206 0.0203 0.0196
 boyunda O S-Pre-Diagnosis E-Pre-Diagnosis E-Semptom B-loc E-loc O O O O
