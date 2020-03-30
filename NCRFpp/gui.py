@@ -255,11 +255,6 @@ def predict():
 
     os.system("python main.py --config demo.decode.config")
 
-    with open("data/norm/raw2.out", encoding="utf-8") as f:
-        content = f.readlines()
-    lines = [x.strip() for x in content] 
-
-
     result = {}
     data = []
 
@@ -357,7 +352,6 @@ preprocessButton = ttk.Button(root.tab2, text = "Tamam", style = "S.TButton", co
 preprocessButton = ttk.Button(root.tab3, text = "Tamam", style = "S.TButton", command = train).pack(pady = (35, 10))
 
 root.method_1 = ttk.Checkbutton(root.tab4, text = "Method 1", style = "S.TCheckbutton", var=root.classifier_methods["1"]).pack(pady = (30,0))
-root.method_2 = ttk.Checkbutton(root.tab4, text = "Method 2", style = "S.TCheckbutton", var=root.classifier_methods["2"]).pack(pady = (10,0))
 
 output = ttk.Button(root.tab4, text = "Predict", style = "S.TButton", command = predict).pack(pady = (35,0))
 

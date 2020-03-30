@@ -212,7 +212,7 @@ class Data:
 
 
     def build_alphabet(self, input_file):
-        in_lines = open(input_file,'r').readlines()
+        in_lines = open(input_file,'r', encoding="utf-8").readlines()
         for line in in_lines:
             if len(line) > 2:
                 ## if sentence classification data format, splited by \t
